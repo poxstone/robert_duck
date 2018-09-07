@@ -1,0 +1,1075 @@
+
+----------------------------------------
+which bash
+Tue Sep  4 10:41:44 UTC 2018
+----------------------------------------
+/bin/bash
+
+
+----------------------------------------
+lsblk
+Tue Sep  4 10:41:44 UTC 2018
+----------------------------------------
+NAME         MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT
+sda            8:0    1  7.3G  0 disk 
+└─sda1         8:1    1  7.3G  0 part /mnt/usb
+mmcblk1boot0 179:8    0    2M  1 disk 
+mmcblk1boot1 179:16   0    2M  1 disk 
+mmcblk0      179:24   0  3.8G  0 disk 
+└─mmcblk0p1  179:25   0  3.8G  0 part 
+mmcblk1      179:0    0  3.7G  0 disk 
+└─mmcblk1p1  179:1    0  3.7G  0 part /
+
+
+----------------------------------------
+env
+Tue Sep  4 10:41:44 UTC 2018
+----------------------------------------
+XDG_VTNR=1
+XDG_SESSION_ID=1
+SHELL=/bin/bash
+TERM=linux
+HUSHLOGIN=FALSE
+USER=root
+PRU_C_DIR=/usr/share/ti/cgt-pru/include;/usr/share/ti/cgt-pru/lib
+MAIL=/var/mail/root
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+PWD=/root
+LANG=en_US.UTF-8
+NODE_PATH=/usr/local/lib/node_modules
+SHLVL=3
+XDG_SEAT=seat0
+HOME=/root
+LOGNAME=root
+XDG_RUNTIME_DIR=/run/user/0
+_=/usr/bin/env
+
+
+----------------------------------------
+echo /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+Tue Sep  4 10:41:44 UTC 2018
+----------------------------------------
+/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+
+----------------------------------------
+ls -la /
+Tue Sep  4 10:41:44 UTC 2018
+----------------------------------------
+total 92
+drwxr-xr-x  22 root root  4096 Sep  2 17:36 .
+drwxr-xr-x  22 root root  4096 Sep  2 17:36 ..
+drwxr-xr-x   2 root root  4096 Oct 20  2016 bin
+drwxr-xr-x   4 root root  4096 Sep  1 13:32 boot
+drwxr-xr-x  15 root root  3140 Sep  4 10:40 dev
+drwxr-xr-x  88 root root  4096 Sep  4 10:39 etc
+drwxr-xr-x   3 root root  4096 Oct 20  2016 home
+-rw-r--r--   1 root root    40 Oct 20  2016 ID.txt
+drwxr-xr-x  15 root root  4096 Oct 20  2016 lib
+drwx------   2 root root 16384 Oct 20  2016 lost+found
+drwxr-xr-x   2 root root  4096 Oct 20  2016 media
+drwxr-xr-x   4 root root  4096 Sep  4  2018 mnt
+-rw-r--r--   1 root root  1008 Oct 20  2016 nfs-uEnv.txt
+drwxr-xr-x   6 root root  4096 Oct 20  2016 opt
+drwxr-xr-x   2 root root  4096 Sep  2 17:36 p
+dr-xr-xr-x 120 root root     0 Jan  1  1970 proc
+drwx------   9 root root  4096 Sep  2 17:46 root
+drwxr-xr-x  23 root root   620 Sep  4 10:40 run
+drwxr-xr-x   2 root root  4096 Oct 20  2016 sbin
+drwxr-xr-x   2 root root  4096 Oct 20  2016 srv
+dr-xr-xr-x  12 root root     0 Jan  1  2000 sys
+drwxrwxrwt   8 root root  4096 Sep  4 10:41 tmp
+drwxr-xr-x  11 root root  4096 Oct 20  2016 usr
+drwxr-xr-x  12 root root  4096 Oct 20  2016 var
+
+
+----------------------------------------
+ls -la /etc/
+Tue Sep  4 10:41:44 UTC 2018
+----------------------------------------
+total 876
+drwxr-xr-x 88 root root     4096 Sep  4 10:39 .
+drwxr-xr-x 22 root root     4096 Sep  2 17:36 ..
+-rw-r--r--  1 root root     2987 Oct 20  2016 adduser.conf
+drwxr-xr-x  2 root root     4096 Oct 20  2016 alternatives
+drwxr-xr-x  8 root root     4096 Oct 20  2016 apache2
+drwxr-xr-x  3 root root     4096 Oct 20  2016 apm
+drwxr-xr-x  3 root root     4096 Oct 20  2016 apport
+drwxr-xr-x  6 root root     4096 Oct 20  2016 apt
+drwxr-xr-x  3 root root     4096 Oct 20  2016 avahi
+-rw-r--r--  1 root root     1863 Nov 12  2014 bash.bashrc
+-rw-r--r--  1 root root       45 Mar 22  2014 bash_completion
+drwxr-xr-x  2 root root     4096 Sep  1 13:02 bash_completion.d
+-rw-r--r--  1 root root      367 Aug 13  2016 bindresvport.blacklist
+drwxr-xr-x  2 root root     4096 Sep  3  2016 binfmt.d
+drwxr-xr-x  2 root root     4096 Oct 20  2016 bluetooth
+drwxr-xr-x  3 root root     4096 Oct 20  2016 ca-certificates
+-rw-r--r--  1 root root     7820 Oct 20  2016 ca-certificates.conf
+drwxr-xr-x  2 root root     4096 Oct 20  2016 calendar
+drwxr-s---  2 root dip      4096 Oct 20  2016 chatscripts
+drwxr-xr-x  2 root root     4096 Oct 20  2016 connman
+-rw-r--r--  1 root root       18 Sep  1 13:44 cpsw_0_mac
+-rw-r--r--  1 root root       18 Sep  1 13:44 cpsw_1_mac
+-rw-r--r--  1 root root       18 Sep  1 13:44 cpsw_2_mac
+-rw-r--r--  1 root root       18 Sep  1 13:44 cpsw_3_mac
+-rw-r--r--  1 root root       18 Sep  1 13:44 cpsw_4_mac
+-rw-r--r--  1 root root       18 Sep  1 13:44 cpsw_5_mac
+drwxr-xr-x  2 root root     4096 Oct 20  2016 cron.d
+drwxr-xr-x  2 root root     4096 Oct 20  2016 cron.daily
+drwxr-xr-x  2 root root     4096 Oct 20  2016 cron.hourly
+drwxr-xr-x  2 root root     4096 Oct 20  2016 cron.monthly
+-rw-r--r--  1 root root      722 Jun 11  2015 crontab
+drwxr-xr-x  2 root root     4096 Oct 20  2016 cron.weekly
+drwxr-xr-x  4 root root     4096 Oct 20  2016 dbus-1
+-rw-r--r--  1 root root     2969 Mar 19  2015 debconf.conf
+-rw-r--r--  1 root root        4 Sep  4  2016 debian_version
+drwxr-xr-x  2 root root     4096 Sep  1 13:02 default
+-rw-r--r--  1 root root      604 May 15  2012 deluser.conf
+drwxr-xr-x  4 root root     4096 Oct 20  2016 dhcp
+-rw-r--r--  1 root root    26007 May  5  2015 dnsmasq.conf
+drwxr-xr-x  2 root root     4096 Oct 20  2016 dnsmasq.d
+-rw-r--r--  1 root root       40 Oct 20  2016 dogtag
+drwxr-xr-x  4 root root     4096 Oct 20  2016 dpkg
+-rw-r--r--  1 root root       34 Oct 20  2016 e2fsck.conf
+drwxr-xr-x  3 root root     4096 Oct 20  2016 emacs
+-rw-r--r--  1 root root        0 Oct 20  2016 environment
+drwxr-xr-x  4 root root     4096 Oct 20  2016 fonts
+-rw-r--r--  1 root root      184 Jan  1  2000 fstab
+-rw-r--r--  1 root root     2584 Feb  7  2014 gai.conf
+drwxr-xr-x  2 root root     4096 Oct 20  2016 gdb
+drwxr-xr-x  2 root root     4096 Oct 20  2016 groff
+-rw-r--r--  1 root root      952 Oct 20  2016 group
+-rw-------  1 root root      948 Oct 20  2016 group-
+-rw-r-----  1 root shadow    810 Oct 20  2016 gshadow
+-rw-------  1 root root      806 Oct 20  2016 gshadow-
+drwxr-xr-x  3 root root     4096 Oct 20  2016 gss
+-rw-r--r--  1 root root     4781 Feb 24  2015 hdparm.conf
+drwxr-xr-x  2 root root     4096 Oct 20  2016 hostapd
+-rw-r--r--  1 root root        9 Aug  7  2006 host.conf
+-rw-r--r--  1 root root       11 Oct 20  2016 hostname
+-rw-r--r--  1 root root      213 Oct 20  2016 hosts
+-rw-r--r--  1 root root      411 Oct 20  2016 hosts.allow
+-rw-r--r--  1 root root      711 Oct 20  2016 hosts.deny
+drwxr-xr-x  3 root root     4096 Oct 20  2016 ifplugd
+drwxr-xr-x  2 root root     4096 Oct 20  2016 init
+drwxr-xr-x  2 root root     4096 Sep  1 13:02 init.d
+drwxr-xr-x  5 root root     4096 Sep  1 13:02 initramfs-tools
+-rw-r--r--  1 root root     1748 Aug  3  2014 inputrc
+drwxr-xr-x  3 root root     4096 Nov 24  2012 insserv
+-rw-r--r--  1 root root      859 Nov 24  2012 insserv.conf
+drwxr-xr-x  2 root root     4096 Oct 20  2016 insserv.conf.d
+drwxr-xr-x  2 root root     4096 Oct 20  2016 iproute2
+-rw-r--r--  1 root root      181 Sep  4 10:39 issue
+-rw-r--r--  1 root root      175 Oct 20  2016 issue.net
+drwxr-xr-x  6 root root     4096 Oct 20  2016 kernel
+drwxr-xr-x  2 root root     4096 Oct 20  2016 ldap
+-rw-r--r--  1 root root    62075 Oct 20  2016 ld.so.cache
+-rw-r--r--  1 root root       34 Aug 13  2016 ld.so.conf
+drwxr-xr-x  2 root root     4096 Oct 20  2016 ld.so.conf.d
+-rw-r--r--  1 root root      191 Sep  7  2014 libaudit.conf
+drwxr-xr-x  2 root root     4096 Oct 20  2016 libnl-3
+drwxr-xr-x  4 root root     4096 Oct 20  2016 lighttpd
+-rw-r--r--  1 root root     2492 Sep  3  2016 locale.alias
+-rw-r--r--  1 root root     8997 Oct 20  2016 locale.gen
+-rw-r--r--  1 root root      118 Oct 20  2016 localtime
+drwxr-xr-x  3 root root     4096 Oct 20  2016 logcheck
+-rw-r--r--  1 root root    10478 Nov 19  2015 login.defs
+-rw-r--r--  1 root root      599 Feb 19  2009 logrotate.conf
+drwxr-xr-x  2 root root     4096 Oct 20  2016 logrotate.d
+-r--r--r--  1 root root       33 Oct 20  2016 machine-id
+-rw-r--r--  1 root root      111 Jun 17  2016 magic
+-rw-r--r--  1 root root      111 Jun 17  2016 magic.mime
+-rw-r--r--  1 root root     2963 Oct 20  2016 mailcap
+-rw-r--r--  1 root root      449 Dec 28  2014 mailcap.order
+-rw-r--r--  1 root root     5173 Dec 31  2014 manpath.config
+-rw-r--r--  1 root root    24146 Dec 28  2014 mime.types
+-rw-r--r--  1 root root      973 Jul 21  2016 mke2fs.conf
+drwxr-xr-x  2 root root     4096 Oct 20  2016 modprobe.d
+-rw-r--r--  1 root root      195 Oct 20  2016 modules
+drwxr-xr-x  2 root root     4096 Oct 20  2016 modules-load.d
+-rw-r--r--  1 root root      286 Sep 12  2016 motd
+lrwxrwxrwx  1 root root       19 May 21  2016 mtab -> ../proc/self/mounts
+-rw-r--r--  1 root root     8453 Jul 16  2014 nanorc
+drwxr-xr-x  7 root root     4096 Oct 20  2016 network
+-rw-r--r--  1 root root       60 Oct 20  2016 networks
+drwxr-xr-x  2 root root     4096 Oct 20  2016 newt
+-rw-r--r--  1 root root      529 Oct 20  2016 nsswitch.conf
+drwxr-xr-x  2 root root     4096 Oct 20  2016 opt
+lrwxrwxrwx  1 root root       21 Sep 12  2016 os-release -> ../usr/lib/os-release
+-rw-r--r--  1 root root      552 Jan  7  2016 pam.conf
+drwxr-xr-x  2 root root     4096 Oct 20  2016 pam.d
+-rw-r--r--  1 root root     1642 Oct 20  2016 passwd
+-rw-------  1 root root     1590 Oct 20  2016 passwd-
+drwxr-xr-x  4 root root     4096 Oct 20  2016 perl
+drwxr-xr-x  3 root root     4096 Oct 20  2016 polkit-1
+drwxr-xr-x  7 root dip      4096 Oct 20  2016 ppp
+-rw-r--r--  1 root root      793 Oct 20  2016 profile
+drwxr-xr-x  2 root root     4096 Oct 20  2016 profile.d
+-rw-r--r--  1 root root     2932 Oct 21  2014 protocols
+drwxr-xr-x  2 root root     4096 Oct 20  2016 pulse
+-rw-------  1 root root        0 Oct 20  2016 .pwd.lock
+drwxr-xr-x  2 root root     4096 Oct 20  2016 python
+drwxr-xr-x  2 root root     4096 Oct 20  2016 python2.7
+drwxr-xr-x  2 root root     4096 Oct 20  2016 python3
+drwxr-xr-x  2 root root     4096 Oct 20  2016 python3.4
+drwxr-xr-x  2 root root     4096 Oct 20  2016 rc0.d
+drwxr-xr-x  2 root root     4096 Oct 20  2016 rc1.d
+drwxr-xr-x  2 root root     4096 Oct 20  2016 rc2.d
+drwxr-xr-x  2 root root     4096 Oct 20  2016 rc3.d
+drwxr-xr-x  2 root root     4096 Oct 20  2016 rc4.d
+drwxr-xr-x  2 root root     4096 Oct 20  2016 rc5.d
+drwxr-xr-x  2 root root     4096 Oct 20  2016 rc6.d
+-rwxr-xr-x  1 root root      306 Oct 20  2016 rc.local
+-rw-r--r--  1 root root      131 Oct 20  2016 rcn-ee.conf
+drwxr-xr-x  2 root root     4096 Oct 20  2016 rcS.d
+drwxr-xr-x  4 root root     4096 Oct 20  2016 resolvconf
+lrwxrwxrwx  1 root root       28 May 21  2016 resolv.conf -> /var/run/connman/resolv.conf
+-rwxr-xr-x  1 root root      268 Nov  8  2014 rmt
+-rw-r--r--  1 root root      887 Oct 21  2014 rpc
+-rw-r--r--  1 root root     2632 Dec 14  2015 rsyslog.conf
+drwxr-xr-x  2 root root     4096 Dec 20  2015 rsyslog.d
+-rw-r--r--  1 root root     3663 Jul 26  2014 screenrc
+-rw-r--r--  1 root root     4070 Oct 20  2016 securetty
+drwxr-xr-x  4 root root     4096 Oct 20  2016 security
+drwxr-xr-x  2 root root     4096 Oct 20  2016 selinux
+-rw-r--r--  1 root root    19605 Oct 21  2014 services
+-rw-r-----  1 root shadow    862 Oct 20  2016 shadow
+-rw-------  1 root root      823 Oct 20  2016 shadow-
+-rw-r--r--  1 root root      103 Oct 20  2016 shells
+drwxr-xr-x  2 root root     4096 Oct 20  2016 skel
+drwxr-xr-x  2 root root     4096 Oct 20  2016 ssh
+drwxr-xr-x  4 root root     4096 Oct 20  2016 ssl
+-rw-r--r--  1 root root      771 Jun  9  2012 staff-group-for-usr-local
+-rw-r--r--  1 root root      280 Oct 20  2016 subgid
+-rw-------  1 root root      260 Oct 20  2016 subgid-
+-rw-r--r--  1 root root      280 Oct 20  2016 subuid
+-rw-------  1 root root      260 Oct 20  2016 subuid-
+-r--r-----  1 root root      717 Oct 20  2016 sudoers
+drwxr-xr-x  2 root root     4096 Oct 20  2016 sudoers.d
+-rw-r--r--  1 root root     2084 Mar  6  2015 sysctl.conf
+drwxr-xr-x  2 root root     4096 Oct 20  2016 sysctl.d
+drwxr-xr-x  5 root root     4096 Oct 20  2016 systemd
+drwxr-xr-x  2 root root     4096 Oct 20  2016 terminfo
+-rw-r--r--  1 root root       13 Oct 20  2016 timestamp
+-rw-r--r--  1 root root        8 Oct 20  2016 timezone
+drwxr-xr-x  2 root root     4096 Sep  3  2016 tmpfiles.d
+-rw-r--r--  1 root root     1260 May 26  2014 ucf.conf
+drwxr-xr-x  4 root root     4096 Oct 20  2016 udev
+-rw-r--r--  1 root root     3054 Jul 28  2014 udhcpd.conf
+drwxr-xr-x  3 root root     4096 Oct 20  2016 ufw
+-rw-r--r--  1 root root      142 Oct 31  2013 uniconf.conf
+-rw-r--r--  1 root root     1018 Jul 21  2016 usb_modeswitch.conf
+drwxr-xr-x  2 root root     4096 Apr 14  2015 usb_modeswitch.d
+drwxr-xr-x  2 root root     4096 Oct 20  2016 vim
+-rw-r--r--  1 root root     4812 Jul  8  2016 wgetrc
+drwxr-xr-x  2 root root     4096 Oct 20  2016 wificonfig
+-rw-r--r--  1 root root    12625 May  5  2016 wifidog.conf
+-rw-r--r--  1 root root     1416 May  5  2016 wifidog-msg.html
+drwxr-xr-x  2 root root     4096 Oct 20  2016 wpa_supplicant
+-rw-r-----  1 root dialout    66 Oct 20  2016 wvdial.conf
+drwxr-xr-x  5 root root     4096 Oct 20  2016 X11
+drwxr-xr-x  4 root root     4096 Oct 20  2016 xdg
+
+
+----------------------------------------
+ls -la /etc/init.d
+Tue Sep  4 10:41:44 UTC 2018
+----------------------------------------
+total 292
+drwxr-xr-x  2 root root  4096 Sep  1 13:02 .
+drwxr-xr-x 88 root root  4096 Sep  4 10:39 ..
+-rwxr-xr-x  1 root root  5340 Oct 18  2013 alsa-utils
+-rwxr-xr-x  1 root root 10184 Aug  7  2016 apache2
+-rwxr-xr-x  1 root root  2401 Apr 13  2015 avahi-daemon
+-rwxr-xr-x  1 root root  2948 Aug 18  2014 bluetooth
+-rwxr-xr-x  1 root root  1276 Apr  6  2015 bootlogs
+-rwxr-xr-x  1 root root  1248 Apr  6  2015 bootmisc.sh
+-rwxr-xr-x  1 root root  3807 Apr  6  2015 checkfs.sh
+-rwxr-xr-x  1 root root  1072 Apr  6  2015 checkroot-bootclean.sh
+-rwxr-xr-x  1 root root  9290 Apr  6  2015 checkroot.sh
+-rwxr-xr-x  1 root root  1571 Apr 19  2016 connman
+-rwxr-xr-x  1 root root  2489 May  6  2012 cpufrequtils
+-rwxr-xr-x  1 root root  3049 Jun 11  2015 cron
+-rwxr-xr-x  1 root root  2813 Jul 21  2015 dbus
+-rw-r--r--  1 root root  1382 Sep  1 13:02 .depend.boot
+-rw-r--r--  1 root root   799 Sep  1 13:02 .depend.start
+-rw-r--r--  1 root root   735 Sep  1 13:02 .depend.stop
+-rwxr-xr-x  1 root root  8290 May  5  2015 dnsmasq
+-rwxr-xr-x  1 root root  1336 Apr  6  2015 halt
+-rwxr-xr-x  1 root root  2363 Feb 26  2014 haveged
+-rwxr-xr-x  1 root root 10704 Feb 24  2015 hdparm
+-rwxr-xr-x  1 root root  1517 Jul 23  2016 hostapd
+-rwxr-xr-x  1 root root  1423 Apr  6  2015 hostname.sh
+-rwxr-xr-x  1 root root  3916 Mar 29  2015 hwclock.sh
+-rwxr-xr-x  1 root root  1300 Apr  6  2015 killprocs
+-rwxr-xr-x  1 root root  1990 Sep 23  2014 kmod
+-rwxr-xr-x  1 root root  6912 May  6  2012 loadcpufreq
+-rwxr-xr-x  1 root root   995 Apr  6  2015 motd
+-rwxr-xr-x  1 root root   677 Apr  6  2015 mountall-bootclean.sh
+-rwxr-xr-x  1 root root  2138 Apr  6  2015 mountall.sh
+-rwxr-xr-x  1 root root  1461 Apr  6  2015 mountdevsubfs.sh
+-rwxr-xr-x  1 root root  1564 Apr  6  2015 mountkernfs.sh
+-rwxr-xr-x  1 root root   685 Apr  6  2015 mountnfs-bootclean.sh
+-rwxr-xr-x  1 root root  2456 Apr  6  2015 mountnfs.sh
+-rwxr-xr-x  1 root root  4771 Jul 19  2015 networking
+-rwxr-xr-x  1 root root   612 Sep 20  2014 pppd-dns
+-rwxr-xr-x  1 root root  1192 Mar  6  2015 procps
+-rwxr-xr-x  1 root root  6228 Apr  6  2015 rc
+-rwxr-xr-x  1 root root   820 Apr  6  2015 rc.local
+-rwxr-xr-x  1 root root   117 Apr  6  2015 rcS
+-rw-r--r--  1 root root  2427 Apr  6  2015 README
+-rwxr-xr-x  1 root root   661 Apr  6  2015 reboot
+-rwxr-xr-x  1 root root  1042 Apr  6  2015 rmnologin
+-rwxr-xr-x  1 root root  4355 Jul 10  2014 rsync
+-rwxr-xr-x  1 root root  2796 Dec 14  2015 rsyslog
+-rwxr-xr-x  1 root root  1226 Jul 26  2014 screen-cleanup
+-rwxr-xr-x  1 root root  3207 Apr  6  2015 sendsigs
+-rwxr-xr-x  1 root root   597 Apr  6  2015 single
+-rw-r--r--  1 root root  1087 Apr  6  2015 skeleton
+-rwxr-xr-x  1 root root  4077 Apr 14  2016 ssh
+-rwxr-xr-x  1 root root   731 Jan  5  2016 sudo
+-rwxr-xr-x  1 root root  6087 Jul 27  2016 udev
+-rwxr-xr-x  1 root root  1416 Aug  3  2014 udhcpd
+-rwxr-xr-x  1 root root  2737 Apr  6  2015 umountfs
+-rwxr-xr-x  1 root root  2202 Apr  6  2015 umountnfs.sh
+-rwxr-xr-x  1 root root  1129 Apr  6  2015 umountroot
+-rwxr-xr-x  1 root root  3111 Apr  6  2015 urandom
+-rwxr-xr-x  1 root root  2666 Sep 25  2013 x11-common
+
+
+----------------------------------------
+ls -la /opt/
+Tue Sep  4 10:41:44 UTC 2018
+----------------------------------------
+total 24
+drwxr-xr-x  6 root   root   4096 Oct 20  2016 .
+drwxr-xr-x 22 root   root   4096 Sep  2 17:36 ..
+drwxr-xr-x  3 root   root   4096 Oct 20  2016 backup
+drwxr-xr-x  3 root   root   4096 Oct 20  2016 cloud9
+drwxr-xr-x 12 debian debian 4096 Sep  1 13:31 scripts
+drwxr-xr-x 16 debian debian 4096 Oct 20  2016 source
+
+
+----------------------------------------
+ls -la /opt/backup /opt/cloud9 /opt/scripts /opt/source
+Tue Sep  4 10:41:44 UTC 2018
+----------------------------------------
+/opt/backup:
+total 12
+drwxr-xr-x 3 root root 4096 Oct 20  2016 .
+drwxr-xr-x 6 root root 4096 Oct 20  2016 ..
+drwxr-xr-x 2 root root 4096 Oct 20  2016 uboot
+
+/opt/cloud9:
+total 12
+drwxr-xr-x 3 root   root   4096 Oct 20  2016 .
+drwxr-xr-x 6 root   root   4096 Oct 20  2016 ..
+drwxr-xr-x 3 debian debian 4096 Oct 20  2016 build
+
+/opt/scripts:
+total 48
+drwxr-xr-x 12 debian debian 4096 Sep  1 13:31 .
+drwxr-xr-x  6 root   root   4096 Oct 20  2016 ..
+drwxr-xr-x  2 debian debian 4096 Sep  1 13:31 3rdparty
+drwxr-xr-x  4 debian debian 4096 Sep  1 13:31 boot
+drwxr-xr-x  4 debian debian 4096 Sep  1 13:31 desktop-defaults
+drwxr-xr-x  5 debian debian 4096 Sep  1 13:31 device
+drwxr-xr-x  4 root   root   4096 Sep  1 13:31 distro
+drwxr-xr-x  8 debian debian 4096 Sep  1 13:31 .git
+drwxr-xr-x  2 debian debian 4096 Oct 20  2016 images
+drwxr-xr-x  3 debian debian 4096 Oct 20  2016 mods
+drwxr-xr-x  9 debian debian 4096 Sep  1 13:31 tools
+drwxr-xr-x  2 debian debian 4096 Sep  1 13:31 un-tweak-image
+
+/opt/source:
+total 68
+drwxr-xr-x 16 debian debian 4096 Oct 20  2016 .
+drwxr-xr-x  6 root   root   4096 Oct 20  2016 ..
+drwxr-xr-x 11 debian debian 4096 Oct 20  2016 adafruit-beaglebone-io-python
+drwxr-xr-x  8 debian debian 4096 Oct 20  2016 BBBlfs
+drwxr-xr-x  6 debian debian 4096 Oct 20  2016 BBIOConfig
+drwxr-xr-x  9 debian debian 4096 Oct 20  2016 bb.org-overlays
+drwxr-xr-x  3 debian debian 4096 Oct 20  2016 beaglebone-universal-io
+drwxr-xr-x  4 debian debian 4096 Oct 20  2016 beagle-tester
+drwxr-xr-x  7 debian debian 4096 Oct 20  2016 dtb-4.4-ti
+drwxr-xr-x  3 debian debian 4096 Oct 20  2016 fb-test-app
+-rw-r--r--  1 debian debian 1147 Oct 20  2016 list.txt
+drwxr-xr-x  4 debian debian 4096 Oct 20  2016 prufh
+drwxr-xr-x  8 debian debian 4096 Oct 20  2016 pru-software-support-package
+drwxr-xr-x 11 debian debian 4096 Oct 20  2016 Robotics_Cape_Installer
+drwxr-xr-x  2 debian debian 4096 Oct 20  2016 u-boot_ti-2016.05
+drwxr-xr-x  2 debian debian 4096 Oct 20  2016 u-boot_v2016.09
+drwxr-xr-x  7 debian debian 4096 Oct 20  2016 Userspace-Arduino
+
+
+----------------------------------------
+ls -la /var/
+Tue Sep  4 10:41:44 UTC 2018
+----------------------------------------
+total 48
+drwxr-xr-x 12 root root  4096 Oct 20  2016 .
+drwxr-xr-x 22 root root  4096 Sep  2 17:36 ..
+drwxr-xr-x  2 root root  4096 Sep 12  2016 backups
+drwxr-xr-x 12 root root  4096 Oct 20  2016 cache
+drwxr-xr-x 30 root root  4096 Oct 20  2016 lib
+drwxrwsr-x  2 root staff 4096 Oct 20  2016 local
+lrwxrwxrwx  1 root root     9 Oct 20  2016 lock -> /run/lock
+drwxr-xr-x  5 root root  4096 Oct 20  2016 log
+drwxrwsr-x  2 root mail  4096 Oct 20  2016 mail
+drwxr-xr-x  2 root root  4096 Oct 20  2016 opt
+lrwxrwxrwx  1 root root     4 Oct 20  2016 run -> /run
+drwxr-xr-x  4 root root  4096 Oct 20  2016 spool
+drwxrwxrwt  8 root root  4096 Sep  4 10:40 tmp
+drwxr-xr-x  3 root root  4096 Oct 20  2016 www
+
+
+----------------------------------------
+ls -la /var/log/
+Tue Sep  4 10:41:44 UTC 2018
+----------------------------------------
+total 10660
+drwxr-xr-x  5 root root    4096 Oct 20  2016 .
+drwxr-xr-x 12 root root    4096 Oct 20  2016 ..
+-rw-r--r--  1 root root   20623 Oct 20  2016 alternatives.log
+drwxr-x---  2 root adm     4096 Oct 20  2016 apache2
+drwxr-xr-x  2 root root    4096 Oct 20  2016 apt
+-rw-r-----  1 root adm    31248 Sep  4 10:40 auth.log
+-rw-r--r--  1 root root   98157 Oct 20  2016 bootstrap.log
+-rw-------  1 root utmp     768 Sep  2 17:27 btmp
+-rw-r-----  1 root adm  2175940 Sep  4 10:41 daemon.log
+-rw-r-----  1 root adm    81341 Sep  4 10:40 debug
+-rw-r-----  1 root adm       31 Oct 20  2016 dmesg
+-rw-r--r--  1 root root  387585 Sep  1 13:02 dpkg.log
+-rw-r--r--  1 root root   24024 Oct 20  2016 faillog
+drwxr-xr-x  2 root root    4096 Oct 20  2016 fsck
+-rw-r-----  1 root adm  1779692 Sep  4 10:41 kern.log
+-rw-rw-r--  1 root utmp  292292 Sep  4 10:40 lastlog
+-rw-r-----  1 root adm  1667949 Sep  4 10:41 messages
+-rw-r-----  1 root adm  4025050 Sep  4 10:41 syslog
+-rw-r--r--  1 root root   26934 Sep  4 10:40 wiificonfig_console.log
+-rw-rw-r--  1 root utmp  215040 Sep  4 10:40 wtmp
+-rw-r--r--  1 root root     237 Oct 20  2016 wvdialconf.log
+
+
+----------------------------------------
+netstat -ntpl
+Tue Sep  4 10:41:44 UTC 2018
+----------------------------------------
+Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name
+tcp        0      0 192.168.8.1:2060        0.0.0.0:*               LISTEN      2480/wifidog    
+tcp        0      0 0.0.0.0:53              0.0.0.0:*               LISTEN      1019/dnsmasq    
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      1226/sshd       
+tcp6       0      0 :::3001                 :::*                    LISTEN      1/init          
+tcp6       0      0 :::80                   :::*                    LISTEN      2232/nodejs     
+tcp6       0      0 :::8080                 :::*                    LISTEN      1306/apache2    
+tcp6       0      0 :::53                   :::*                    LISTEN      1019/dnsmasq    
+tcp6       0      0 :::22                   :::*                    LISTEN      1226/sshd       
+tcp6       0      0 :::3000                 :::*                    LISTEN      1/init          
+tcp6       0      0 :::1880                 :::*                    LISTEN      1/init          
+
+
+----------------------------------------
+ps aux
+Tue Sep  4 10:41:44 UTC 2018
+----------------------------------------
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  4.1  1.0  25172  5064 ?        Ss   10:39   0:05 /sbin/init
+root         2  0.0  0.0      0     0 ?        S    10:39   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S    10:39   0:00 [ksoftirqd/0]
+root         4  0.0  0.0      0     0 ?        S    10:39   0:00 [kworker/0:0]
+root         5  0.0  0.0      0     0 ?        S<   10:39   0:00 [kworker/0:0H]
+root         6  0.0  0.0      0     0 ?        S    10:39   0:00 [kworker/u2:0]
+root         7  0.4  0.0      0     0 ?        S    10:39   0:00 [rcu_sched]
+root         8  0.0  0.0      0     0 ?        S    10:39   0:00 [rcu_bh]
+root         9  0.8  0.0      0     0 ?        S    10:39   0:01 [rcuc/0]
+root        10  0.0  0.0      0     0 ?        S    10:39   0:00 [migration/0]
+root        11  0.0  0.0      0     0 ?        S    10:39   0:00 [watchdog/0]
+root        12  0.0  0.0      0     0 ?        S    10:39   0:00 [kdevtmpfs]
+root        13  0.1  0.0      0     0 ?        S    10:39   0:00 [kworker/0:1]
+root        14  0.0  0.0      0     0 ?        S<   10:39   0:00 [netns]
+root        15  0.0  0.0      0     0 ?        S    10:39   0:00 [kswork]
+root        16  0.0  0.0      0     0 ?        S<   10:39   0:00 [perf]
+root        17  0.0  0.0      0     0 ?        S    10:39   0:00 [khungtaskd]
+root        18  0.0  0.0      0     0 ?        S<   10:39   0:00 [writeback]
+root        19  0.0  0.0      0     0 ?        SN   10:39   0:00 [ksmd]
+root        20  0.0  0.0      0     0 ?        S<   10:39   0:00 [crypto]
+root        21  0.0  0.0      0     0 ?        S<   10:39   0:00 [kintegrityd]
+root        22  0.0  0.0      0     0 ?        S<   10:39   0:00 [bioset]
+root        23  0.0  0.0      0     0 ?        S<   10:39   0:00 [kblockd]
+root        24  0.0  0.0      0     0 ?        S<   10:39   0:00 [ata_sff]
+root        25  0.0  0.0      0     0 ?        S<   10:39   0:00 [devfreq_wq]
+root        26  0.0  0.0      0     0 ?        S<   10:39   0:00 [rpciod]
+root        27  0.0  0.0      0     0 ?        S    10:39   0:00 [kswapd0]
+root        28  0.0  0.0      0     0 ?        S<   10:39   0:00 [vmstat]
+root        29  0.0  0.0      0     0 ?        S    10:39   0:00 [fsnotify_mark]
+root        30  0.0  0.0      0     0 ?        S<   10:39   0:00 [nfsiod]
+root        31  0.0  0.0      0     0 ?        S<   10:39   0:00 [xfsalloc]
+root        32  0.0  0.0      0     0 ?        S<   10:39   0:00 [xfs_mru_cache]
+root        55  0.0  0.0      0     0 ?        S<   10:39   0:00 [kthrotld]
+root        56  0.0  0.0      0     0 ?        S    10:39   0:00 [kapmd]
+root        57  0.0  0.0      0     0 ?        S    10:39   0:00 [irq/33-48060000]
+root        58  0.1  0.0      0     0 ?        S    10:39   0:00 [kworker/u2:1]
+root        59  0.0  0.0      0     0 ?        S<   10:39   0:00 [bioset]
+root        60  0.7  0.0      0     0 ?        S    10:39   0:01 [mmcqd/1]
+root        61  0.0  0.0      0     0 ?        S<   10:39   0:00 [bioset]
+root        62  0.0  0.0      0     0 ?        S    10:39   0:00 [mmcqd/1boot0]
+root        63  0.0  0.0      0     0 ?        S<   10:39   0:00 [bioset]
+root        64  0.0  0.0      0     0 ?        S    10:39   0:00 [mmcqd/1boot1]
+root        65  0.0  0.0      0     0 ?        S    10:39   0:00 [kworker/0:2]
+root        66  0.0  0.0      0     0 ?        S<   10:39   0:00 [binder]
+root        67  0.0  0.0      0     0 ?        S<   10:39   0:00 [ipv6_addrconf]
+root        68  0.0  0.0      0     0 ?        S<   10:39   0:00 [bioset]
+root        69  0.0  0.0      0     0 ?        S    10:39   0:00 [kworker/u2:2]
+root        78  0.0  0.0      0     0 ?        S<   10:39   0:00 [deferwq]
+root        79  0.1  0.0      0     0 ?        S    10:39   0:00 [irq/160-44e0b00]
+root        80  0.0  0.0      0     0 ?        S    10:39   0:00 [irq/181-tps6521]
+root        81  0.0  0.0      0     0 ?        S    10:39   0:00 [irq/161-4819c00]
+root        97  0.0  0.0      0     0 ?        S<   10:39   0:00 [kworker/0:1H]
+root       503  0.0  0.0      0     0 ?        S    10:39   0:00 [jbd2/mmcblk1p1-]
+root       504  0.0  0.0      0     0 ?        S<   10:39   0:00 [ext4-rsv-conver]
+root       534  0.1  0.0      0     0 ?        S    10:39   0:00 [kworker/0:3]
+root       542  0.9  0.7  15768  3780 ?        Ss   10:39   0:01 /lib/systemd/systemd-journald
+root       546  0.0  0.0      0     0 ?        S    10:39   0:00 [kauditd]
+root       569  1.6  0.5  11784  2604 ?        Ss   10:39   0:02 /lib/systemd/systemd-udevd
+systemd+   615  0.0  0.6  15336  3228 ?        Ssl  10:39   0:00 /lib/systemd/systemd-timesyncd
+avahi      662  0.2  0.4   3296  2068 ?        Ss   10:39   0:00 avahi-daemon: running [beaglebone.local]
+root       674  2.1  0.8   7192  4064 ?        Ss   10:39   0:02 /usr/sbin/haveged --Foreground --verbose=1 --write=1024
+avahi      678  0.0  0.2   3164  1488 ?        S    10:39   0:00 avahi-daemon: chroot helper
+root       680  0.2  0.6   5508  3204 ?        Ss   10:39   0:00 /lib/systemd/systemd-logind
+root       694  0.2  0.5  30508  2520 ?        Ssl  10:39   0:00 /usr/sbin/rsyslogd -n
+root       706  0.0  0.4   4428  2036 ?        Ss   10:39   0:00 /usr/sbin/cron -f
+message+   719  1.4  0.5   4844  2652 ?        Ss   10:39   0:02 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+root       754  0.0  0.0      0     0 ?        S<   10:39   0:00 [cfg80211]
+root       756  0.9  0.8   6472  4044 ?        Ss   10:39   0:01 /usr/sbin/connmand -n --nodnsproxy
+root       902  0.0  0.0      0     0 ?        S    10:39   0:00 [file-storage]
+dnsmasq   1019  0.0  0.4   5484  2204 ?        S    10:39   0:00 /usr/sbin/dnsmasq -x /var/run/dnsmasq/dnsmasq.pid -u dnsmasq -7 /etc/dnsmasq.d,.dpkg-dist,.dpkg-old,.dpkg-new --local-service --trust-anchor=.,19036,8,2,49AAC11D7B6F6446702E54A1607371607A1A41855200FD2CE1CDDE32F24E8FB5
+root      1149  0.5  0.8   5588  4316 ?        Ss   10:39   0:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+root      1226  0.0  0.7   6540  3656 ?        Ss   10:39   0:00 /usr/sbin/sshd -D
+root      1241  0.0  0.4   4884  2344 tty1     Ss   10:39   0:00 /bin/login --     
+root      1306  0.0  0.6   6324  3268 ?        Ss   10:39   0:00 /usr/sbin/apache2 -k start
+www-data  1310  0.1  0.6 228732  3192 ?        Sl   10:39   0:00 /usr/sbin/apache2 -k start
+www-data  1311  0.1  0.6 228732  3192 ?        Sl   10:39   0:00 /usr/sbin/apache2 -k start
+root      1341  0.0  0.3   3376  1608 ttyS0    Ss+  10:39   0:00 /sbin/agetty --keep-baud 115200 38400 9600 ttyS0 vt220
+root      1770  0.0  0.3   3380  1556 ttyGS0   Ss+  10:39   0:00 /sbin/agetty --keep-baud 115200 38400 9600 ttyGS0 vt220
+root      1839  0.0  0.0      0     0 ?        S<   10:39   0:00 [wl12xx_wq]
+root      1842  0.1  0.0      0     0 ?        S    10:39   0:00 [irq/54-wl18xx]
+root      1908  0.0  0.0      0     0 ?        S    10:39   0:00 [kworker/u2:3]
+root      1913  0.0  0.0      0     0 ?        S<   10:39   0:00 [kworker/u3:0]
+root      1916  0.0  0.0      0     0 ?        S<   10:39   0:00 [hci0]
+root      1917  0.0  0.0      0     0 ?        S<   10:39   0:00 [hci0]
+root      1918  0.0  0.0      0     0 ?        S<   10:39   0:00 [kworker/u3:1]
+root      1919  0.0  0.0      0     0 ?        S<   10:39   0:00 [kworker/u3:2]
+root      1955  0.0  0.5   3800  2620 ?        Ss   10:39   0:00 /usr/lib/bluetooth/bluetoothd
+root      1960  0.0  0.1   1588   636 ?        S    10:39   0:00 hciattach /dev/ttyS3 texas 300000
+pulse     1961  0.2  1.1  88868  5572 ?        S<sl 10:39   0:00 /usr/bin/pulseaudio --system --disallow-exit --disable-shm
+root      2015  6.0  6.5  87680 32992 ?        Ssl  10:39   0:06 npm                               
+root      2231  0.0  0.1   1440   876 ?        S    10:40   0:00 sh -c NODE_ENV=production nodejs ./bin/www
+root      2232 18.7 10.9 108824 54904 ?        Sl   10:40   0:19 nodejs ./bin/www
+root      2428  0.1  0.3   5196  1828 ?        Ss   10:40   0:00 hostapd -B SoftAp0-hostapd.conf
+root      2478  0.0  0.4   4364  2420 ?        Ss   10:40   0:00 /bin/bash -e /usr/bin/wifidog_server
+root      2480  0.1  0.2  28408  1336 ?        Sl   10:40   0:00 /usr/bin/wifidog -f
+root      2741  0.0  0.0      0     0 ?        S    10:40   0:00 [scsi_eh_0]
+root      2742  0.0  0.0      0     0 ?        S<   10:40   0:00 [scsi_tmf_0]
+root      2743  0.0  0.0      0     0 ?        S    10:40   0:00 [usb-storage]
+root      2762  0.0  0.0      0     0 ?        S<   10:40   0:00 [bioset]
+root      2875  0.0  0.0      0     0 ?        S<   10:40   0:00 [bioset]
+root      2876  0.0  0.0      0     0 ?        S    10:40   0:00 [mmcqd/0]
+root      2946  0.2  0.8   7036  4196 ?        Ss   10:40   0:00 /lib/systemd/systemd --user
+root      2951  0.0  0.0      0     0 ?        S    10:40   0:00 [kworker/0:4]
+root      2955  0.0  0.5  26540  2704 ?        S    10:40   0:00 (sd-pam)  
+root      2962  0.5  0.7   5708  3868 tty1     S    10:40   0:00 -bash
+root      3401  3.0  0.4   3952  2220 tty1     S+   10:41   0:00 bash /mnt/usb/bin
+root      3410  4.0  0.4   3964  2224 tty1     S+   10:41   0:00 bash /mnt/usb/bin.sh
+root      3439  0.0  0.3   4244  1744 tty1     R+   10:41   0:00 ps aux
+
+
+----------------------------------------
+ifconfig
+Tue Sep  4 10:41:44 UTC 2018
+----------------------------------------
+SoftAp0   Link encap:Ethernet  HWaddr b0:d5:cc:fd:c4:5d  
+          inet addr:192.168.8.1  Bcast:192.168.8.255  Mask:255.255.255.0
+          inet6 addr: fe80::b2d5:ccff:fefd:c45d/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:31 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:7634 (7.4 KiB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:222 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:222 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:17600 (17.1 KiB)  TX bytes:17600 (17.1 KiB)
+
+usb0      Link encap:Ethernet  HWaddr b0:d5:cc:fd:c4:5f  
+          inet addr:192.168.7.2  Bcast:192.168.7.3  Mask:255.255.255.252
+          inet6 addr: fe80::b2d5:ccff:fefd:c45f/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:85 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:42 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:12626 (12.3 KiB)  TX bytes:13013 (12.7 KiB)
+
+usb1      Link encap:Ethernet  HWaddr b0:d5:cc:fd:c4:62  
+          inet addr:192.168.6.2  Bcast:192.168.6.3  Mask:255.255.255.252
+          inet6 addr: fe80::b2d5:ccff:fefd:c462/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:82 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:43 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:11642 (11.3 KiB)  TX bytes:11200 (10.9 KiB)
+
+wlan0     Link encap:Ethernet  HWaddr 2c:f7:f1:06:4f:78  
+          UP BROADCAST MULTICAST DYNAMIC  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+
+
+----------------------------------------
+ip r
+Tue Sep  4 10:41:44 UTC 2018
+----------------------------------------
+192.168.6.0/30 dev usb1  proto kernel  scope link  src 192.168.6.2 
+192.168.7.0/30 dev usb0  proto kernel  scope link  src 192.168.7.2 
+192.168.8.0/24 dev SoftAp0  proto kernel  scope link  src 192.168.8.1 
+
+
+----------------------------------------
+curl google.com
+Tue Sep  4 10:41:44 UTC 2018
+----------------------------------------
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (7) Couldn't connect to server
+
+
+----------------------------------------
+dmesg
+Tue Sep  4 10:41:44 UTC 2018
+----------------------------------------
+[    0.000000] Booting Linux on physical CPU 0x0
+[    0.000000] Initializing cgroup subsys cpuset
+[    0.000000] Initializing cgroup subsys cpu
+[    0.000000] Initializing cgroup subsys cpuacct
+[    0.000000] Linux version 4.4.24-ti-r58 (root@a2-imx6q-wandboard-2gb) (gcc version 4.9.2 (Debian 4.9.2-10) ) #1 SMP Thu Oct 20 17:16:05 UTC 2016
+[    0.000000] CPU: ARMv7 Processor [413fc082] revision 2 (ARMv7), cr=50c5387d
+[    0.000000] CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+[    0.000000] Machine model: TI AM335x BeagleBone Green Wireless
+[    0.000000] cma: Reserved 48 MiB at 0x9c800000
+[    0.000000] Memory policy: Data cache writeback
+[    0.000000] On node 0 totalpages: 130560
+[    0.000000] free_area_init_node: node 0, pgdat c0c7ed40, node_mem_map df961000
+[    0.000000]   Normal zone: 1152 pages used for memmap
+[    0.000000]   Normal zone: 0 pages reserved
+[    0.000000]   Normal zone: 130560 pages, LIFO batch:31
+[    0.000000] CPU: All CPU(s) started in SVC mode.
+[    0.000000] AM335X ES2.1 (sgx neon )
+[    0.000000] PERCPU: Embedded 13 pages/cpu @df917000 s24320 r8192 d20736 u53248
+[    0.000000] pcpu-alloc: s24320 r8192 d20736 u53248 alloc=13*4096
+[    0.000000] pcpu-alloc: [0] 0 
+[    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 129408
+[    0.000000] Kernel command line: console=ttyO0,115200n8 root=UUID=cf0d44d3-44c2-418f-ba88-c138c5c62003 ro rootfstype=ext4 rootwait coherent_pool=1M quiet cape_universal=enable
+[    0.000000] PID hash table entries: 2048 (order: 1, 8192 bytes)
+[    0.000000] Dentry cache hash table entries: 65536 (order: 6, 262144 bytes)
+[    0.000000] Inode-cache hash table entries: 32768 (order: 5, 131072 bytes)
+[    0.000000] Memory: 448820K/522240K available (7548K kernel code, 915K rwdata, 3788K rodata, 612K init, 907K bss, 24268K reserved, 49152K cma-reserved, 0K highmem)
+[    0.000000] Virtual kernel memory layout:
+    vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+    fixmap  : 0xffc00000 - 0xfff00000   (3072 kB)
+    vmalloc : 0xe0800000 - 0xff800000   ( 496 MB)
+    lowmem  : 0xc0000000 - 0xe0000000   ( 512 MB)
+    pkmap   : 0xbfe00000 - 0xc0000000   (   2 MB)
+    modules : 0xbf800000 - 0xbfe00000   (   6 MB)
+      .text : 0xc0008000 - 0xc0b1a354   (11337 kB)
+      .init : 0xc0b1b000 - 0xc0bb4000   ( 612 kB)
+      .data : 0xc0bb4000 - 0xc0c98ee8   ( 916 kB)
+       .bss : 0xc0c9b000 - 0xc0d7dfa8   ( 908 kB)
+[    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+[    0.000000] Hierarchical RCU implementation.
+[    0.000000] 	Build-time adjustment of leaf fanout to 32.
+[    0.000000] 	RCU restricting CPUs from NR_CPUS=2 to nr_cpu_ids=1.
+[    0.000000] RCU: Adjusting geometry for rcu_fanout_leaf=32, nr_cpu_ids=1
+[    0.000000] NR_IRQS:16 nr_irqs:16 16
+[    0.000000] IRQ: Found an INTC at 0xfa200000 (revision 5.0) with 128 interrupts
+[    0.000000] OMAP clockevent source: timer2 at 24000000 Hz
+[    0.000011] sched_clock: 32 bits at 24MHz, resolution 41ns, wraps every 89478484971ns
+[    0.000031] clocksource: timer1: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 79635851949 ns
+[    0.000043] OMAP clocksource: timer1 at 24000000 Hz
+[    0.001230] clocksource_probe: no matching clocksources found
+[    0.001420] Console: colour dummy device 80x30
+[    0.001447] WARNING: Your 'console=ttyO0' has been replaced by 'ttyS0'
+[    0.001455] This ensures that you still see kernel messages. Please
+[    0.001461] update your kernel commandline.
+[    0.001477] Calibrating delay loop... 995.32 BogoMIPS (lpj=1990656)
+[    0.046889] pid_max: default: 32768 minimum: 301
+[    0.047024] Security Framework initialized
+[    0.047037] Yama: becoming mindful.
+[    0.047070] AppArmor: AppArmor disabled by boot time parameter
+[    0.047229] Mount-cache hash table entries: 1024 (order: 0, 4096 bytes)
+[    0.047241] Mountpoint-cache hash table entries: 1024 (order: 0, 4096 bytes)
+[    0.048020] Initializing cgroup subsys io
+[    0.048048] Initializing cgroup subsys memory
+[    0.048090] Initializing cgroup subsys devices
+[    0.048107] Initializing cgroup subsys freezer
+[    0.048124] Initializing cgroup subsys net_cls
+[    0.048138] Initializing cgroup subsys perf_event
+[    0.048152] Initializing cgroup subsys net_prio
+[    0.048175] Initializing cgroup subsys pids
+[    0.048227] CPU: Testing write buffer coherency: ok
+[    0.048282] ftrace: allocating 34600 entries in 68 pages
+[    0.134229] CPU0: thread -1, cpu 0, socket -1, mpidr 0
+[    0.134349] Setting up static identity map for 0x80008240 - 0x8000828c
+[    0.138153] Brought up 1 CPUs
+[    0.138175] SMP: Total of 1 processors activated (995.32 BogoMIPS).
+[    0.138183] CPU: All CPU(s) started in SVC mode.
+[    0.139762] devtmpfs: initialized
+[    0.159516] VFP support v0.3: implementor 41 architecture 3 part 30 variant c rev 3
+[    0.177903] omap_hwmod: debugss: _wait_target_disable failed
+[    0.231629] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+[    0.235349] xor: measuring software checksum speed
+[    0.274890]    arm4regs  :  1221.000 MB/sec
+[    0.314896]    8regs     :  1094.000 MB/sec
+[    0.354889]    32regs    :  1153.000 MB/sec
+[    0.394888]    neon      :  1758.000 MB/sec
+[    0.394895] xor: using function: neon (1758.000 MB/sec)
+[    0.394992] pinctrl core: initialized pinctrl subsystem
+[    0.396940] NET: Registered protocol family 16
+[    0.400449] DMA: preallocated 1024 KiB pool for atomic coherent allocations
+[    0.401658] cpuidle: using governor ladder
+[    0.401679] cpuidle: using governor menu
+[    0.406832] OMAP GPIO hardware version 0.1
+[    0.409186] GPIO line 112 (MCASP0_AXR0) hogged as output/low
+[    0.417973] No ATAGs?
+[    0.418002] hw-breakpoint: debug architecture 0x4 unsupported.
+[    0.418555] omap4_sram_init:Unable to allocate sram needed to handle errata I688
+[    0.418568] omap4_sram_init:Unable to get sram pool needed to handle errata I688
+[    0.494954] raid6: int32x1  gen()   263 MB/s
+[    0.562962] raid6: int32x1  xor()   240 MB/s
+[    0.631047] raid6: int32x2  gen()   375 MB/s
+[    0.698932] raid6: int32x2  xor()   280 MB/s
+[    0.767002] raid6: int32x4  gen()   391 MB/s
+[    0.834920] raid6: int32x4  xor()   264 MB/s
+[    0.902914] raid6: int32x8  gen()   358 MB/s
+[    0.971012] raid6: int32x8  xor()   232 MB/s
+[    1.038886] raid6: neonx1   gen()  1450 MB/s
+[    1.106909] raid6: neonx1   xor()   846 MB/s
+[    1.174900] raid6: neonx2   gen()  1882 MB/s
+[    1.242902] raid6: neonx2   xor()  1173 MB/s
+[    1.310899] raid6: neonx4   gen()  1993 MB/s
+[    1.378887] raid6: neonx4   xor()  1204 MB/s
+[    1.446888] raid6: neonx8   gen()  1210 MB/s
+[    1.514909] raid6: neonx8   xor()   671 MB/s
+[    1.514916] raid6: using algorithm neonx4 gen() 1993 MB/s
+[    1.514923] raid6: .... xor() 1204 MB/s, rmw enabled
+[    1.514929] raid6: using intx1 recovery algorithm
+[    1.523667] edma 49000000.edma: TI EDMA DMA engine driver
+[    1.528751] SCSI subsystem initialized
+[    1.529121] libata version 3.00 loaded.
+[    1.529450] usbcore: registered new interface driver usbfs
+[    1.529521] usbcore: registered new interface driver hub
+[    1.529616] usbcore: registered new device driver usb
+[    1.530181] omap_i2c 44e0b000.i2c: could not find pctldev for node /ocp/l4_wkup@44c00000/scm@210000/pinmux@800/pinmux_i2c0_pins, deferring probe
+[    1.530226] omap_i2c 4819c000.i2c: could not find pctldev for node /ocp/l4_wkup@44c00000/scm@210000/pinmux@800/pinmux_i2c2_pins, deferring probe
+[    1.530332] media: Linux media interface: v0.10
+[    1.530387] Linux video capture interface: v2.00
+[    1.530497] pps_core: LinuxPPS API ver. 1 registered
+[    1.530506] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+[    1.530539] PTP clock support registered
+[    1.531411] omap-mailbox 480c8000.mailbox: omap mailbox rev 0x400
+[    1.532628] NetLabel: Initializing
+[    1.532640] NetLabel:  domain hash size = 128
+[    1.532646] NetLabel:  protocols = UNLABELED CIPSOv4
+[    1.532701] NetLabel:  unlabeled traffic allowed by default
+[    1.533048] clocksource: Switched to clocksource timer1
+[    1.638736] NET: Registered protocol family 2
+[    1.639495] TCP established hash table entries: 4096 (order: 2, 16384 bytes)
+[    1.639542] TCP bind hash table entries: 4096 (order: 3, 32768 bytes)
+[    1.639601] TCP: Hash tables configured (established 4096 bind 4096)
+[    1.639670] UDP hash table entries: 256 (order: 1, 8192 bytes)
+[    1.639691] UDP-Lite hash table entries: 256 (order: 1, 8192 bytes)
+[    1.639976] NET: Registered protocol family 1
+[    1.640496] RPC: Registered named UNIX socket transport module.
+[    1.640509] RPC: Registered udp transport module.
+[    1.640515] RPC: Registered tcp transport module.
+[    1.640521] RPC: Registered tcp NFSv4.1 backchannel transport module.
+[    1.641245] Unpacking initramfs...
+[    1.998857] Freeing initrd memory: 4988K (cfb21000 - d0000000)
+[    1.999352] hw perfevents: enabled with armv7_cortex_a8 PMU driver, 5 counters available
+[    2.002033] futex hash table entries: 256 (order: 2, 16384 bytes)
+[    2.002144] audit: initializing netlink subsys (disabled)
+[    2.002222] audit: type=2000 audit(1.940:1): initialized
+[    2.011817] zbud: loaded
+[    2.012443] VFS: Disk quotas dquot_6.6.0
+[    2.012694] VFS: Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+[    2.015298] NFS: Registering the id_resolver key type
+[    2.015359] Key type id_resolver registered
+[    2.015367] Key type id_legacy registered
+[    2.015392] nfs4filelayout_init: NFSv4 File Layout Driver Registering...
+[    2.015719] fuse init (API version 7.23)
+[    2.016301] SGI XFS with ACLs, security attributes, realtime, no debug enabled
+[    2.024009] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 249)
+[    2.024221] io scheduler noop registered
+[    2.024236] io scheduler deadline registered
+[    2.024298] io scheduler cfq registered (default)
+[    2.025686] pinctrl-single 44e10800.pinmux: 142 pins at pa f9e10800 size 568
+[    2.027308] wkup_m3_ipc 44e11324.wkup_m3_ipc: could not get rproc handle
+[    2.028546] Serial: 8250/16550 driver, 6 ports, IRQ sharing disabled
+[    2.031608] 44e09000.serial: ttyS0 at MMIO 0x44e09000 (irq = 158, base_baud = 3000000) is a 8250
+[    2.044907] console [ttyS0] enabled
+[    2.045836] 481a6000.serial: ttyS3 at MMIO 0x481a6000 (irq = 159, base_baud = 3000000) is a 8250
+[    2.047154] [drm] Initialized drm 1.1.0 20060810
+[    2.051765] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+[    2.051804] ehci-platform: EHCI generic platform driver
+[    2.051967] ehci-omap: OMAP-EHCI Host Controller driver
+[    2.052335] usbcore: registered new interface driver usb-storage
+[    2.054451] 47401300.usb-phy supply vcc not found, using dummy regulator
+[    2.056750] musb-hdrc: ConfigData=0xde (UTMI-8, dyn FIFOs, bulk combine, bulk split, HB-ISO Rx, HB-ISO Tx, SoftConn)
+[    2.056765] musb-hdrc: MHDRC RTL version 2.0 
+[    2.056774] musb-hdrc: setup fifo_mode 4
+[    2.056792] musb-hdrc: 28/31 max ep, 16384/16384 memory
+[    2.058405] 47401b00.usb-phy supply vcc not found, using dummy regulator
+[    2.060504] musb-hdrc: ConfigData=0xde (UTMI-8, dyn FIFOs, bulk combine, bulk split, HB-ISO Rx, HB-ISO Tx, SoftConn)
+[    2.060517] musb-hdrc: MHDRC RTL version 2.0 
+[    2.060525] musb-hdrc: setup fifo_mode 4
+[    2.060539] musb-hdrc: 28/31 max ep, 16384/16384 memory
+[    2.060684] musb-hdrc musb-hdrc.1.auto: MUSB HDRC host driver
+[    2.060717] musb-hdrc musb-hdrc.1.auto: new USB bus registered, assigned bus number 1
+[    2.060988] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+[    2.061000] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    2.061009] usb usb1: Product: MUSB HDRC host driver
+[    2.061018] usb usb1: Manufacturer: Linux 4.4.24-ti-r58 musb-hcd
+[    2.061100] usb usb1: SerialNumber: musb-hdrc.1.auto
+[    2.061883] hub 1-0:1.0: USB hub found
+[    2.061935] hub 1-0:1.0: 1 port detected
+[    2.071061] mousedev: PS/2 mouse device common for all mice
+[    2.073414] omap_rtc 44e3e000.rtc: rtc core: registered 44e3e000.rtc as rtc0
+[    2.074173] i2c /dev entries driver
+[    2.075627] omap_wdt: OMAP Watchdog Timer Rev 0x01: initial timeout 60 sec
+[    2.076010] cpuidle: enable-method property 'ti,am3352' found operations
+[    2.076617] omap_hsmmc 48060000.mmc: Got CD GPIO
+[    2.178790] mmc1: MAN_BKOPS_EN bit is not set
+[    2.182110] mmc1: new high speed MMC card at address 0001
+[    2.182965] mmcblk1: mmc1:0001 Q2J54A 3.64 GiB 
+[    2.183336] mmcblk1boot0: mmc1:0001 Q2J54A partition 1 2.00 MiB
+[    2.183696] mmcblk1boot1: mmc1:0001 Q2J54A partition 2 2.00 MiB
+[    2.185183]  mmcblk1: p1
+[    2.250543] hidraw: raw HID events driver (C) Jiri Kosina
+[    2.251306] usbcore: registered new interface driver usbhid
+[    2.251315] usbhid: USB HID core driver
+[    2.252632] ashmem: initialized
+[    2.253521]  remoteproc0: wkup_m3 is available
+[    2.253535]  remoteproc0: Note: remoteproc is still under development and considered experimental.
+[    2.253543]  remoteproc0: THE BINARY FORMAT IS NOT YET FINALIZED, and backward compatibility isn't yet guaranteed.
+[    2.257649] omap_hsmmc 47810000.mmc: card claims to support voltages below defined range
+[    2.258999] NET: Registered protocol family 10
+[    2.260405] mip6: Mobile IPv6
+[    2.260429] NET: Registered protocol family 17
+[    2.260558] Key type dns_resolver registered
+[    2.260572] mpls_gso: MPLS GSO support
+[    2.260864] omap_voltage_late_init: Voltage driver support not added
+[    2.268624] PM: Cannot get wkup_m3_ipc handle
+[    2.273177] ThumbEE CPU extension supported.
+[    2.273208] Registering SWP/SWPB emulation handler
+[    2.274247] registered taskstats version 1
+[    2.274464] zswap: loaded using pool lzo/zbud
+[    2.278486] Btrfs loaded
+[    2.279835] mmc2: queuing unknown CIS tuple 0x91 (3 bytes)
+[    2.280769] mmc2: new high speed SDIO card at address 0001
+[    2.303476] Key type encrypted registered
+[    2.306290] input: tps65217_pwr_but as /devices/platform/ocp/44e0b000.i2c/i2c-0/0-0024/input/input0
+[    2.330715] tps65217 0-0024: TPS65217 ID 0xe version 1.2
+[    2.331245] at24 0-0050: 32768 byte 24c256 EEPROM, writable, 1 bytes/write
+[    2.331296] omap_i2c 44e0b000.i2c: bus 0 rev0.11 at 400 kHz
+[    2.332882] at24 2-0054: 32768 byte 24c256 EEPROM, writable, 1 bytes/write
+[    2.333351] at24 2-0055: 32768 byte 24c256 EEPROM, writable, 1 bytes/write
+[    2.333727] at24 2-0056: 32768 byte 24c256 EEPROM, writable, 1 bytes/write
+[    2.334093] at24 2-0057: 32768 byte 24c256 EEPROM, writable, 1 bytes/write
+[    2.334132] omap_i2c 4819c000.i2c: bus 2 rev0.11 at 100 kHz
+[    2.335183]  remoteproc0: powering up wkup_m3
+[    2.335242]  remoteproc0: Booting fw image am335x-pm-firmware.elf, size 217148
+[    2.335491]  remoteproc0: remote processor wkup_m3 is now up
+[    2.335512] wkup_m3_ipc 44e11324.wkup_m3_ipc: CM3 Firmware Version = 0x192
+[    2.341223] bone_capemgr bone_capemgr: Baseboard: 'A335BNLT,GW1A,BBGW16062172'
+[    2.341254] bone_capemgr bone_capemgr: compatible-baseboard=ti,beaglebone-black - #slots=4
+[    2.381058] bone_capemgr bone_capemgr: slot #0: No cape found
+[    2.425059] bone_capemgr bone_capemgr: slot #1: No cape found
+[    2.449058] usb 1-1: new high-speed USB device number 2 using musb-hdrc
+[    2.469056] bone_capemgr bone_capemgr: slot #2: No cape found
+[    2.513053] bone_capemgr bone_capemgr: slot #3: No cape found
+[    2.518972] bone_capemgr bone_capemgr: initialized OK.
+[    2.521224] PM: bootloader does not support rtc-only!
+[    2.522131] omap_rtc 44e3e000.rtc: setting system clock to 2000-01-01 00:00:00 UTC (946684800)
+[    2.522158] of_cfs_init
+[    2.522269] of_cfs_init: OK
+[    2.527794] PM: Hibernation image not present or could not be loaded.
+[    2.529160] Freeing unused kernel memory: 612K (c0b1b000 - c0bb4000)
+[    2.578817] usb 1-1: New USB device found, idVendor=05e3, idProduct=0610
+[    2.578839] usb 1-1: New USB device strings: Mfr=0, Product=1, SerialNumber=0
+[    2.578849] usb 1-1: Product: USB2.0 Hub
+[    2.579923] hub 1-1:1.0: USB hub found
+[    2.580270] hub 1-1:1.0: 4 ports detected
+[    2.732825] random: systemd-udevd: uninitialized urandom read (16 bytes read, 28 bits of entropy available)
+[    2.733806] random: systemd-udevd: uninitialized urandom read (16 bytes read, 28 bits of entropy available)
+[    2.733922] random: systemd-udevd: uninitialized urandom read (16 bytes read, 28 bits of entropy available)
+[    2.745709] random: udevadm: uninitialized urandom read (16 bytes read, 28 bits of entropy available)
+[    2.746124] random: udevadm: uninitialized urandom read (16 bytes read, 28 bits of entropy available)
+[    2.746278] random: udevadm: uninitialized urandom read (16 bytes read, 28 bits of entropy available)
+[    2.747010] random: udevadm: uninitialized urandom read (16 bytes read, 28 bits of entropy available)
+[    2.747553] random: udevadm: uninitialized urandom read (16 bytes read, 28 bits of entropy available)
+[    2.748046] random: udevadm: uninitialized urandom read (16 bytes read, 28 bits of entropy available)
+[    2.748608] random: udevadm: uninitialized urandom read (16 bytes read, 28 bits of entropy available)
+[    5.665553] EXT4-fs (mmcblk1p1): mounted filesystem with ordered data mode. Opts: (null)
+[    6.016645] systemd[1]: System time before build time, advancing clock.
+[    6.049428] systemd[1]: Failed to insert module 'kdbus': Function not implemented
+[    6.082912] systemd[1]: systemd 230 running in system mode. (+PAM +AUDIT +SELINUX +IMA +APPARMOR +SMACK +SYSVINIT +UTMP +LIBCRYPTSETUP +GCRYPT +GNUTLS +ACL +XZ -LZ4 +SECCOMP +BLKID +ELFUTILS +KMOD +IDN)
+[    6.083576] systemd[1]: Detected architecture arm.
+[    6.084653] systemd[1]: Set hostname to <beaglebone>.
+[    6.583561] systemd[1]: Reached target Encrypted Volumes.
+[    6.585273] systemd[1]: Created slice System Slice.
+[    6.586196] systemd[1]: Created slice system-serial\x2dgetty.slice.
+[    6.586662] systemd[1]: Started Forward Password Requests to Wall Directory Watch.
+[    6.586991] systemd[1]: Listening on fsck to fsckd communication Socket.
+[    6.587322] systemd[1]: Listening on /dev/initctl Compatibility Named Pipe.
+[    6.587686] systemd[1]: Started Dispatch Password Requests to Console Directory Watch.
+[    6.587798] systemd[1]: Reached target Paths.
+[    6.588173] systemd[1]: Listening on Journal Socket.
+[    6.594861] systemd[1]: Starting Load Kernel Modules...
+[    6.608293] systemd[1]: Starting Create list of required static device nodes for the current kernel...
+[    6.636697] systemd[1]: Mounting /sys/kernel/debug...
+[    6.705897] systemd[1]: Mounting POSIX Message Queue File System...
+[    6.706371] systemd[1]: Listening on Syslog Socket.
+[    6.708284] systemd[1]: Set up automount Arbitrary Executable File Formats File System Automount Point.
+[    6.761386] systemd[1]: Reached target Remote File Systems (Pre).
+[    6.761874] systemd[1]: Listening on udev Kernel Socket.
+[    6.762004] systemd[1]: Reached target Swap.
+[    6.762669] systemd[1]: Listening on Journal Audit Socket.
+[    6.782310] systemd[1]: Starting Remount Root and Kernel File Systems...
+[    6.787397] systemd[1]: Listening on udev Control Socket.
+[    6.788670] systemd[1]: Created slice system-getty.slice.
+[    6.818082] systemd[1]: Created slice User and Session Slice.
+[    6.818270] systemd[1]: Reached target Slices.
+[    6.818388] systemd[1]: Reached target Remote File Systems.
+[    6.818800] systemd[1]: Listening on Journal Socket (/dev/log).
+[    6.836163] systemd[1]: Starting Journal Service...
+[    6.928363] systemd[1]: Mounted POSIX Message Queue File System.
+[    6.928678] systemd[1]: Mounted /sys/kernel/debug.
+[    6.934376] EXT4-fs (mmcblk1p1): re-mounted. Opts: errors=remount-ro
+[    6.943200] systemd[1]: Started Load Kernel Modules.
+[    6.952608] systemd[1]: Started Create list of required static device nodes for the current kernel.
+[    6.964102] systemd[1]: Started Remount Root and Kernel File Systems.
+[    7.015560] systemd[1]: Starting udev Coldplug all Devices...
+[    7.061474] systemd[1]: Starting Load/Save Random Seed...
+[    7.107776] systemd[1]: Starting Create Static Device Nodes in /dev...
+[    7.173624] systemd[1]: Starting Apply Kernel Variables...
+[    7.241903] systemd[1]: Mounting FUSE Control File System...
+[    7.312793] systemd[1]: Mounting Configuration File System...
+[    7.434367] systemd[1]: Started Load/Save Random Seed.
+[    7.436366] systemd[1]: Started Create Static Device Nodes in /dev.
+[    7.472380] systemd[1]: Started Apply Kernel Variables.
+[    7.497929] systemd[1]: Mounted FUSE Control File System.
+[    7.498947] systemd[1]: Mounted Configuration File System.
+[    7.515825] systemd[1]: Started Journal Service.
+[    7.943260] systemd-journald[542]: Received request to flush runtime journal from PID 1
+[   10.177163] random: nonblocking pool is initialized
+[   12.681716] using random self ethernet address
+[   12.681741] using random host ethernet address
+[   12.753864] using random self ethernet address
+[   12.753890] using random host ethernet address
+[   12.880231] Mass Storage Function, version: 2009/09/11
+[   12.880258] LUN: removable file: (no medium)
+[   13.016019] usb0: HOST MAC b0:d5:cc:fd:c4:5e
+[   13.018148] usb0: MAC b0:d5:cc:fd:c4:5f
+[   13.029874] usb1: HOST MAC b0:d5:cc:fd:c4:61
+[   13.030487] usb1: MAC b0:d5:cc:fd:c4:62
+[   13.438047] configfs-gadget gadget: high-speed config #1: c
+[   23.641548] omap_rng 48310000.rng: OMAP Random Number Generator ver. 20
+[   24.849469] omap-sham 53100000.sham: hw accel on OMAP rev 4.3
+[   24.885460] omap-aes 53500000.aes: OMAP AES hw accel rev: 3.2
+[   25.480410] davinci_evm sound: ASoC: CPU DAI (null) not registered
+[   25.486780] davinci_evm sound: snd_soc_register_card failed (-517)
+[   27.492798] davinci_evm sound: ASoC: CPU DAI (null) not registered
+[   27.499136] davinci_evm sound: snd_soc_register_card failed (-517)
+[   27.861329] wlcore: wl18xx HW: 183x or 180x, PG 2.2 (ROM 0x11)
+[   28.066876] wlcore: loaded
+[   28.515584] wlcore: PHY firmware version: Rev 8.2.0.0.236
+[   28.562371] wlcore: firmware booted (Rev 8.9.0.0.69)
+[   28.579374] IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+[   30.210127] IPv6: ADDRCONF(NETDEV_UP): SoftAp0: link is not ready
+[   30.314659] ip_tables: (C) 2000-2006 Netfilter Core Team
+[   30.372425] nf_conntrack version 0.5.0 (7868 buckets, 31472 max)
+[   30.397814] Bluetooth: Core ver 2.21
+[   30.397971] NET: Registered protocol family 31
+[   30.397981] Bluetooth: HCI device and connection manager initialized
+[   30.398008] Bluetooth: HCI socket layer initialized
+[   30.398025] Bluetooth: L2CAP socket layer initialized
+[   30.398070] Bluetooth: SCO socket layer initialized
+[   30.416270] Bluetooth: HCI UART driver ver 2.3
+[   30.416294] Bluetooth: HCI UART protocol H4 registered
+[   30.416302] Bluetooth: HCI UART protocol BCSP registered
+[   30.416309] Bluetooth: HCI UART protocol LL registered
+[   30.416315] Bluetooth: HCI UART protocol ATH3K registered
+[   30.416323] Bluetooth: HCI UART protocol Three-wire (H5) registered
+[   30.416599] Bluetooth: HCI UART protocol BCM registered
+[   30.416609] Bluetooth: HCI UART protocol QCA registered
+[   30.929395] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+[   30.929418] Bluetooth: BNEP filters: protocol multicast
+[   30.929449] Bluetooth: BNEP socket layer initialized
+[   59.940845] wlcore: down
+[   65.036648] IPv6: ADDRCONF(NETDEV_CHANGE): SoftAp0: link becomes ready
+[   66.397237] usb 1-1.2: new low-speed USB device number 3 using musb-hdrc
+[   66.490575] usb 1-1.2: New USB device found, idVendor=1a2c, idProduct=4224
+[   66.490598] usb 1-1.2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[   66.490610] usb 1-1.2: Product: USB Keyboard
+[   66.490618] usb 1-1.2: Manufacturer: SEM
+[   66.503536] input: SEM USB Keyboard as /devices/platform/ocp/47400000.usb/47401c00.usb/musb-hdrc.1.auto/usb1/1-1/1-1.2/1-1.2:1.0/0003:1A2C:4224.0001/input/input1
+[   66.559829] hid-generic 0003:1A2C:4224.0001: input,hidraw0: USB HID v1.10 Keyboard [SEM USB Keyboard] on usb-musb-hdrc.1.auto-1.2/input0
+[   66.560547] davinci_evm sound: ASoC: CPU DAI (null) not registered
+[   66.566918] davinci_evm sound: snd_soc_register_card failed (-517)
+[   66.585849] input: SEM USB Keyboard as /devices/platform/ocp/47400000.usb/47401c00.usb/musb-hdrc.1.auto/usb1/1-1/1-1.2/1-1.2:1.1/0003:1A2C:4224.0002/input/input2
+[   66.597959] davinci_evm sound: ASoC: CPU DAI (null) not registered
+[   66.604280] davinci_evm sound: snd_soc_register_card failed (-517)
+[   66.642668] hid-generic 0003:1A2C:4224.0002: input,hidraw1: USB HID v1.10 Device [SEM USB Keyboard] on usb-musb-hdrc.1.auto-1.2/input1
+[   66.643674] davinci_evm sound: ASoC: CPU DAI (null) not registered
+[   66.650050] davinci_evm sound: snd_soc_register_card failed (-517)
+[   72.161211] usb 1-1.4: new high-speed USB device number 4 using musb-hdrc
+[   72.252486] usb 1-1.4: New USB device found, idVendor=0951, idProduct=1666
+[   72.252520] usb 1-1.4: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[   72.252537] usb 1-1.4: Product: DataTraveler 3.0
+[   72.252552] usb 1-1.4: Manufacturer: Kingston
+[   72.252566] usb 1-1.4: SerialNumber: 002618887702E120484B3162
+[   72.260850] usb-storage 1-1.4:1.0: USB Mass Storage device detected
+[   72.269309] scsi host0: usb-storage 1-1.4:1.0
+[   72.271505] davinci_evm sound: ASoC: CPU DAI (null) not registered
+[   72.277903] davinci_evm sound: snd_soc_register_card failed (-517)
+[   72.349357] usbcore: registered new interface driver uas
+[   73.270659] scsi 0:0:0:0: Direct-Access     Kingston DataTraveler 3.0 PMAP PQ: 0 ANSI: 6
+[   73.279309] sd 0:0:0:0: [sda] 15360000 512-byte logical blocks: (7.86 GB/7.32 GiB)
+[   73.280418] davinci_evm sound: ASoC: CPU DAI (null) not registered
+[   73.286820] davinci_evm sound: snd_soc_register_card failed (-517)
+[   73.293451] sd 0:0:0:0: [sda] Write Protect is off
+[   73.293479] sd 0:0:0:0: [sda] Mode Sense: 45 00 00 00
+[   73.294712] sd 0:0:0:0: [sda] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+[   73.378738] sd 0:0:0:0: Attached scsi generic sg0 type 0
+[   74.635913]  sda: sda1
+[   74.643221] sd 0:0:0:0: [sda] Attached SCSI removable disk
+[   82.912996] mmc0: host does not support reading read-only switch, assuming write-enable
+[   82.916025] mmc0: new high speed SDHC card at address 213d
+[   82.930356] mmcblk0: mmc0:213d APPSD 3.75 GiB 
+[   82.935341]  mmcblk0: p1
+[   82.940754] davinci_evm sound: ASoC: CPU DAI (null) not registered
+[   82.947222] davinci_evm sound: snd_soc_register_card failed (-517)
+[  109.767507] FAT-fs (sda1): Volume was not properly unmounted. Some data may be corrupt. Please run fsck.
+
+
+----------------------------------------
+poweroff
+Tue Sep  4 10:41:45 UTC 2018
+----------------------------------------

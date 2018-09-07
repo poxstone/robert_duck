@@ -1,0 +1,607 @@
+NAME         MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT
+sda            8:0    1  7.3G  0 disk 
+└─sda1         8:1    1  7.3G  0 part /mnt/usb
+mmcblk1boot0 179:8    0    2M  1 disk 
+mmcblk1boot1 179:16   0    2M  1 disk 
+mmcblk1      179:0    0  3.7G  0 disk 
+└─mmcblk1p1  179:1    0  3.7G  0 part /
+
+
+----------------------------------------
+which bash
+Tue Sep  4 10:42:35 UTC 2018
+----------------------------------------
+/bin/bash
+
+
+----------------------------------------
+lsblk
+Tue Sep  4 10:42:35 UTC 2018
+----------------------------------------
+NAME         MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT
+sda            8:0    1  7.3G  0 disk 
+└─sda1         8:1    1  7.3G  0 part /mnt/usb
+mmcblk1boot0 179:8    0    2M  1 disk 
+mmcblk1boot1 179:16   0    2M  1 disk 
+mmcblk0      179:24   0  3.8G  0 disk 
+└─mmcblk0p1  179:25   0  3.8G  0 part 
+mmcblk1      179:0    0  3.7G  0 disk 
+└─mmcblk1p1  179:1    0  3.7G  0 part /
+
+
+----------------------------------------
+netstat -ntpl
+Tue Sep  4 10:42:35 UTC 2018
+----------------------------------------
+Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name
+tcp        0      0 192.168.8.1:2060        0.0.0.0:*               LISTEN      2480/wifidog    
+tcp        0      0 0.0.0.0:53              0.0.0.0:*               LISTEN      1002/dnsmasq    
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      1148/sshd       
+tcp6       0      0 :::3001                 :::*                    LISTEN      1/init          
+tcp6       0      0 :::80                   :::*                    LISTEN      2232/nodejs     
+tcp6       0      0 :::8080                 :::*                    LISTEN      1303/apache2    
+tcp6       0      0 :::53                   :::*                    LISTEN      1002/dnsmasq    
+tcp6       0      0 :::22                   :::*                    LISTEN      1148/sshd       
+tcp6       0      0 :::3000                 :::*                    LISTEN      1/init          
+tcp6       0      0 :::1880                 :::*                    LISTEN      1/init          
+
+
+----------------------------------------
+ls /etc/init.d
+Tue Sep  4 10:42:35 UTC 2018
+----------------------------------------
+alsa-utils
+apache2
+avahi-daemon
+bluetooth
+bootlogs
+bootmisc.sh
+checkfs.sh
+checkroot-bootclean.sh
+checkroot.sh
+connman
+cpufrequtils
+cron
+dbus
+dnsmasq
+halt
+haveged
+hdparm
+hostapd
+hostname.sh
+hwclock.sh
+killprocs
+kmod
+loadcpufreq
+motd
+mountall-bootclean.sh
+mountall.sh
+mountdevsubfs.sh
+mountkernfs.sh
+mountnfs-bootclean.sh
+mountnfs.sh
+networking
+pppd-dns
+procps
+rc
+rc.local
+rcS
+README
+reboot
+rmnologin
+rsync
+rsyslog
+screen-cleanup
+sendsigs
+single
+skeleton
+ssh
+sudo
+udev
+udhcpd
+umountfs
+umountnfs.sh
+umountroot
+urandom
+x11-common
+
+
+----------------------------------------
+ifconfig
+Tue Sep  4 10:42:35 UTC 2018
+----------------------------------------
+SoftAp0   Link encap:Ethernet  HWaddr b0:d5:cc:fd:c4:5d  
+          inet addr:192.168.8.1  Bcast:192.168.8.255  Mask:255.255.255.0
+          inet6 addr: fe80::b2d5:ccff:fefd:c45d/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:33 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:7855 (7.6 KiB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:232 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:232 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:18452 (18.0 KiB)  TX bytes:18452 (18.0 KiB)
+
+usb0      Link encap:Ethernet  HWaddr b0:d5:cc:fd:c4:5f  
+          inet addr:192.168.7.2  Bcast:192.168.7.3  Mask:255.255.255.252
+          inet6 addr: fe80::b2d5:ccff:fefd:c45f/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:115 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:48 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:17022 (16.6 KiB)  TX bytes:13455 (13.1 KiB)
+
+usb1      Link encap:Ethernet  HWaddr b0:d5:cc:fd:c4:62  
+          inet addr:192.168.6.2  Bcast:192.168.6.3  Mask:255.255.255.252
+          inet6 addr: fe80::b2d5:ccff:fefd:c462/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:115 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:43 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:17020 (16.6 KiB)  TX bytes:10969 (10.7 KiB)
+
+wlan0     Link encap:Ethernet  HWaddr 2c:f7:f1:06:4f:78  
+          UP BROADCAST MULTICAST DYNAMIC  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+
+
+----------------------------------------
+curl google.com
+Tue Sep  4 10:42:35 UTC 2018
+----------------------------------------
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (7) Couldn't connect to server
+
+
+----------------------------------------
+dmesg
+Tue Sep  4 10:42:35 UTC 2018
+----------------------------------------
+[    0.000000] Booting Linux on physical CPU 0x0
+[    0.000000] Initializing cgroup subsys cpuset
+[    0.000000] Initializing cgroup subsys cpu
+[    0.000000] Initializing cgroup subsys cpuacct
+[    0.000000] Linux version 4.4.24-ti-r58 (root@a2-imx6q-wandboard-2gb) (gcc version 4.9.2 (Debian 4.9.2-10) ) #1 SMP Thu Oct 20 17:16:05 UTC 2016
+[    0.000000] CPU: ARMv7 Processor [413fc082] revision 2 (ARMv7), cr=50c5387d
+[    0.000000] CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+[    0.000000] Machine model: TI AM335x BeagleBone Green Wireless
+[    0.000000] cma: Reserved 48 MiB at 0x9c800000
+[    0.000000] Memory policy: Data cache writeback
+[    0.000000] On node 0 totalpages: 130560
+[    0.000000] free_area_init_node: node 0, pgdat c0c7ed40, node_mem_map df961000
+[    0.000000]   Normal zone: 1152 pages used for memmap
+[    0.000000]   Normal zone: 0 pages reserved
+[    0.000000]   Normal zone: 130560 pages, LIFO batch:31
+[    0.000000] CPU: All CPU(s) started in SVC mode.
+[    0.000000] AM335X ES2.1 (sgx neon )
+[    0.000000] PERCPU: Embedded 13 pages/cpu @df917000 s24320 r8192 d20736 u53248
+[    0.000000] pcpu-alloc: s24320 r8192 d20736 u53248 alloc=13*4096
+[    0.000000] pcpu-alloc: [0] 0 
+[    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 129408
+[    0.000000] Kernel command line: console=ttyO0,115200n8 root=UUID=cf0d44d3-44c2-418f-ba88-c138c5c62003 ro rootfstype=ext4 rootwait coherent_pool=1M quiet cape_universal=enable
+[    0.000000] PID hash table entries: 2048 (order: 1, 8192 bytes)
+[    0.000000] Dentry cache hash table entries: 65536 (order: 6, 262144 bytes)
+[    0.000000] Inode-cache hash table entries: 32768 (order: 5, 131072 bytes)
+[    0.000000] Memory: 448820K/522240K available (7548K kernel code, 915K rwdata, 3788K rodata, 612K init, 907K bss, 24268K reserved, 49152K cma-reserved, 0K highmem)
+[    0.000000] Virtual kernel memory layout:
+    vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+    fixmap  : 0xffc00000 - 0xfff00000   (3072 kB)
+    vmalloc : 0xe0800000 - 0xff800000   ( 496 MB)
+    lowmem  : 0xc0000000 - 0xe0000000   ( 512 MB)
+    pkmap   : 0xbfe00000 - 0xc0000000   (   2 MB)
+    modules : 0xbf800000 - 0xbfe00000   (   6 MB)
+      .text : 0xc0008000 - 0xc0b1a354   (11337 kB)
+      .init : 0xc0b1b000 - 0xc0bb4000   ( 612 kB)
+      .data : 0xc0bb4000 - 0xc0c98ee8   ( 916 kB)
+       .bss : 0xc0c9b000 - 0xc0d7dfa8   ( 908 kB)
+[    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+[    0.000000] Hierarchical RCU implementation.
+[    0.000000] 	Build-time adjustment of leaf fanout to 32.
+[    0.000000] 	RCU restricting CPUs from NR_CPUS=2 to nr_cpu_ids=1.
+[    0.000000] RCU: Adjusting geometry for rcu_fanout_leaf=32, nr_cpu_ids=1
+[    0.000000] NR_IRQS:16 nr_irqs:16 16
+[    0.000000] IRQ: Found an INTC at 0xfa200000 (revision 5.0) with 128 interrupts
+[    0.000000] OMAP clockevent source: timer2 at 24000000 Hz
+[    0.000013] sched_clock: 32 bits at 24MHz, resolution 41ns, wraps every 89478484971ns
+[    0.000032] clocksource: timer1: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 79635851949 ns
+[    0.000045] OMAP clocksource: timer1 at 24000000 Hz
+[    0.001234] clocksource_probe: no matching clocksources found
+[    0.001422] Console: colour dummy device 80x30
+[    0.001447] WARNING: Your 'console=ttyO0' has been replaced by 'ttyS0'
+[    0.001455] This ensures that you still see kernel messages. Please
+[    0.001461] update your kernel commandline.
+[    0.001477] Calibrating delay loop... 995.32 BogoMIPS (lpj=1990656)
+[    0.046893] pid_max: default: 32768 minimum: 301
+[    0.047027] Security Framework initialized
+[    0.047040] Yama: becoming mindful.
+[    0.047072] AppArmor: AppArmor disabled by boot time parameter
+[    0.047229] Mount-cache hash table entries: 1024 (order: 0, 4096 bytes)
+[    0.047241] Mountpoint-cache hash table entries: 1024 (order: 0, 4096 bytes)
+[    0.048023] Initializing cgroup subsys io
+[    0.048053] Initializing cgroup subsys memory
+[    0.048096] Initializing cgroup subsys devices
+[    0.048113] Initializing cgroup subsys freezer
+[    0.048129] Initializing cgroup subsys net_cls
+[    0.048143] Initializing cgroup subsys perf_event
+[    0.048157] Initializing cgroup subsys net_prio
+[    0.048179] Initializing cgroup subsys pids
+[    0.048228] CPU: Testing write buffer coherency: ok
+[    0.048284] ftrace: allocating 34600 entries in 68 pages
+[    0.134225] CPU0: thread -1, cpu 0, socket -1, mpidr 0
+[    0.134341] Setting up static identity map for 0x80008240 - 0x8000828c
+[    0.138148] Brought up 1 CPUs
+[    0.138170] SMP: Total of 1 processors activated (995.32 BogoMIPS).
+[    0.138178] CPU: All CPU(s) started in SVC mode.
+[    0.139755] devtmpfs: initialized
+[    0.159455] VFP support v0.3: implementor 41 architecture 3 part 30 variant c rev 3
+[    0.177823] omap_hwmod: debugss: _wait_target_disable failed
+[    0.231566] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+[    0.235276] xor: measuring software checksum speed
+[    0.274892]    arm4regs  :  1221.000 MB/sec
+[    0.314899]    8regs     :  1094.000 MB/sec
+[    0.354891]    32regs    :  1153.000 MB/sec
+[    0.394890]    neon      :  1755.000 MB/sec
+[    0.394898] xor: using function: neon (1755.000 MB/sec)
+[    0.395000] pinctrl core: initialized pinctrl subsystem
+[    0.396941] NET: Registered protocol family 16
+[    0.400454] DMA: preallocated 1024 KiB pool for atomic coherent allocations
+[    0.401665] cpuidle: using governor ladder
+[    0.401687] cpuidle: using governor menu
+[    0.406822] OMAP GPIO hardware version 0.1
+[    0.409196] GPIO line 112 (MCASP0_AXR0) hogged as output/low
+[    0.417976] No ATAGs?
+[    0.418004] hw-breakpoint: debug architecture 0x4 unsupported.
+[    0.418566] omap4_sram_init:Unable to allocate sram needed to handle errata I688
+[    0.418579] omap4_sram_init:Unable to get sram pool needed to handle errata I688
+[    0.494907] raid6: int32x1  gen()   263 MB/s
+[    0.562930] raid6: int32x1  xor()   239 MB/s
+[    0.631048] raid6: int32x2  gen()   375 MB/s
+[    0.698945] raid6: int32x2  xor()   280 MB/s
+[    0.767001] raid6: int32x4  gen()   391 MB/s
+[    0.834909] raid6: int32x4  xor()   264 MB/s
+[    0.902916] raid6: int32x8  gen()   358 MB/s
+[    0.971009] raid6: int32x8  xor()   232 MB/s
+[    1.038902] raid6: neonx1   gen()  1448 MB/s
+[    1.106900] raid6: neonx1   xor()   846 MB/s
+[    1.174901] raid6: neonx2   gen()  1880 MB/s
+[    1.242908] raid6: neonx2   xor()  1170 MB/s
+[    1.310899] raid6: neonx4   gen()  1994 MB/s
+[    1.378910] raid6: neonx4   xor()  1205 MB/s
+[    1.446931] raid6: neonx8   gen()  1211 MB/s
+[    1.514934] raid6: neonx8   xor()   672 MB/s
+[    1.514941] raid6: using algorithm neonx4 gen() 1994 MB/s
+[    1.514948] raid6: .... xor() 1205 MB/s, rmw enabled
+[    1.514954] raid6: using intx1 recovery algorithm
+[    1.523708] edma 49000000.edma: TI EDMA DMA engine driver
+[    1.528773] SCSI subsystem initialized
+[    1.529144] libata version 3.00 loaded.
+[    1.529471] usbcore: registered new interface driver usbfs
+[    1.529540] usbcore: registered new interface driver hub
+[    1.529636] usbcore: registered new device driver usb
+[    1.530187] omap_i2c 44e0b000.i2c: could not find pctldev for node /ocp/l4_wkup@44c00000/scm@210000/pinmux@800/pinmux_i2c0_pins, deferring probe
+[    1.530234] omap_i2c 4819c000.i2c: could not find pctldev for node /ocp/l4_wkup@44c00000/scm@210000/pinmux@800/pinmux_i2c2_pins, deferring probe
+[    1.530344] media: Linux media interface: v0.10
+[    1.530398] Linux video capture interface: v2.00
+[    1.530505] pps_core: LinuxPPS API ver. 1 registered
+[    1.530512] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+[    1.530544] PTP clock support registered
+[    1.531417] omap-mailbox 480c8000.mailbox: omap mailbox rev 0x400
+[    1.532649] NetLabel: Initializing
+[    1.532661] NetLabel:  domain hash size = 128
+[    1.532666] NetLabel:  protocols = UNLABELED CIPSOv4
+[    1.532723] NetLabel:  unlabeled traffic allowed by default
+[    1.533069] clocksource: Switched to clocksource timer1
+[    1.638856] NET: Registered protocol family 2
+[    1.639616] TCP established hash table entries: 4096 (order: 2, 16384 bytes)
+[    1.639665] TCP bind hash table entries: 4096 (order: 3, 32768 bytes)
+[    1.639724] TCP: Hash tables configured (established 4096 bind 4096)
+[    1.639793] UDP hash table entries: 256 (order: 1, 8192 bytes)
+[    1.639813] UDP-Lite hash table entries: 256 (order: 1, 8192 bytes)
+[    1.640101] NET: Registered protocol family 1
+[    1.640623] RPC: Registered named UNIX socket transport module.
+[    1.640636] RPC: Registered udp transport module.
+[    1.640642] RPC: Registered tcp transport module.
+[    1.640649] RPC: Registered tcp NFSv4.1 backchannel transport module.
+[    1.641372] Unpacking initramfs...
+[    1.998985] Freeing initrd memory: 4988K (cfb21000 - d0000000)
+[    1.999506] hw perfevents: enabled with armv7_cortex_a8 PMU driver, 5 counters available
+[    2.002151] futex hash table entries: 256 (order: 2, 16384 bytes)
+[    2.002260] audit: initializing netlink subsys (disabled)
+[    2.002338] audit: type=2000 audit(1.940:1): initialized
+[    2.011999] zbud: loaded
+[    2.012631] VFS: Disk quotas dquot_6.6.0
+[    2.012877] VFS: Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+[    2.015486] NFS: Registering the id_resolver key type
+[    2.015560] Key type id_resolver registered
+[    2.015569] Key type id_legacy registered
+[    2.015593] nfs4filelayout_init: NFSv4 File Layout Driver Registering...
+[    2.015925] fuse init (API version 7.23)
+[    2.016513] SGI XFS with ACLs, security attributes, realtime, no debug enabled
+[    2.024244] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 249)
+[    2.024452] io scheduler noop registered
+[    2.024467] io scheduler deadline registered
+[    2.024531] io scheduler cfq registered (default)
+[    2.025923] pinctrl-single 44e10800.pinmux: 142 pins at pa f9e10800 size 568
+[    2.027523] wkup_m3_ipc 44e11324.wkup_m3_ipc: could not get rproc handle
+[    2.028768] Serial: 8250/16550 driver, 6 ports, IRQ sharing disabled
+[    2.031788] 44e09000.serial: ttyS0 at MMIO 0x44e09000 (irq = 158, base_baud = 3000000) is a 8250
+[    2.045122] console [ttyS0] enabled
+[    2.046018] 481a6000.serial: ttyS3 at MMIO 0x481a6000 (irq = 159, base_baud = 3000000) is a 8250
+[    2.047318] [drm] Initialized drm 1.1.0 20060810
+[    2.051963] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+[    2.052000] ehci-platform: EHCI generic platform driver
+[    2.052160] ehci-omap: OMAP-EHCI Host Controller driver
+[    2.052535] usbcore: registered new interface driver usb-storage
+[    2.054665] 47401300.usb-phy supply vcc not found, using dummy regulator
+[    2.056960] musb-hdrc: ConfigData=0xde (UTMI-8, dyn FIFOs, bulk combine, bulk split, HB-ISO Rx, HB-ISO Tx, SoftConn)
+[    2.056977] musb-hdrc: MHDRC RTL version 2.0 
+[    2.056985] musb-hdrc: setup fifo_mode 4
+[    2.057002] musb-hdrc: 28/31 max ep, 16384/16384 memory
+[    2.058601] 47401b00.usb-phy supply vcc not found, using dummy regulator
+[    2.060698] musb-hdrc: ConfigData=0xde (UTMI-8, dyn FIFOs, bulk combine, bulk split, HB-ISO Rx, HB-ISO Tx, SoftConn)
+[    2.060713] musb-hdrc: MHDRC RTL version 2.0 
+[    2.060721] musb-hdrc: setup fifo_mode 4
+[    2.060735] musb-hdrc: 28/31 max ep, 16384/16384 memory
+[    2.060880] musb-hdrc musb-hdrc.1.auto: MUSB HDRC host driver
+[    2.060912] musb-hdrc musb-hdrc.1.auto: new USB bus registered, assigned bus number 1
+[    2.061259] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+[    2.061272] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    2.061282] usb usb1: Product: MUSB HDRC host driver
+[    2.061290] usb usb1: Manufacturer: Linux 4.4.24-ti-r58 musb-hcd
+[    2.061298] usb usb1: SerialNumber: musb-hdrc.1.auto
+[    2.062093] hub 1-0:1.0: USB hub found
+[    2.062144] hub 1-0:1.0: 1 port detected
+[    2.071272] mousedev: PS/2 mouse device common for all mice
+[    2.073609] omap_rtc 44e3e000.rtc: rtc core: registered 44e3e000.rtc as rtc0
+[    2.074368] i2c /dev entries driver
+[    2.075858] omap_wdt: OMAP Watchdog Timer Rev 0x01: initial timeout 60 sec
+[    2.076238] cpuidle: enable-method property 'ti,am3352' found operations
+[    2.076840] omap_hsmmc 48060000.mmc: Got CD GPIO
+[    2.178812] mmc1: MAN_BKOPS_EN bit is not set
+[    2.182128] mmc1: new high speed MMC card at address 0001
+[    2.182997] mmcblk1: mmc1:0001 Q2J54A 3.64 GiB 
+[    2.183368] mmcblk1boot0: mmc1:0001 Q2J54A partition 1 2.00 MiB
+[    2.183723] mmcblk1boot1: mmc1:0001 Q2J54A partition 2 2.00 MiB
+[    2.185200]  mmcblk1: p1
+[    2.250547] hidraw: raw HID events driver (C) Jiri Kosina
+[    2.251317] usbcore: registered new interface driver usbhid
+[    2.251327] usbhid: USB HID core driver
+[    2.252649] ashmem: initialized
+[    2.253544]  remoteproc0: wkup_m3 is available
+[    2.253557]  remoteproc0: Note: remoteproc is still under development and considered experimental.
+[    2.253565]  remoteproc0: THE BINARY FORMAT IS NOT YET FINALIZED, and backward compatibility isn't yet guaranteed.
+[    2.257677] omap_hsmmc 47810000.mmc: card claims to support voltages below defined range
+[    2.259036] NET: Registered protocol family 10
+[    2.260433] mip6: Mobile IPv6
+[    2.260456] NET: Registered protocol family 17
+[    2.260584] Key type dns_resolver registered
+[    2.260597] mpls_gso: MPLS GSO support
+[    2.260894] omap_voltage_late_init: Voltage driver support not added
+[    2.268671] PM: Cannot get wkup_m3_ipc handle
+[    2.273237] ThumbEE CPU extension supported.
+[    2.273267] Registering SWP/SWPB emulation handler
+[    2.274303] registered taskstats version 1
+[    2.274520] zswap: loaded using pool lzo/zbud
+[    2.278549] Btrfs loaded
+[    2.279919] mmc2: queuing unknown CIS tuple 0x91 (3 bytes)
+[    2.280851] mmc2: new high speed SDIO card at address 0001
+[    2.303619] Key type encrypted registered
+[    2.306419] input: tps65217_pwr_but as /devices/platform/ocp/44e0b000.i2c/i2c-0/0-0024/input/input0
+[    2.330713] tps65217 0-0024: TPS65217 ID 0xe version 1.2
+[    2.331247] at24 0-0050: 32768 byte 24c256 EEPROM, writable, 1 bytes/write
+[    2.331294] omap_i2c 44e0b000.i2c: bus 0 rev0.11 at 400 kHz
+[    2.332874] at24 2-0054: 32768 byte 24c256 EEPROM, writable, 1 bytes/write
+[    2.333340] at24 2-0055: 32768 byte 24c256 EEPROM, writable, 1 bytes/write
+[    2.333721] at24 2-0056: 32768 byte 24c256 EEPROM, writable, 1 bytes/write
+[    2.334089] at24 2-0057: 32768 byte 24c256 EEPROM, writable, 1 bytes/write
+[    2.334129] omap_i2c 4819c000.i2c: bus 2 rev0.11 at 100 kHz
+[    2.335185]  remoteproc0: powering up wkup_m3
+[    2.335245]  remoteproc0: Booting fw image am335x-pm-firmware.elf, size 217148
+[    2.335494]  remoteproc0: remote processor wkup_m3 is now up
+[    2.335516] wkup_m3_ipc 44e11324.wkup_m3_ipc: CM3 Firmware Version = 0x192
+[    2.341228] bone_capemgr bone_capemgr: Baseboard: 'A335BNLT,GW1A,BBGW16062172'
+[    2.341255] bone_capemgr bone_capemgr: compatible-baseboard=ti,beaglebone-black - #slots=4
+[    2.381078] bone_capemgr bone_capemgr: slot #0: No cape found
+[    2.425080] bone_capemgr bone_capemgr: slot #1: No cape found
+[    2.449079] usb 1-1: new high-speed USB device number 2 using musb-hdrc
+[    2.469076] bone_capemgr bone_capemgr: slot #2: No cape found
+[    2.513073] bone_capemgr bone_capemgr: slot #3: No cape found
+[    2.518990] bone_capemgr bone_capemgr: initialized OK.
+[    2.521244] PM: bootloader does not support rtc-only!
+[    2.522158] omap_rtc 44e3e000.rtc: setting system clock to 2000-01-01 00:00:00 UTC (946684800)
+[    2.522185] of_cfs_init
+[    2.522298] of_cfs_init: OK
+[    2.527815] PM: Hibernation image not present or could not be loaded.
+[    2.529180] Freeing unused kernel memory: 612K (c0b1b000 - c0bb4000)
+[    2.578962] usb 1-1: New USB device found, idVendor=05e3, idProduct=0610
+[    2.578984] usb 1-1: New USB device strings: Mfr=0, Product=1, SerialNumber=0
+[    2.578994] usb 1-1: Product: USB2.0 Hub
+[    2.580089] hub 1-1:1.0: USB hub found
+[    2.580444] hub 1-1:1.0: 4 ports detected
+[    2.729888] random: systemd-udevd: uninitialized urandom read (16 bytes read, 28 bits of entropy available)
+[    2.730581] random: systemd-udevd: uninitialized urandom read (16 bytes read, 28 bits of entropy available)
+[    2.730692] random: systemd-udevd: uninitialized urandom read (16 bytes read, 28 bits of entropy available)
+[    2.746486] random: udevadm: uninitialized urandom read (16 bytes read, 28 bits of entropy available)
+[    2.746888] random: udevadm: uninitialized urandom read (16 bytes read, 28 bits of entropy available)
+[    2.747034] random: udevadm: uninitialized urandom read (16 bytes read, 28 bits of entropy available)
+[    2.747690] random: udevadm: uninitialized urandom read (16 bytes read, 28 bits of entropy available)
+[    2.748219] random: udevadm: uninitialized urandom read (16 bytes read, 28 bits of entropy available)
+[    2.748715] random: udevadm: uninitialized urandom read (16 bytes read, 28 bits of entropy available)
+[    2.749518] random: udevadm: uninitialized urandom read (16 bytes read, 28 bits of entropy available)
+[    5.681257] EXT4-fs (mmcblk1p1): mounted filesystem with ordered data mode. Opts: (null)
+[    6.029499] systemd[1]: System time before build time, advancing clock.
+[    6.062390] systemd[1]: Failed to insert module 'kdbus': Function not implemented
+[    6.095790] systemd[1]: systemd 230 running in system mode. (+PAM +AUDIT +SELINUX +IMA +APPARMOR +SMACK +SYSVINIT +UTMP +LIBCRYPTSETUP +GCRYPT +GNUTLS +ACL +XZ -LZ4 +SECCOMP +BLKID +ELFUTILS +KMOD +IDN)
+[    6.096441] systemd[1]: Detected architecture arm.
+[    6.097518] systemd[1]: Set hostname to <beaglebone>.
+[    6.598975] systemd[1]: Started Dispatch Password Requests to Console Directory Watch.
+[    6.599670] systemd[1]: Listening on Journal Socket.
+[    6.599975] systemd[1]: Listening on udev Kernel Socket.
+[    6.600275] systemd[1]: Listening on udev Control Socket.
+[    6.600390] systemd[1]: Reached target Swap.
+[    6.601552] systemd[1]: Created slice System Slice.
+[    6.605291] systemd[1]: Mounting /sys/kernel/debug...
+[    6.614841] systemd[1]: Starting Create list of required static device nodes for the current kernel...
+[    6.615380] systemd[1]: Listening on Journal Socket (/dev/log).
+[    6.616096] systemd[1]: Listening on Journal Audit Socket.
+[    6.616322] systemd[1]: Reached target Remote File Systems (Pre).
+[    6.616447] systemd[1]: Reached target Remote File Systems.
+[    6.670603] systemd[1]: Starting Load Kernel Modules...
+[    6.671086] systemd[1]: Listening on /dev/initctl Compatibility Named Pipe.
+[    6.708354] systemd[1]: Mounting POSIX Message Queue File System...
+[    6.735265] systemd[1]: Set up automount Arbitrary Executable File Formats File System Automount Point.
+[    6.774436] systemd[1]: Created slice User and Session Slice.
+[    6.774596] systemd[1]: Reached target Slices.
+[    6.775436] systemd[1]: Created slice system-getty.slice.
+[    6.775812] systemd[1]: Listening on Syslog Socket.
+[    6.811343] systemd[1]: Starting Journal Service...
+[    6.811983] systemd[1]: Started Forward Password Requests to Wall Directory Watch.
+[    6.812199] systemd[1]: Reached target Paths.
+[    6.829370] systemd[1]: Created slice system-serial\x2dgetty.slice.
+[    6.829856] systemd[1]: Reached target Encrypted Volumes.
+[    6.830268] systemd[1]: Listening on fsck to fsckd communication Socket.
+[    6.850727] systemd[1]: Starting Remount Root and Kernel File Systems...
+[    6.927250] systemd[1]: Mounted POSIX Message Queue File System.
+[    6.927581] systemd[1]: Mounted /sys/kernel/debug.
+[    6.946165] systemd[1]: Started Create list of required static device nodes for the current kernel.
+[    6.956541] systemd[1]: Started Load Kernel Modules.
+[    6.999708] systemd[1]: Mounting Configuration File System...
+[    7.001375] EXT4-fs (mmcblk1p1): re-mounted. Opts: errors=remount-ro
+[    7.024497] systemd[1]: Mounting FUSE Control File System...
+[    7.106341] systemd[1]: Starting Apply Kernel Variables...
+[    7.197670] systemd[1]: Starting Create Static Device Nodes in /dev...
+[    7.244736] systemd[1]: Mounted FUSE Control File System.
+[    7.245042] systemd[1]: Mounted Configuration File System.
+[    7.292340] systemd[1]: Started Remount Root and Kernel File Systems.
+[    7.301178] systemd[1]: Started Apply Kernel Variables.
+[    7.344569] systemd[1]: Starting udev Coldplug all Devices...
+[    7.372818] systemd[1]: Starting Load/Save Random Seed...
+[    7.409026] systemd[1]: Started Journal Service.
+[    7.861708] systemd-journald[538]: Received request to flush runtime journal from PID 1
+[   10.827452] random: nonblocking pool is initialized
+[   13.476014] using random self ethernet address
+[   13.476038] using random host ethernet address
+[   13.535300] using random self ethernet address
+[   13.535323] using random host ethernet address
+[   13.720478] Mass Storage Function, version: 2009/09/11
+[   13.720503] LUN: removable file: (no medium)
+[   13.945035] usb0: HOST MAC b0:d5:cc:fd:c4:5e
+[   13.948872] usb0: MAC b0:d5:cc:fd:c4:5f
+[   13.950682] usb1: HOST MAC b0:d5:cc:fd:c4:61
+[   13.956176] usb1: MAC b0:d5:cc:fd:c4:62
+[   14.366093] configfs-gadget gadget: high-speed config #1: c
+[   23.582806] omap_rng 48310000.rng: OMAP Random Number Generator ver. 20
+[   24.817024] omap-sham 53100000.sham: hw accel on OMAP rev 4.3
+[   24.894301] omap-aes 53500000.aes: OMAP AES hw accel rev: 3.2
+[   25.416058] davinci_evm sound: ASoC: CPU DAI (null) not registered
+[   25.422435] davinci_evm sound: snd_soc_register_card failed (-517)
+[   27.422033] davinci_evm sound: ASoC: CPU DAI (null) not registered
+[   27.428349] davinci_evm sound: snd_soc_register_card failed (-517)
+[   27.790560] wlcore: wl18xx HW: 183x or 180x, PG 2.2 (ROM 0x11)
+[   27.912912] wlcore: loaded
+[   28.369024] wlcore: PHY firmware version: Rev 8.2.0.0.236
+[   28.414449] wlcore: firmware booted (Rev 8.9.0.0.69)
+[   28.431197] IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+[   30.166168] IPv6: ADDRCONF(NETDEV_UP): SoftAp0: link is not ready
+[   30.282859] ip_tables: (C) 2000-2006 Netfilter Core Team
+[   30.310777] Bluetooth: Core ver 2.21
+[   30.310930] NET: Registered protocol family 31
+[   30.310940] Bluetooth: HCI device and connection manager initialized
+[   30.310966] Bluetooth: HCI socket layer initialized
+[   30.310982] Bluetooth: L2CAP socket layer initialized
+[   30.311025] Bluetooth: SCO socket layer initialized
+[   30.333865] Bluetooth: HCI UART driver ver 2.3
+[   30.333888] Bluetooth: HCI UART protocol H4 registered
+[   30.333896] Bluetooth: HCI UART protocol BCSP registered
+[   30.333902] Bluetooth: HCI UART protocol LL registered
+[   30.333909] Bluetooth: HCI UART protocol ATH3K registered
+[   30.333917] Bluetooth: HCI UART protocol Three-wire (H5) registered
+[   30.334194] Bluetooth: HCI UART protocol BCM registered
+[   30.334203] Bluetooth: HCI UART protocol QCA registered
+[   30.336295] nf_conntrack version 0.5.0 (7868 buckets, 31472 max)
+[   30.892763] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+[   30.892788] Bluetooth: BNEP filters: protocol multicast
+[   30.892820] Bluetooth: BNEP socket layer initialized
+[   59.972806] wlcore: down
+[   65.048844] IPv6: ADDRCONF(NETDEV_CHANGE): SoftAp0: link becomes ready
+[   70.477419] usb 1-1.2: new low-speed USB device number 3 using musb-hdrc
+[   70.577201] usb 1-1.2: New USB device found, idVendor=1a2c, idProduct=4224
+[   70.577236] usb 1-1.2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[   70.577252] usb 1-1.2: Product: USB Keyboard
+[   70.577266] usb 1-1.2: Manufacturer: SEM
+[   70.588662] input: SEM USB Keyboard as /devices/platform/ocp/47400000.usb/47401c00.usb/musb-hdrc.1.auto/usb1/1-1/1-1.2/1-1.2:1.0/0003:1A2C:4224.0001/input/input1
+[   70.642908] hid-generic 0003:1A2C:4224.0001: input,hidraw0: USB HID v1.10 Keyboard [SEM USB Keyboard] on usb-musb-hdrc.1.auto-1.2/input0
+[   70.643822] davinci_evm sound: ASoC: CPU DAI (null) not registered
+[   70.650268] davinci_evm sound: snd_soc_register_card failed (-517)
+[   70.668841] input: SEM USB Keyboard as /devices/platform/ocp/47400000.usb/47401c00.usb/musb-hdrc.1.auto/usb1/1-1/1-1.2/1-1.2:1.1/0003:1A2C:4224.0002/input/input2
+[   70.677324] davinci_evm sound: ASoC: CPU DAI (null) not registered
+[   70.683612] davinci_evm sound: snd_soc_register_card failed (-517)
+[   70.723100] hid-generic 0003:1A2C:4224.0002: input,hidraw1: USB HID v1.10 Device [SEM USB Keyboard] on usb-musb-hdrc.1.auto-1.2/input1
+[   70.727675] davinci_evm sound: ASoC: CPU DAI (null) not registered
+[   70.734058] davinci_evm sound: snd_soc_register_card failed (-517)
+[   78.021324] usb 1-1.4: new high-speed USB device number 4 using musb-hdrc
+[   78.114431] usb 1-1.4: New USB device found, idVendor=0951, idProduct=1666
+[   78.114456] usb 1-1.4: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[   78.114467] usb 1-1.4: Product: DataTraveler 3.0
+[   78.114475] usb 1-1.4: Manufacturer: Kingston
+[   78.114484] usb 1-1.4: SerialNumber: 002618887702E120484B3162
+[   78.121605] usb-storage 1-1.4:1.0: USB Mass Storage device detected
+[   78.134867] scsi host0: usb-storage 1-1.4:1.0
+[   78.136408] davinci_evm sound: ASoC: CPU DAI (null) not registered
+[   78.142777] davinci_evm sound: snd_soc_register_card failed (-517)
+[   78.327152] usbcore: registered new interface driver uas
+[   79.138399] scsi 0:0:0:0: Direct-Access     Kingston DataTraveler 3.0 PMAP PQ: 0 ANSI: 6
+[   79.144884] sd 0:0:0:0: [sda] 15360000 512-byte logical blocks: (7.86 GB/7.32 GiB)
+[   79.145950] davinci_evm sound: ASoC: CPU DAI (null) not registered
+[   79.152253] davinci_evm sound: snd_soc_register_card failed (-517)
+[   79.158772] sd 0:0:0:0: [sda] Write Protect is off
+[   79.158794] sd 0:0:0:0: [sda] Mode Sense: 45 00 00 00
+[   79.159898] sd 0:0:0:0: [sda] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+[   79.220448]  sda: sda1
+[   79.225170] sd 0:0:0:0: [sda] Attached SCSI removable disk
+[   79.268819] sd 0:0:0:0: Attached scsi generic sg0 type 0
+[   87.739715] mmc0: host does not support reading read-only switch, assuming write-enable
+[   87.743653] mmc0: new high speed SDHC card at address 213d
+[   87.753493] mmcblk0: mmc0:213d APPSD 3.75 GiB 
+[   87.756336]  mmcblk0: p1
+[   87.762697] davinci_evm sound: ASoC: CPU DAI (null) not registered
+[   87.769120] davinci_evm sound: snd_soc_register_card failed (-517)
+[   94.832324] wlcore: ERROR SW watchdog interrupt received! starting recovery.
+[   94.839491] ------------[ cut here ]------------
+[   94.839822] WARNING: CPU: 0 PID: 1843 at drivers/net/wireless/ti/wlcore/main.c:797 wl12xx_queue_recovery_work.part.8+0x46/0x48 [wlcore]()
+[   94.839834] Modules linked in: sg uas joydev ipt_REJECT nf_reject_ipv4 xt_TCPMSS xt_REDIRECT nf_nat_redirect xt_tcpudp xt_mark iptable_mangle bnep iptable_filter xt_conntrack ipt_MASQUERADE nf_nat_masquerade_ipv4 iptable_nat nf_conntrack_ipv4 nf_defrag_ipv4 nf_nat_ipv4 nf_nat hci_uart btbcm btqca nf_conntrack ip_tables bluetooth x_tables arc4 wl18xx wlcore mac80211 snd_soc_evm snd_soc_wilink8_bt snd_soc_core snd_pcm_dmaengine snd_pcm snd_timer snd soundcore omap_aes_driver omap_sham omap_rng rng_core wlcore_sdio evdev uio_pdrv_genirq uio usb_f_mass_storage usb_f_acm u_serial usb_f_ecm usb_f_rndis u_ether libcomposite cfg80211 rfkill
+[   94.840103] CPU: 0 PID: 1843 Comm: irq/54-wl18xx Not tainted 4.4.24-ti-r58 #1
+[   94.840114] Hardware name: Generic AM33XX (Flattened Device Tree)
+[   94.840165] [<c0015b81>] (unwind_backtrace) from [<c00123f9>] (show_stack+0x11/0x14)
+[   94.840194] [<c00123f9>] (show_stack) from [<c03f6203>] (dump_stack+0x73/0x80)
+[   94.840234] [<c03f6203>] (dump_stack) from [<c00310df>] (warn_slowpath_common+0x6b/0x94)
+[   94.840257] [<c00310df>] (warn_slowpath_common) from [<c00311af>] (warn_slowpath_null+0x17/0x1c)
+[   94.840392] [<c00311af>] (warn_slowpath_null) from [<bfadadab>] (wl12xx_queue_recovery_work.part.8+0x46/0x48 [wlcore])
+[   94.840649] [<bfadadab>] (wl12xx_queue_recovery_work.part.8 [wlcore]) from [<bfadafcb>] (wlcore_irq+0x112/0x114 [wlcore])
+[   94.840789] [<bfadafcb>] (wlcore_irq [wlcore]) from [<c0078539>] (irq_thread_fn+0x15/0x24)
+[   94.840815] [<c0078539>] (irq_thread_fn) from [<c00787c5>] (irq_thread+0x101/0x18c)
+[   94.840842] [<c00787c5>] (irq_thread) from [<c00484bb>] (kthread+0xaf/0xc4)
+[   94.840871] [<c00484bb>] (kthread) from [<c000ed15>] (ret_from_fork+0x11/0x1c)
+[   94.840884] ---[ end trace 0524e5b282bd1994 ]---
+[   94.840968] wlcore: Hardware recovery in progress. FW ver: Rev 8.9.0.0.69
+[   94.849778] wlcore: pc: 0x11b3a, hint_sts: 0x00000000 count: 1
+[   94.850254] wlcore: down
+[   94.850309] wlcore: down
+[   94.850326] wlcore: down
+[   94.851518] ieee80211 phy0: Hardware restart was requested
+[   95.290214] wlcore: PHY firmware version: Rev 8.2.0.0.236
+[   95.357052] wlcore: firmware booted (Rev 8.9.0.0.69)
+[  157.177405] FAT-fs (sda1): Volume was not properly unmounted. Some data may be corrupt. Please run fsck.
+

@@ -1,0 +1,17 @@
+#!/bin/bash
+
+#---run---#
+#mount /dev/sda1 /mnt/usb
+#bash /mnt/usb/bin.sh
+
+#--barsneeded--#
+DATE=`date +%Y-%m-%d_%H-%M`;
+SCRIPT="${0}.sh";
+BACKUP_FOLDER="${0}.back.${DATE}/";
+OUTPUT="${BACKUP_FOLDER}/record.out";
+
+#backup
+mkdir -p "${BACKUP_FOLDER}";
+
+#--script record--#
+source ${SCRIPT} &>> ${OUTPUT};

@@ -1,0 +1,382 @@
+Oct 20 18:47:10 beaglebone systemd-logind[797]: New seat seat0.
+Oct 20 18:47:27 beaglebone systemd-logind[797]: Watching system buttons on /dev/input/event0 (tps65217_pwr_but)
+Oct 20 18:47:41 beaglebone sshd[2174]: Server listening on 0.0.0.0 port 22.
+Oct 20 18:47:41 beaglebone sshd[2174]: Server listening on :: port 22.
+Oct 20 18:48:47 beaglebone systemd-logind[797]: Power key pressed.
+Oct 20 18:48:47 beaglebone systemd-logind[797]: Powering Off...
+Oct 20 18:48:47 beaglebone systemd-logind[797]: System is powering down.
+Oct 20 18:47:11 beaglebone systemd-logind[741]: New seat seat0.
+Oct 20 18:47:15 beaglebone sshd[1144]: Server listening on 0.0.0.0 port 22.
+Oct 20 18:47:15 beaglebone sshd[1144]: Server listening on :: port 22.
+Oct 20 18:47:24 beaglebone systemd-logind[741]: Watching system buttons on /dev/input/event0 (tps65217_pwr_but)
+Oct 20 18:47:11 beaglebone systemd-logind[756]: New seat seat0.
+Oct 20 18:47:15 beaglebone sshd[1155]: Server listening on 0.0.0.0 port 22.
+Oct 20 18:47:15 beaglebone sshd[1155]: Server listening on :: port 22.
+Oct 20 18:47:23 beaglebone systemd-logind[756]: Watching system buttons on /dev/input/event0 (tps65217_pwr_but)
+Oct 20 18:49:58 beaglebone sshd[3556]: Accepted none for root from 192.168.7.3 port 49322 ssh2
+Oct 20 18:47:11 beaglebone systemd-logind[740]: New seat seat0.
+Oct 20 18:47:15 beaglebone sshd[1148]: Server listening on 0.0.0.0 port 22.
+Oct 20 18:47:15 beaglebone sshd[1148]: Server listening on :: port 22.
+Oct 20 18:47:24 beaglebone systemd-logind[740]: Watching system buttons on /dev/input/event0 (tps65217_pwr_but)
+Oct 20 18:47:42 beaglebone sshd[2223]: Accepted none for root from 192.168.7.3 port 51024 ssh2
+Oct 20 18:56:25 beaglebone sshd[6759]: Accepted none for root from 192.168.7.3 port 51168 ssh2
+Oct 20 18:47:13 beaglebone systemd-logind[836]: New seat seat0.
+Oct 20 18:47:15 beaglebone sshd[1159]: Server listening on 0.0.0.0 port 22.
+Oct 20 18:47:15 beaglebone sshd[1159]: Server listening on :: port 22.
+Oct 20 18:47:23 beaglebone systemd-logind[836]: Watching system buttons on /dev/input/event0 (tps65217_pwr_but)
+Oct 20 18:47:39 beaglebone sshd[2221]: Accepted none for root from 192.168.7.3 port 51816 ssh2
+Oct 20 18:47:45 beaglebone sshd[1159]: Received signal 15; terminating.
+Oct 20 18:47:13 beaglebone systemd-logind[768]: New seat seat0.
+Oct 20 18:47:15 beaglebone sshd[1162]: Server listening on 0.0.0.0 port 22.
+Oct 20 18:47:15 beaglebone sshd[1162]: Server listening on :: port 22.
+Oct 20 18:47:23 beaglebone systemd-logind[768]: Watching system buttons on /dev/input/event0 (tps65217_pwr_but)
+Oct 20 18:47:27 beaglebone sshd[1868]: Accepted none for root from 192.168.7.3 port 52440 ssh2
+Oct 20 19:16:51 beaglebone sshd[1868]: Received disconnect from 192.168.7.3: 11: disconnected by user
+Oct 20 19:17:01 beaglebone CRON[16634]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 20 19:17:01 beaglebone CRON[16634]: pam_unix(cron:session): session closed for user root
+Oct 20 19:17:20 beaglebone systemd-logind[768]: Power key pressed.
+Oct 20 19:17:20 beaglebone systemd-logind[768]: Powering Off...
+Oct 20 19:17:20 beaglebone systemd-logind[768]: System is powering down.
+Oct 20 18:47:11 beaglebone systemd-logind[816]: New seat seat0.
+Oct 20 18:47:15 beaglebone sshd[1139]: Server listening on 0.0.0.0 port 22.
+Oct 20 18:47:15 beaglebone sshd[1139]: Server listening on :: port 22.
+Oct 20 18:47:24 beaglebone systemd-logind[816]: Watching system buttons on /dev/input/event0 (tps65217_pwr_but)
+Oct 20 18:48:06 beaglebone sshd[2651]: Accepted none for root from 192.168.7.3 port 53094 ssh2
+Oct 20 19:07:24 beaglebone sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt-get update -y
+Oct 20 19:07:24 beaglebone sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Oct 20 19:17:01 beaglebone CRON[20738]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 20 19:17:01 beaglebone CRON[20738]: pam_unix(cron:session): session closed for user root
+Oct 20 19:19:42 beaglebone sudo: pam_unix(sudo:session): session closed for user root
+Oct 20 18:47:11 beaglebone systemd-logind[727]: New seat seat0.
+Oct 20 18:47:15 beaglebone sshd[1150]: Server listening on 0.0.0.0 port 22.
+Oct 20 18:47:15 beaglebone sshd[1150]: Server listening on :: port 22.
+Oct 20 18:47:24 beaglebone systemd-logind[727]: Watching system buttons on /dev/input/event0 (tps65217_pwr_but)
+Oct 20 18:47:35 beaglebone sshd[2227]: Accepted none for root from 192.168.7.3 port 53456 ssh2
+Sep  1 07:10:11 beaglebone sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt-get update -y
+Sep  1 07:10:11 beaglebone sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep  1 07:10:17 beaglebone sudo: pam_unix(sudo:session): session closed for user root
+Sep  1 07:14:19 beaglebone systemd-logind[761]: New seat seat0.
+Sep  1 07:14:23 beaglebone sshd[1143]: Server listening on 0.0.0.0 port 22.
+Sep  1 07:14:23 beaglebone sshd[1143]: Server listening on :: port 22.
+Sep  1 07:14:32 beaglebone systemd-logind[761]: Watching system buttons on /dev/input/event0 (tps65217_pwr_but)
+Sep  1 07:14:34 beaglebone systemd-logind[761]: Power key pressed.
+Sep  1 07:14:34 beaglebone systemd-logind[761]: Powering Off...
+Sep  1 07:14:34 beaglebone systemd-logind[761]: System is powering down.
+Sep  1 07:14:34 beaglebone systemd-logind[761]: Power key pressed.
+Sep  1 07:14:34 beaglebone systemd-logind[761]: Power key pressed.
+Sep  1 07:14:34 beaglebone systemd-logind[761]: Power key pressed.
+Sep  1 07:14:34 beaglebone systemd-logind[761]: Power key pressed.
+Sep  1 07:14:34 beaglebone sshd[1143]: Received signal 15; terminating.
+Sep  1 07:14:34 beaglebone systemd-logind[761]: Power key pressed.
+Sep  1 07:14:34 beaglebone systemd-logind[761]: Power key pressed.
+Sep  1 07:14:22 beaglebone systemd-logind[756]: New seat seat0.
+Sep  1 07:14:24 beaglebone sshd[1175]: Server listening on 0.0.0.0 port 22.
+Sep  1 07:14:24 beaglebone sshd[1175]: Server listening on :: port 22.
+Sep  1 07:14:26 beaglebone sshd[1260]: Accepted none for root from 192.168.7.3 port 54882 ssh2
+Sep  1 07:14:32 beaglebone systemd-logind[756]: Watching system buttons on /dev/input/event0 (tps65217_pwr_but)
+Sep  1 12:58:17 beaglebone sudo:     root : TTY=pts/2 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt-get update
+Sep  1 12:58:17 beaglebone sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep  1 12:59:42 beaglebone sudo: pam_unix(sudo:session): session closed for user root
+Sep  1 13:00:21 beaglebone sudo:     root : TTY=pts/2 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt-get updgrade
+Sep  1 13:00:22 beaglebone sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep  1 13:00:22 beaglebone sudo: pam_unix(sudo:session): session closed for user root
+Sep  1 13:00:27 beaglebone sudo:     root : TTY=pts/2 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt-get upgrade
+Sep  1 13:00:27 beaglebone sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep  1 13:01:01 beaglebone sudo: pam_unix(sudo:session): session closed for user root
+Sep  1 13:01:48 beaglebone sudo:     root : TTY=pts/2 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt-get install -y dosfstools initramfs-tools rsync u-boot-tools
+Sep  1 13:01:48 beaglebone sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep  1 13:02:45 beaglebone sudo: pam_unix(sudo:session): session closed for user root
+Sep  1 13:03:04 beaglebone systemd-logind[756]: Creating /run/nologin, blocking further logins...
+Sep  1 13:03:10 beaglebone sshd[1175]: Received signal 15; terminating.
+Sep  1 13:03:20 beaglebone systemd-logind[743]: New seat seat0.
+Sep  1 13:03:25 beaglebone sshd[1166]: Server listening on 0.0.0.0 port 22.
+Sep  1 13:03:25 beaglebone sshd[1166]: Server listening on :: port 22.
+Sep  1 13:03:33 beaglebone systemd-logind[743]: Watching system buttons on /dev/input/event0 (tps65217_pwr_but)
+Sep  1 13:10:42 beaglebone sshd[2890]: Accepted none for root from 192.168.7.3 port 54884 ssh2
+Sep  1 13:17:01 beaglebone CRON[9652]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  1 13:17:01 beaglebone CRON[9652]: pam_unix(cron:session): session closed for user root
+Sep  1 13:29:26 beaglebone systemd-logind[708]: New seat seat0.
+Sep  1 13:29:32 beaglebone sshd[1216]: Server listening on 0.0.0.0 port 22.
+Sep  1 13:29:32 beaglebone sshd[1216]: Server listening on :: port 22.
+Sep  1 13:29:36 beaglebone sshd[1549]: Accepted none for root from 192.168.7.3 port 55166 ssh2
+Sep  1 13:29:39 beaglebone systemd-logind[708]: Watching system buttons on /dev/input/event0 (tps65217_pwr_but)
+Sep  1 13:44:14 beaglebone systemd-logind[708]: Creating /run/nologin, blocking further logins...
+Sep  1 13:44:28 beaglebone systemd-logind[762]: New seat seat0.
+Sep  1 13:44:33 beaglebone sshd[1215]: Server listening on 0.0.0.0 port 22.
+Sep  1 13:44:33 beaglebone sshd[1215]: Server listening on :: port 22.
+Sep  1 13:44:42 beaglebone systemd-logind[762]: Watching system buttons on /dev/input/event0 (tps65217_pwr_but)
+Sep  1 14:47:32 beaglebone systemd-logind[762]: Power key pressed.
+Sep  1 14:47:32 beaglebone systemd-logind[762]: Powering Off...
+Sep  1 14:47:32 beaglebone systemd-logind[762]: System is powering down.
+Sep  1 14:47:42 beaglebone systemd-logind[801]: New seat seat0.
+Sep  1 14:47:47 beaglebone sshd[1157]: Server listening on 0.0.0.0 port 22.
+Sep  1 14:47:47 beaglebone sshd[1157]: Server listening on :: port 22.
+Sep  1 14:47:55 beaglebone systemd-logind[801]: Watching system buttons on /dev/input/event0 (tps65217_pwr_but)
+Sep  1 14:48:33 beaglebone systemd-logind[723]: New seat seat0.
+Sep  1 14:48:37 beaglebone sshd[1147]: Server listening on 0.0.0.0 port 22.
+Sep  1 14:48:37 beaglebone sshd[1147]: Server listening on :: port 22.
+Sep  1 14:48:46 beaglebone systemd-logind[723]: Watching system buttons on /dev/input/event0 (tps65217_pwr_but)
+Sep  1 15:03:38 beaglebone systemd-logind[723]: Power key pressed.
+Sep  1 15:03:38 beaglebone systemd-logind[723]: Powering Off...
+Sep  1 15:03:38 beaglebone systemd-logind[723]: System is powering down.
+Sep  1 15:03:47 beaglebone systemd-logind[778]: New seat seat0.
+Sep  1 15:03:52 beaglebone sshd[1141]: Server listening on 0.0.0.0 port 22.
+Sep  1 15:03:52 beaglebone sshd[1141]: Server listening on :: port 22.
+Sep  1 15:04:01 beaglebone systemd-logind[778]: Watching system buttons on /dev/input/event0 (tps65217_pwr_but)
+Sep  1 20:39:59 beaglebone systemd-logind[778]: Power key pressed.
+Sep  1 20:39:59 beaglebone systemd-logind[778]: Powering Off...
+Sep  1 20:39:59 beaglebone systemd-logind[778]: System is powering down.
+Sep  1 20:40:09 beaglebone systemd-logind[743]: New seat seat0.
+Sep  1 20:40:13 beaglebone sshd[1142]: Server listening on 0.0.0.0 port 22.
+Sep  1 20:40:13 beaglebone sshd[1142]: Server listening on :: port 22.
+Sep  1 20:40:22 beaglebone systemd-logind[743]: Watching system buttons on /dev/input/event0 (tps65217_pwr_but)
+Sep  1 20:41:49 beaglebone systemd-logind[743]: Power key pressed.
+Sep  1 20:41:49 beaglebone systemd-logind[743]: Powering Off...
+Sep  1 20:41:49 beaglebone systemd-logind[743]: System is powering down.
+Sep  1 20:40:09 beaglebone systemd-logind[785]: New seat seat0.
+Sep  1 20:40:14 beaglebone sshd[1145]: Server listening on 0.0.0.0 port 22.
+Sep  1 20:40:14 beaglebone sshd[1145]: Server listening on :: port 22.
+Sep  1 20:40:22 beaglebone systemd-logind[785]: Watching system buttons on /dev/input/event0 (tps65217_pwr_but)
+Sep  1 20:51:16 beaglebone systemd-logind[785]: Power key pressed.
+Sep  1 20:51:16 beaglebone systemd-logind[785]: Powering Off...
+Sep  1 20:51:16 beaglebone systemd-logind[785]: System is powering down.
+Sep  1 20:51:25 beaglebone systemd-logind[828]: New seat seat0.
+Sep  1 20:51:30 beaglebone sshd[1148]: Server listening on 0.0.0.0 port 22.
+Sep  1 20:51:30 beaglebone sshd[1148]: Server listening on :: port 22.
+Sep  1 20:51:38 beaglebone systemd-logind[828]: Watching system buttons on /dev/input/event0 (tps65217_pwr_but)
+Sep  1 20:51:43 beaglebone systemd-logind[828]: Power key pressed.
+Sep  1 20:51:43 beaglebone systemd-logind[828]: Powering Off...
+Sep  1 20:51:43 beaglebone systemd-logind[828]: System is powering down.
+Sep  1 20:51:25 beaglebone systemd-logind[741]: New seat seat0.
+Sep  1 20:51:30 beaglebone sshd[1190]: Server listening on 0.0.0.0 port 22.
+Sep  1 20:51:30 beaglebone sshd[1190]: Server listening on :: port 22.
+Sep  1 20:51:38 beaglebone systemd-logind[741]: Watching system buttons on /dev/input/event0 (tps65217_pwr_but)
+Sep  1 22:06:27 beaglebone systemd-logind[741]: Power key pressed.
+Sep  1 22:06:27 beaglebone systemd-logind[741]: Powering Off...
+Sep  1 22:06:27 beaglebone systemd-logind[741]: System is powering down.
+Sep  1 22:06:37 beaglebone systemd-logind[813]: New seat seat0.
+Sep  1 22:06:42 beaglebone sshd[1196]: Server listening on 0.0.0.0 port 22.
+Sep  1 22:06:42 beaglebone sshd[1196]: Server listening on :: port 22.
+Sep  1 22:06:50 beaglebone systemd-logind[813]: Watching system buttons on /dev/input/event0 (tps65217_pwr_but)
+Sep  1 22:17:01 beaglebone CRON[6943]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  1 22:17:01 beaglebone CRON[6943]: pam_unix(cron:session): session closed for user root
+Sep  1 22:28:07 beaglebone systemd-logind[813]: Power key pressed.
+Sep  1 22:28:07 beaglebone systemd-logind[813]: Powering Off...
+Sep  1 22:28:07 beaglebone systemd-logind[813]: System is powering down.
+Sep  1 22:28:17 beaglebone systemd-logind[808]: New seat seat0.
+Sep  1 22:28:22 beaglebone sshd[1176]: Server listening on 0.0.0.0 port 22.
+Sep  1 22:28:22 beaglebone sshd[1176]: Server listening on :: port 22.
+Sep  1 22:28:30 beaglebone systemd-logind[808]: Watching system buttons on /dev/input/event0 (tps65217_pwr_but)
+Sep  1 22:28:36 beaglebone systemd-logind[808]: Power key pressed.
+Sep  1 22:28:36 beaglebone systemd-logind[808]: Powering Off...
+Sep  1 22:28:36 beaglebone systemd-logind[808]: System is powering down.
+Sep  1 22:28:17 beaglebone systemd-logind[787]: New seat seat0.
+Sep  1 22:28:22 beaglebone sshd[1171]: Server listening on 0.0.0.0 port 22.
+Sep  1 22:28:22 beaglebone sshd[1171]: Server listening on :: port 22.
+Sep  1 22:28:30 beaglebone systemd-logind[787]: Watching system buttons on /dev/input/event0 (tps65217_pwr_but)
+Sep  1 23:05:50 beaglebone systemd-logind[787]: Power key pressed.
+Sep  1 23:05:50 beaglebone systemd-logind[787]: Powering Off...
+Sep  1 23:05:50 beaglebone systemd-logind[787]: System is powering down.
+Sep  1 23:06:00 beaglebone systemd-logind[738]: New seat seat0.
+Sep  1 23:06:05 beaglebone sshd[1187]: Server listening on 0.0.0.0 port 22.
+Sep  1 23:06:05 beaglebone sshd[1187]: Server listening on :: port 22.
+Sep  1 23:06:13 beaglebone systemd-logind[738]: Watching system buttons on /dev/input/event0 (tps65217_pwr_but)
+Sep  1 23:06:34 beaglebone systemd-logind[738]: Power key pressed.
+Sep  1 23:06:34 beaglebone systemd-logind[738]: Powering Off...
+Sep  1 23:06:34 beaglebone systemd-logind[738]: System is powering down.
+Sep  1 23:06:34 beaglebone sshd[1187]: Received signal 15; terminating.
+Sep  1 23:06:00 beaglebone systemd-logind[823]: New seat seat0.
+Sep  1 23:06:05 beaglebone sshd[1182]: Server listening on 0.0.0.0 port 22.
+Sep  1 23:06:05 beaglebone sshd[1182]: Server listening on :: port 22.
+Sep  1 23:06:13 beaglebone systemd-logind[823]: Watching system buttons on /dev/input/event0 (tps65217_pwr_but)
+Sep  1 23:50:31 beaglebone systemd-logind[823]: Power key pressed.
+Sep  1 23:50:31 beaglebone systemd-logind[823]: Powering Off...
+Sep  1 23:50:31 beaglebone systemd-logind[823]: System is powering down.
+Sep  1 23:50:41 beaglebone systemd-logind[735]: New seat seat0.
+Sep  1 23:50:46 beaglebone sshd[1138]: Server listening on 0.0.0.0 port 22.
+Sep  1 23:50:46 beaglebone sshd[1138]: Server listening on :: port 22.
+Sep  1 23:50:54 beaglebone systemd-logind[735]: Watching system buttons on /dev/input/event0 (tps65217_pwr_but)
+Sep  2 13:07:22 beaglebone login[1200]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Sep  2 13:07:22 beaglebone systemd-logind[735]: New session 1 of user root.
+Sep  2 13:07:22 beaglebone systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Sep  2 13:07:23 beaglebone login[3699]: ROOT LOGIN  on '/dev/tty1'
+Sep  2 13:07:47 beaglebone systemd-logind[786]: New seat seat0.
+Sep  2 13:07:52 beaglebone sshd[1146]: Server listening on 0.0.0.0 port 22.
+Sep  2 13:07:52 beaglebone sshd[1146]: Server listening on :: port 22.
+Sep  2 13:08:00 beaglebone systemd-logind[786]: Watching system buttons on /dev/input/event0 (tps65217_pwr_but)
+Sep  2 13:11:36 beaglebone systemd-logind[816]: New seat seat0.
+Sep  2 13:11:41 beaglebone sshd[1161]: Server listening on 0.0.0.0 port 22.
+Sep  2 13:11:41 beaglebone sshd[1161]: Server listening on :: port 22.
+Sep  2 13:11:49 beaglebone systemd-logind[816]: Watching system buttons on /dev/input/event0 (tps65217_pwr_but)
+Sep  2 13:14:01 beaglebone systemd-logind[816]: Power key pressed.
+Sep  2 13:14:01 beaglebone systemd-logind[816]: Powering Off...
+Sep  2 13:14:01 beaglebone systemd-logind[816]: System is powering down.
+Sep  2 13:14:11 beaglebone systemd-logind[747]: New seat seat0.
+Sep  2 13:14:16 beaglebone sshd[1148]: Server listening on 0.0.0.0 port 22.
+Sep  2 13:14:16 beaglebone sshd[1148]: Server listening on :: port 22.
+Sep  2 13:14:24 beaglebone systemd-logind[747]: Watching system buttons on /dev/input/event0 (tps65217_pwr_but)
+Sep  2 13:17:01 beaglebone CRON[3482]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  2 13:17:01 beaglebone CRON[3482]: pam_unix(cron:session): session closed for user root
+Sep  2 13:17:10 beaglebone login[1206]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Sep  2 13:17:10 beaglebone systemd-logind[747]: New session 2 of user root.
+Sep  2 13:17:10 beaglebone systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Sep  2 13:17:10 beaglebone login[3569]: ROOT LOGIN  on '/dev/tty1'
+Sep  2 13:17:39 beaglebone systemd-logind[740]: New seat seat0.
+Sep  2 13:17:44 beaglebone sshd[1182]: Server listening on 0.0.0.0 port 22.
+Sep  2 13:17:44 beaglebone sshd[1182]: Server listening on :: port 22.
+Sep  2 13:17:52 beaglebone systemd-logind[740]: Watching system buttons on /dev/input/event0 (tps65217_pwr_but)
+Sep  2 17:26:41 beaglebone login[1233]: pam_unix(login:auth): check pass; user unknown
+Sep  2 17:26:41 beaglebone login[1233]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/tty1 ruser= rhost=
+Sep  2 17:26:43 beaglebone login[1233]: FAILED LOGIN (1) on '/dev/tty1' FOR 'UNKNOWN', Authentication failure
+Sep  2 17:27:03 beaglebone login[1233]: pam_unix(login:auth): check pass; user unknown
+Sep  2 17:27:05 beaglebone login[1233]: FAILED LOGIN (2) on '/dev/tty1' FOR 'UNKNOWN', Authentication failure
+Sep  2 17:27:11 beaglebone login[1233]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Sep  2 17:27:11 beaglebone systemd-logind[740]: New session 1 of user root.
+Sep  2 17:27:11 beaglebone systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Sep  2 17:27:11 beaglebone login[2894]: ROOT LOGIN  on '/dev/tty1'
+Sep  2 17:27:29 beaglebone systemd-logind[746]: New seat seat0.
+Sep  2 17:27:33 beaglebone sshd[1104]: Server listening on 0.0.0.0 port 22.
+Sep  2 17:27:33 beaglebone sshd[1104]: Server listening on :: port 22.
+Sep  2 17:27:42 beaglebone systemd-logind[746]: Watching system buttons on /dev/input/event0 (tps65217_pwr_but)
+Sep  2 17:30:20 beaglebone systemd-logind[746]: Power key pressed.
+Sep  2 17:30:20 beaglebone systemd-logind[746]: Powering Off...
+Sep  2 17:30:20 beaglebone systemd-logind[746]: System is powering down.
+Sep  2 17:30:20 beaglebone sshd[1104]: Received signal 15; terminating.
+Sep  2 17:30:30 beaglebone systemd-logind[798]: New seat seat0.
+Sep  2 17:30:35 beaglebone sshd[1186]: Server listening on 0.0.0.0 port 22.
+Sep  2 17:30:35 beaglebone sshd[1186]: Server listening on :: port 22.
+Sep  2 17:30:43 beaglebone systemd-logind[798]: Watching system buttons on /dev/input/event0 (tps65217_pwr_but)
+Sep  2 17:31:51 beaglebone login[1225]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Sep  2 17:31:51 beaglebone systemd-logind[798]: New session 1 of user root.
+Sep  2 17:31:51 beaglebone systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Sep  2 17:31:51 beaglebone login[2748]: ROOT LOGIN  on '/dev/tty1'
+Sep  2 17:32:04 beaglebone systemd-logind[764]: New seat seat0.
+Sep  2 17:32:09 beaglebone sshd[1162]: Server listening on 0.0.0.0 port 22.
+Sep  2 17:32:09 beaglebone sshd[1162]: Server listening on :: port 22.
+Sep  2 17:32:17 beaglebone systemd-logind[764]: Watching system buttons on /dev/input/event0 (tps65217_pwr_but)
+Sep  2 17:33:35 beaglebone login[1221]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Sep  2 17:33:35 beaglebone systemd-logind[764]: New session 1 of user root.
+Sep  2 17:33:35 beaglebone systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Sep  2 17:33:35 beaglebone login[2808]: ROOT LOGIN  on '/dev/tty1'
+Sep  2 17:39:32 beaglebone systemd-logind[812]: New seat seat0.
+Sep  2 17:39:33 beaglebone sshd[1155]: Server listening on 0.0.0.0 port 22.
+Sep  2 17:39:33 beaglebone sshd[1155]: Server listening on :: port 22.
+Sep  2 17:39:42 beaglebone systemd-logind[812]: Watching system buttons on /dev/input/event0 (tps65217_pwr_but)
+Sep  2 17:42:37 beaglebone login[1202]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Sep  2 17:42:37 beaglebone systemd-logind[812]: New session 1 of user root.
+Sep  2 17:42:37 beaglebone systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Sep  2 17:42:37 beaglebone login[3157]: ROOT LOGIN  on '/dev/tty1'
+Sep  2 17:42:43 beaglebone systemd-logind[812]: Creating /run/nologin, blocking further logins...
+Sep  2 17:43:53 beaglebone systemd-logind[753]: New seat seat0.
+Sep  2 17:43:58 beaglebone sshd[1168]: Server listening on 0.0.0.0 port 22.
+Sep  2 17:43:58 beaglebone sshd[1168]: Server listening on :: port 22.
+Sep  2 17:44:06 beaglebone systemd-logind[753]: Watching system buttons on /dev/input/event0 (tps65217_pwr_but)
+Sep  2 17:45:59 beaglebone login[1203]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Sep  2 17:45:59 beaglebone systemd-logind[753]: New session 1 of user root.
+Sep  2 17:45:59 beaglebone systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Sep  2 17:46:00 beaglebone login[3026]: ROOT LOGIN  on '/dev/tty1'
+Sep  2 17:59:32 beaglebone systemd-logind[780]: New seat seat0.
+Sep  2 17:59:37 beaglebone sshd[1171]: Server listening on 0.0.0.0 port 22.
+Sep  2 17:59:37 beaglebone sshd[1171]: Server listening on :: port 22.
+Sep  2 17:59:46 beaglebone systemd-logind[780]: Watching system buttons on /dev/input/event0 (tps65217_pwr_but)
+Sep  2 18:03:46 beaglebone systemd-logind[780]: Power key pressed.
+Sep  2 18:03:46 beaglebone systemd-logind[780]: Powering Off...
+Sep  2 18:03:46 beaglebone systemd-logind[780]: System is powering down.
+Sep  2 18:03:56 beaglebone systemd-logind[797]: New seat seat0.
+Sep  2 18:04:01 beaglebone sshd[1163]: Server listening on 0.0.0.0 port 22.
+Sep  2 18:04:01 beaglebone sshd[1163]: Server listening on :: port 22.
+Sep  2 18:04:09 beaglebone systemd-logind[797]: Watching system buttons on /dev/input/event0 (tps65217_pwr_but)
+Sep  2 18:08:15 beaglebone systemd-logind[797]: Power key pressed.
+Sep  2 18:08:15 beaglebone systemd-logind[797]: Powering Off...
+Sep  2 18:08:15 beaglebone systemd-logind[797]: System is powering down.
+Sep  2 18:08:15 beaglebone sshd[1163]: Received signal 15; terminating.
+Sep  2 18:08:25 beaglebone systemd-logind[737]: New seat seat0.
+Sep  2 18:08:30 beaglebone sshd[1192]: Server listening on 0.0.0.0 port 22.
+Sep  2 18:08:30 beaglebone sshd[1192]: Server listening on :: port 22.
+Sep  2 18:08:38 beaglebone systemd-logind[737]: Watching system buttons on /dev/input/event0 (tps65217_pwr_but)
+Sep  2 18:09:42 beaglebone systemd-logind[737]: Power key pressed.
+Sep  2 18:09:42 beaglebone systemd-logind[737]: Powering Off...
+Sep  2 18:09:42 beaglebone systemd-logind[737]: System is powering down.
+Sep  2 18:08:28 beaglebone systemd-logind[747]: New seat seat0.
+Sep  2 18:08:29 beaglebone sshd[1153]: Server listening on 0.0.0.0 port 22.
+Sep  2 18:08:29 beaglebone sshd[1153]: Server listening on :: port 22.
+Sep  2 18:08:38 beaglebone systemd-logind[747]: Watching system buttons on /dev/input/event0 (tps65217_pwr_but)
+Sep  2 18:09:06 beaglebone systemd-logind[747]: Power key pressed.
+Sep  2 18:09:06 beaglebone systemd-logind[747]: Powering Off...
+Sep  2 18:09:06 beaglebone systemd-logind[747]: System is powering down.
+Sep  2 18:09:07 beaglebone sshd[1153]: Received signal 15; terminating.
+Sep  2 18:08:25 beaglebone systemd-logind[811]: New seat seat0.
+Sep  2 18:08:30 beaglebone sshd[1188]: Server listening on 0.0.0.0 port 22.
+Sep  2 18:08:30 beaglebone sshd[1188]: Server listening on :: port 22.
+Sep  2 18:08:38 beaglebone systemd-logind[811]: Watching system buttons on /dev/input/event0 (tps65217_pwr_but)
+Sep  2 18:10:01 beaglebone systemd-logind[811]: Power key pressed.
+Sep  2 18:10:01 beaglebone systemd-logind[811]: Powering Off...
+Sep  2 18:10:01 beaglebone systemd-logind[811]: System is powering down.
+Sep  2 18:08:25 beaglebone systemd-logind[757]: New seat seat0.
+Sep  2 18:08:30 beaglebone sshd[1168]: Server listening on 0.0.0.0 port 22.
+Sep  2 18:08:30 beaglebone sshd[1168]: Server listening on :: port 22.
+Sep  2 18:08:38 beaglebone systemd-logind[757]: Watching system buttons on /dev/input/event0 (tps65217_pwr_but)
+Sep  4 10:25:39 beaglebone systemd-logind[777]: New seat seat0.
+Sep  4 10:25:43 beaglebone sshd[1148]: Server listening on 0.0.0.0 port 22.
+Sep  4 10:25:43 beaglebone sshd[1148]: Server listening on :: port 22.
+Sep  4 10:25:52 beaglebone systemd-logind[777]: Watching system buttons on /dev/input/event0 (tps65217_pwr_but)
+Sep  4 10:39:23 beaglebone systemd-logind[777]: Power key pressed.
+Sep  4 10:39:23 beaglebone systemd-logind[777]: Powering Off...
+Sep  4 10:39:23 beaglebone systemd-logind[777]: System is powering down.
+Sep  4 10:39:34 beaglebone systemd-logind[737]: New seat seat0.
+Sep  4 10:39:40 beaglebone sshd[1247]: Server listening on 0.0.0.0 port 22.
+Sep  4 10:39:40 beaglebone sshd[1247]: Server listening on :: port 22.
+Sep  4 10:39:46 beaglebone systemd-logind[737]: Watching system buttons on /dev/input/event0 (tps65217_pwr_but)
+Sep  4 10:40:48 beaglebone login[1262]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Sep  4 10:40:48 beaglebone systemd-logind[737]: New session 1 of user root.
+Sep  4 10:40:49 beaglebone systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Sep  4 10:40:49 beaglebone login[2934]: ROOT LOGIN  on '/dev/tty1'
+Sep  4 10:39:33 beaglebone systemd-logind[794]: New seat seat0.
+Sep  4 10:39:38 beaglebone sshd[1143]: Server listening on 0.0.0.0 port 22.
+Sep  4 10:39:38 beaglebone sshd[1143]: Server listening on :: port 22.
+Sep  4 10:39:46 beaglebone systemd-logind[794]: Watching system buttons on /dev/input/event0 (tps65217_pwr_but)
+Sep  4 10:42:07 beaglebone login[1196]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Sep  4 10:42:07 beaglebone systemd-logind[794]: New session 1 of user root.
+Sep  4 10:42:07 beaglebone systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Sep  4 10:42:08 beaglebone login[3568]: ROOT LOGIN  on '/dev/tty1'
+Sep  4 10:43:10 beaglebone sshd[1143]: Received signal 15; terminating.
+Sep  4 10:39:33 beaglebone systemd-logind[757]: New seat seat0.
+Sep  4 10:39:37 beaglebone sshd[1144]: Server listening on 0.0.0.0 port 22.
+Sep  4 10:39:37 beaglebone sshd[1144]: Server listening on :: port 22.
+Sep  4 10:39:46 beaglebone systemd-logind[757]: Watching system buttons on /dev/input/event0 (tps65217_pwr_but)
+Sep  4 10:41:10 beaglebone login[1201]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Sep  4 10:41:10 beaglebone systemd-logind[757]: New session 1 of user root.
+Sep  4 10:41:10 beaglebone systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Sep  4 10:41:10 beaglebone login[3119]: ROOT LOGIN  on '/dev/tty1'
+Sep  4 10:39:33 beaglebone systemd-logind[746]: New seat seat0.
+Sep  4 10:39:37 beaglebone sshd[1148]: Server listening on 0.0.0.0 port 22.
+Sep  4 10:39:37 beaglebone sshd[1148]: Server listening on :: port 22.
+Sep  4 10:39:46 beaglebone systemd-logind[746]: Watching system buttons on /dev/input/event0 (tps65217_pwr_but)
+Sep  4 10:41:13 beaglebone login[1200]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Sep  4 10:41:13 beaglebone systemd-logind[746]: New session 1 of user root.
+Sep  4 10:41:13 beaglebone systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Sep  4 10:41:13 beaglebone login[3141]: ROOT LOGIN  on '/dev/tty1'
+Sep  4 10:39:33 beaglebone systemd-logind[771]: New seat seat0.
+Sep  4 10:39:38 beaglebone sshd[1158]: Server listening on 0.0.0.0 port 22.
+Sep  4 10:39:38 beaglebone sshd[1158]: Server listening on :: port 22.
+Sep  4 10:39:46 beaglebone systemd-logind[771]: Watching system buttons on /dev/input/event0 (tps65217_pwr_but)
+Sep  4 10:51:03 beaglebone login[1205]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Sep  4 10:51:03 beaglebone systemd-logind[771]: New session 1 of user root.
+Sep  4 10:51:03 beaglebone systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Sep  4 10:51:04 beaglebone login[7874]: ROOT LOGIN  on '/dev/tty1'
+Sep  4 10:39:33 beaglebone systemd-logind[801]: New seat seat0.
+Sep  4 10:39:38 beaglebone sshd[1174]: Server listening on 0.0.0.0 port 22.
+Sep  4 10:39:38 beaglebone sshd[1174]: Server listening on :: port 22.
+Sep  4 10:39:46 beaglebone systemd-logind[801]: Watching system buttons on /dev/input/event0 (tps65217_pwr_but)
+Sep  4 10:40:33 beaglebone login[1209]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Sep  4 10:40:33 beaglebone systemd-logind[801]: New session 1 of user root.
+Sep  4 10:40:33 beaglebone systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Sep  4 10:40:34 beaglebone login[2828]: ROOT LOGIN  on '/dev/tty1'
+Sep  4 10:39:34 beaglebone systemd-logind[680]: New seat seat0.
+Sep  4 10:39:39 beaglebone sshd[1226]: Server listening on 0.0.0.0 port 22.
+Sep  4 10:39:39 beaglebone sshd[1226]: Server listening on :: port 22.
+Sep  4 10:39:46 beaglebone systemd-logind[680]: Watching system buttons on /dev/input/event0 (tps65217_pwr_but)
+Sep  4 10:40:49 beaglebone login[1241]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Sep  4 10:40:49 beaglebone systemd-logind[680]: New session 1 of user root.
+Sep  4 10:40:49 beaglebone systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Sep  4 10:40:50 beaglebone login[2962]: ROOT LOGIN  on '/dev/tty1'

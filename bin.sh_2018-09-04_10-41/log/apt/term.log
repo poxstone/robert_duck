@@ -1,0 +1,1175 @@
+
+Log started: 2016-10-20  18:33:34
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 22955 files and directories currently installed.)
+Preparing to unpack .../initramfs-tools_0.120+deb8u2-1rcnee3~bpo80+20160927+1_all.deb ...
+Unpacking initramfs-tools (0.120+deb8u2-1rcnee3~bpo80+20160927+1) over (0.120+deb8u2) ...
+Preparing to unpack .../systemd-sysv_230-7~bpo8+2_armhf.deb ...
+Unpacking systemd-sysv (230-7~bpo8+2) over (215-17+deb8u5) ...
+Processing triggers for man-db (2.7.0.2-5) ...
+Setting up systemd-sysv (230-7~bpo8+2) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 22955 files and directories currently installed.)
+Preparing to unpack .../libssl1.0.0_1.0.1t-1+deb8u5_armhf.deb ...
+Unpacking libssl1.0.0:armhf (1.0.1t-1+deb8u5) over (1.0.1t-1+deb8u3) ...
+Preparing to unpack .../libisc-export95_1%3a9.9.5.dfsg-9+deb8u7_armhf.deb ...
+Unpacking libisc-export95 (1:9.9.5.dfsg-9+deb8u7) over (1:9.9.5.dfsg-9+deb8u6) ...
+Preparing to unpack .../libdns-export100_1%3a9.9.5.dfsg-9+deb8u7_armhf.deb ...
+Unpacking libdns-export100 (1:9.9.5.dfsg-9+deb8u7) over (1:9.9.5.dfsg-9+deb8u6) ...
+Preparing to unpack .../libisccfg-export90_1%3a9.9.5.dfsg-9+deb8u7_armhf.deb ...
+Unpacking libisccfg-export90 (1:9.9.5.dfsg-9+deb8u7) over (1:9.9.5.dfsg-9+deb8u6) ...
+Preparing to unpack .../libirs-export91_1%3a9.9.5.dfsg-9+deb8u7_armhf.deb ...
+Unpacking libirs-export91 (1:9.9.5.dfsg-9+deb8u7) over (1:9.9.5.dfsg-9+deb8u6) ...
+Preparing to unpack .../libcomerr2_1.43-3~bpo8+1_armhf.deb ...
+Unpacking libcomerr2:armhf (1.43-3~bpo8+1) over (1.42.12-2) ...
+Processing triggers for libc-bin (2.19-18+deb8u6) ...
+Setting up libcomerr2:armhf (1.43-3~bpo8+1) ...
+Processing triggers for libc-bin (2.19-18+deb8u6) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 22955 files and directories currently installed.)
+Preparing to unpack .../libss2_1.43-3~bpo8+1_armhf.deb ...
+Unpacking libss2:armhf (1.43-3~bpo8+1) over (1.42.12-2) ...
+Processing triggers for libc-bin (2.19-18+deb8u6) ...
+Setting up libss2:armhf (1.43-3~bpo8+1) ...
+Processing triggers for libc-bin (2.19-18+deb8u6) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 22955 files and directories currently installed.)
+Preparing to unpack .../bind9-host_1%3a9.9.5.dfsg-9+deb8u7_armhf.deb ...
+Unpacking bind9-host (1:9.9.5.dfsg-9+deb8u7) over (1:9.9.5.dfsg-9+deb8u6) ...
+Preparing to unpack .../libisc95_1%3a9.9.5.dfsg-9+deb8u7_armhf.deb ...
+Unpacking libisc95 (1:9.9.5.dfsg-9+deb8u7) over (1:9.9.5.dfsg-9+deb8u6) ...
+Preparing to unpack .../libdns100_1%3a9.9.5.dfsg-9+deb8u7_armhf.deb ...
+Unpacking libdns100 (1:9.9.5.dfsg-9+deb8u7) over (1:9.9.5.dfsg-9+deb8u6) ...
+Preparing to unpack .../libisccc90_1%3a9.9.5.dfsg-9+deb8u7_armhf.deb ...
+Unpacking libisccc90 (1:9.9.5.dfsg-9+deb8u7) over (1:9.9.5.dfsg-9+deb8u6) ...
+Preparing to unpack .../libisccfg90_1%3a9.9.5.dfsg-9+deb8u7_armhf.deb ...
+Unpacking libisccfg90 (1:9.9.5.dfsg-9+deb8u7) over (1:9.9.5.dfsg-9+deb8u6) ...
+Preparing to unpack .../libbind9-90_1%3a9.9.5.dfsg-9+deb8u7_armhf.deb ...
+Unpacking libbind9-90 (1:9.9.5.dfsg-9+deb8u7) over (1:9.9.5.dfsg-9+deb8u6) ...
+Preparing to unpack .../liblwres90_1%3a9.9.5.dfsg-9+deb8u7_armhf.deb ...
+Unpacking liblwres90 (1:9.9.5.dfsg-9+deb8u7) over (1:9.9.5.dfsg-9+deb8u6) ...
+Preparing to unpack .../connman_1.32-git20160418-0rcnee1~bpo80+20160418+1_armhf.deb ...
+Unpacking connman (1.32-git20160418-0rcnee1~bpo80+20160418+1) over (1.21-1.2) ...
+Preparing to unpack .../firmware-atheros_20160824-1_all.deb ...
+Unpacking firmware-atheros (20160824-1) over (0.43) ...
+Preparing to unpack .../firmware-realtek_20160824-1_all.deb ...
+Unpacking firmware-realtek (20160824-1) over (0.43) ...
+Preparing to unpack .../hostapd_1%3a2.5~git20150927-0rcnee1~bpo80+20160428+1_armhf.deb ...
+invoke-rc.d: policy-rc.d denied execution of stop.
+Unpacking hostapd (1:2.5~git20150927-0rcnee1~bpo80+20160428+1) over (1:2.3-1+deb8u4) ...
+Preparing to unpack .../linux-libc-dev_3.16.36-1+deb8u2_armhf.deb ...
+Unpacking linux-libc-dev:armhf (3.16.36-1+deb8u2) over (3.16.36-1+deb8u1) ...
+Preparing to unpack .../openssl_1.0.1t-1+deb8u5_armhf.deb ...
+Unpacking openssl (1.0.1t-1+deb8u5) over (1.0.1t-1+deb8u3) ...
+Preparing to unpack .../wpasupplicant_2.5~git20150927-0rcnee1~bpo80+20160428+1_armhf.deb ...
+Unpacking wpasupplicant (2.5~git20150927-0rcnee1~bpo80+20160428+1) over (2.3-1+deb8u4) ...
+Preparing to unpack .../usb-modeswitch_2.4.0+repack0-1~bpo8+1_armhf.deb ...
+Unpacking usb-modeswitch (2.4.0+repack0-1~bpo8+1) over (2.2.0+repack0-2) ...
+Processing triggers for man-db (2.7.0.2-5) ...
+Processing triggers for systemd (215-17+deb8u5) ...
+Processing triggers for dbus (1.8.20-0+deb8u1) ...
+Setting up initramfs-tools (0.120+deb8u2-1rcnee3~bpo80+20160927+1) ...
+update-initramfs: deferring update (trigger activated)
+Setting up libssl1.0.0:armhf (1.0.1t-1+deb8u5) ...
+Setting up libisc-export95 (1:9.9.5.dfsg-9+deb8u7) ...
+Setting up libdns-export100 (1:9.9.5.dfsg-9+deb8u7) ...
+Setting up libisccfg-export90 (1:9.9.5.dfsg-9+deb8u7) ...
+Setting up libirs-export91 (1:9.9.5.dfsg-9+deb8u7) ...
+Setting up libisc95 (1:9.9.5.dfsg-9+deb8u7) ...
+Setting up libdns100 (1:9.9.5.dfsg-9+deb8u7) ...
+Setting up libisccc90 (1:9.9.5.dfsg-9+deb8u7) ...
+Setting up libisccfg90 (1:9.9.5.dfsg-9+deb8u7) ...
+Setting up libbind9-90 (1:9.9.5.dfsg-9+deb8u7) ...
+Setting up liblwres90 (1:9.9.5.dfsg-9+deb8u7) ...
+Setting up bind9-host (1:9.9.5.dfsg-9+deb8u7) ...
+Setting up connman (1.32-git20160418-0rcnee1~bpo80+20160418+1) ...
+Installing new version of config file /etc/init.d/connman ...
+invoke-rc.d: policy-rc.d denied execution of restart.
+Setting up firmware-atheros (20160824-1) ...
+Setting up firmware-realtek (20160824-1) ...
+update-initramfs: deferring update (trigger activated)
+Setting up hostapd (1:2.5~git20150927-0rcnee1~bpo80+20160428+1) ...
+invoke-rc.d: policy-rc.d denied execution of start.
+Setting up linux-libc-dev:armhf (3.16.36-1+deb8u2) ...
+Setting up openssl (1.0.1t-1+deb8u5) ...
+Setting up wpasupplicant (2.5~git20150927-0rcnee1~bpo80+20160428+1) ...
+Setting up usb-modeswitch (2.4.0+repack0-1~bpo8+1) ...
+Installing new version of config file /etc/usb_modeswitch.conf ...
+Processing triggers for initramfs-tools (0.120+deb8u2-1rcnee3~bpo80+20160927+1) ...
+Processing triggers for libc-bin (2.19-18+deb8u6) ...
+Processing triggers for systemd (215-17+deb8u5) ...
+Log ended: 2016-10-20  18:33:58
+
+Log started: 2016-10-20  18:34:08
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 23025 files and directories currently installed.)
+Preparing to unpack .../e2fslibs_1.43-3~bpo8+1_armhf.deb ...
+Unpacking e2fslibs:armhf (1.43-3~bpo8+1) over (1.42.12-2) ...
+Processing triggers for libc-bin (2.19-18+deb8u6) ...
+Setting up e2fslibs:armhf (1.43-3~bpo8+1) ...
+Processing triggers for libc-bin (2.19-18+deb8u6) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 23025 files and directories currently installed.)
+Preparing to unpack .../e2fsprogs_1.43-3~bpo8+1_armhf.deb ...
+Unpacking e2fsprogs (1.43-3~bpo8+1) over (1.42.12-2) ...
+Processing triggers for man-db (2.7.0.2-5) ...
+Setting up e2fsprogs (1.43-3~bpo8+1) ...
+Installing new version of config file /etc/mke2fs.conf ...
+update-initramfs: deferring update (trigger activated)
+Processing triggers for initramfs-tools (0.120+deb8u2-1rcnee3~bpo80+20160927+1) ...
+Selecting previously unselected package libapparmor1:armhf.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 23028 files and directories currently installed.)
+Preparing to unpack .../libapparmor1_2.10.95-4~bpo8+1_armhf.deb ...
+Unpacking libapparmor1:armhf (2.10.95-4~bpo8+1) ...
+Processing triggers for libc-bin (2.19-18+deb8u6) ...
+Setting up libapparmor1:armhf (2.10.95-4~bpo8+1) ...
+Processing triggers for libc-bin (2.19-18+deb8u6) ...
+Selecting previously unselected package libseccomp2:armhf.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 23034 files and directories currently installed.)
+Preparing to unpack .../libseccomp2_2.2.3-3~bpo8+1_armhf.deb ...
+Unpacking libseccomp2:armhf (2.2.3-3~bpo8+1) ...
+Processing triggers for libc-bin (2.19-18+deb8u6) ...
+Setting up libseccomp2:armhf (2.2.3-3~bpo8+1) ...
+Processing triggers for libc-bin (2.19-18+deb8u6) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 23040 files and directories currently installed.)
+Preparing to unpack .../libsystemd0_230-7~bpo8+2_armhf.deb ...
+Unpacking libsystemd0:armhf (230-7~bpo8+2) over (215-17+deb8u5) ...
+Processing triggers for libc-bin (2.19-18+deb8u6) ...
+Setting up libsystemd0:armhf (230-7~bpo8+2) ...
+Processing triggers for libc-bin (2.19-18+deb8u6) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 23040 files and directories currently installed.)
+Preparing to unpack .../libudev1_230-7~bpo8+2_armhf.deb ...
+Unpacking libudev1:armhf (230-7~bpo8+2) over (215-17+deb8u5) ...
+Processing triggers for libc-bin (2.19-18+deb8u6) ...
+Setting up libudev1:armhf (230-7~bpo8+2) ...
+Processing triggers for libc-bin (2.19-18+deb8u6) ...
+dpkg: considering deconfiguration of ifupdown, which would be broken by installation of systemd ...
+dpkg: yes, will deconfigure ifupdown (broken by systemd)
+dpkg: considering deconfiguration of udev, which would be broken by installation of systemd ...
+dpkg: yes, will deconfigure udev (broken by systemd)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 23039 files and directories currently installed.)
+Preparing to unpack .../systemd_230-7~bpo8+2_armhf.deb ...
+De-configuring udev (215-17+deb8u5) ...
+De-configuring ifupdown (0.7.53.1) ...
+Unpacking systemd (230-7~bpo8+2) over (215-17+deb8u5) ...
+Preparing to unpack .../ifupdown_0.8.13~bpo8+1_armhf.deb ...
+Unpacking ifupdown (0.8.13~bpo8+1) over (0.7.53.1) ...
+Preparing to unpack .../udev_230-7~bpo8+2_armhf.deb ...
+Unpacking udev (230-7~bpo8+2) over (215-17+deb8u5) ...
+Selecting previously unselected package libfuse2:armhf.
+Preparing to unpack .../libfuse2_2.9.3-15+deb8u2_armhf.deb ...
+Unpacking libfuse2:armhf (2.9.3-15+deb8u2) ...
+Selecting previously unselected package autopoint.
+Preparing to unpack .../autopoint_0.19.3-2_all.deb ...
+Unpacking autopoint (0.19.3-2) ...
+Selecting previously unselected package libarchive-zip-perl.
+Preparing to unpack .../libarchive-zip-perl_1.39-1_all.deb ...
+Unpacking libarchive-zip-perl (1.39-1) ...
+Selecting previously unselected package libfile-stripnondeterminism-perl.
+Preparing to unpack .../libfile-stripnondeterminism-perl_0.003-1_all.deb ...
+Unpacking libfile-stripnondeterminism-perl (0.003-1) ...
+Selecting previously unselected package dh-strip-nondeterminism.
+Preparing to unpack .../dh-strip-nondeterminism_0.003-1_all.deb ...
+Unpacking dh-strip-nondeterminism (0.003-1) ...
+Selecting previously unselected package dh-autoreconf.
+Preparing to unpack .../dh-autoreconf_12~bpo8+1_all.deb ...
+Unpacking dh-autoreconf (12~bpo8+1) ...
+Preparing to unpack .../debhelper_9.20160403~bpo8+1_all.deb ...
+Unpacking debhelper (9.20160403~bpo8+1) over (9.20150101+deb8u2) ...
+Selecting previously unselected package fuse2fs.
+Preparing to unpack .../fuse2fs_1.43-3~bpo8+1_armhf.deb ...
+Unpacking fuse2fs (1.43-3~bpo8+1) ...
+Processing triggers for man-db (2.7.0.2-5) ...
+Processing triggers for dbus (1.8.20-0+deb8u1) ...
+Setting up udev (230-7~bpo8+2) ...
+Installing new version of config file /etc/init.d/udev ...
+Installing new version of config file /etc/init/udevmonitor.conf ...
+Installing new version of config file /etc/udev/udev.conf ...
+addgroup: The group `input' already exists as a system group. Exiting.
+A chroot environment has been detected, udev not started.
+A chroot environment has been detected, udev not started.
+update-initramfs: deferring update (trigger activated)
+Removing obsolete conffile /etc/init.d/udev-finish ...
+Removing obsolete conffile /etc/init/udev-finish.conf ...
+Removing obsolete conffile /etc/init/udev-fallback-graphics.conf ...
+Removing obsolete conffile /etc/modprobe.d/fbdev-blacklist.conf ...
+Setting up systemd (230-7~bpo8+2) ...
+Installing new version of config file /etc/dbus-1/system.d/org.freedesktop.login1.conf ...
+Installing new version of config file /etc/dbus-1/system.d/org.freedesktop.systemd1.conf ...
+Installing new version of config file /etc/pam.d/systemd-user ...
+Installing new version of config file /etc/systemd/journald.conf ...
+Installing new version of config file /etc/systemd/logind.conf ...
+Installing new version of config file /etc/systemd/resolved.conf ...
+Installing new version of config file /etc/systemd/system.conf ...
+Installing new version of config file /etc/systemd/timesyncd.conf ...
+Installing new version of config file /etc/systemd/user.conf ...
+Created symlink /etc/systemd/system/sysinit.target.wants/systemd-timesyncd.service -> /lib/systemd/system/systemd-timesyncd.service.
+addgroup: The group `systemd-journal' already exists as a system group. Exiting.
+Removing obsolete conffile /etc/dbus-1/system.d/org.freedesktop.machine1.conf ...
+Removing obsolete conffile /etc/systemd/bootchart.conf ...
+Setting up ifupdown (0.8.13~bpo8+1) ...
+Installing new version of config file /etc/init.d/networking ...
+Setting up libfuse2:armhf (2.9.3-15+deb8u2) ...
+Setting up autopoint (0.19.3-2) ...
+Setting up libarchive-zip-perl (1.39-1) ...
+Setting up libfile-stripnondeterminism-perl (0.003-1) ...
+Setting up fuse2fs (1.43-3~bpo8+1) ...
+Setting up dh-strip-nondeterminism (0.003-1) ...
+Setting up debhelper (9.20160403~bpo8+1) ...
+Setting up dh-autoreconf (12~bpo8+1) ...
+Processing triggers for initramfs-tools (0.120+deb8u2-1rcnee3~bpo80+20160927+1) ...
+Processing triggers for dbus (1.8.20-0+deb8u1) ...
+Processing triggers for systemd (230-7~bpo8+2) ...
+Processing triggers for libc-bin (2.19-18+deb8u6) ...
+Log ended: 2016-10-20  18:34:40
+
+Log started: 2016-10-20  18:36:25
+Selecting previously unselected package python2.7-minimal.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 23162 files and directories currently installed.)
+Preparing to unpack .../python2.7-minimal_2.7.9-2+deb8u1_armhf.deb ...
+Unpacking python2.7-minimal (2.7.9-2+deb8u1) ...
+Selecting previously unselected package python-minimal.
+Preparing to unpack .../python-minimal_2.7.9-1_armhf.deb ...
+Unpacking python-minimal (2.7.9-1) ...
+Selecting previously unselected package python2.7.
+Preparing to unpack .../python2.7_2.7.9-2+deb8u1_armhf.deb ...
+Unpacking python2.7 (2.7.9-2+deb8u1) ...
+Selecting previously unselected package libpython-stdlib:armhf.
+Preparing to unpack .../libpython-stdlib_2.7.9-1_armhf.deb ...
+Unpacking libpython-stdlib:armhf (2.7.9-1) ...
+Processing triggers for man-db (2.7.0.2-5) ...
+Processing triggers for mime-support (3.58) ...
+Setting up python2.7-minimal (2.7.9-2+deb8u1) ...
+Setting up python-minimal (2.7.9-1) ...
+Selecting previously unselected package python.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 23221 files and directories currently installed.)
+Preparing to unpack .../python_2.7.9-1_armhf.deb ...
+Unpacking python (2.7.9-1) ...
+Selecting previously unselected package libavutil54:armhf.
+Preparing to unpack .../libavutil54_6%3a11.8-1~deb8u1_armhf.deb ...
+Unpacking libavutil54:armhf (6:11.8-1~deb8u1) ...
+Selecting previously unselected package libavresample2:armhf.
+Preparing to unpack .../libavresample2_6%3a11.8-1~deb8u1_armhf.deb ...
+Unpacking libavresample2:armhf (6:11.8-1~deb8u1) ...
+Selecting previously unselected package libgsm1:armhf.
+Preparing to unpack .../libgsm1_1.0.13-4_armhf.deb ...
+Unpacking libgsm1:armhf (1.0.13-4) ...
+Selecting previously unselected package libmp3lame0:armhf.
+Preparing to unpack .../libmp3lame0_3.99.5+repack1-7+deb8u1_armhf.deb ...
+Unpacking libmp3lame0:armhf (3.99.5+repack1-7+deb8u1) ...
+Selecting previously unselected package libopenjpeg5:armhf.
+Preparing to unpack .../libopenjpeg5_1%3a1.5.2-3_armhf.deb ...
+Unpacking libopenjpeg5:armhf (1:1.5.2-3) ...
+Selecting previously unselected package libopus0:armhf.
+Preparing to unpack .../libopus0_1.1-2_armhf.deb ...
+Unpacking libopus0:armhf (1.1-2) ...
+Selecting previously unselected package liborc-0.4-0:armhf.
+Preparing to unpack .../liborc-0.4-0_1%3a0.4.22-1_armhf.deb ...
+Unpacking liborc-0.4-0:armhf (1:0.4.22-1) ...
+Selecting previously unselected package libschroedinger-1.0-0:armhf.
+Preparing to unpack .../libschroedinger-1.0-0_1.0.11-2.1_armhf.deb ...
+Unpacking libschroedinger-1.0-0:armhf (1.0.11-2.1) ...
+Selecting previously unselected package libspeex1:armhf.
+Preparing to unpack .../libspeex1_1.2~rc1.2-1_armhf.deb ...
+Unpacking libspeex1:armhf (1.2~rc1.2-1) ...
+Selecting previously unselected package libogg0:armhf.
+Preparing to unpack .../libogg0_1.3.2-1_armhf.deb ...
+Unpacking libogg0:armhf (1.3.2-1) ...
+Selecting previously unselected package libtheora0:armhf.
+Preparing to unpack .../libtheora0_1.1.1+dfsg.1-6_armhf.deb ...
+Unpacking libtheora0:armhf (1.1.1+dfsg.1-6) ...
+Selecting previously unselected package libva1:armhf.
+Preparing to unpack .../libva1_1.7.2-1_armhf.deb ...
+Unpacking libva1:armhf (1.7.2-1) ...
+Selecting previously unselected package libvorbis0a:armhf.
+Preparing to unpack .../libvorbis0a_1.3.4-2_armhf.deb ...
+Unpacking libvorbis0a:armhf (1.3.4-2) ...
+Selecting previously unselected package libvorbisenc2:armhf.
+Preparing to unpack .../libvorbisenc2_1.3.4-2_armhf.deb ...
+Unpacking libvorbisenc2:armhf (1.3.4-2) ...
+Selecting previously unselected package libvpx1:armhf.
+Preparing to unpack .../libvpx1_1.3.0-3_armhf.deb ...
+Unpacking libvpx1:armhf (1.3.0-3) ...
+Selecting previously unselected package libx264-142:armhf.
+Preparing to unpack .../libx264-142_2%3a0.142.2431+gita5831aa-1+b2_armhf.deb ...
+Unpacking libx264-142:armhf (2:0.142.2431+gita5831aa-1+b2) ...
+Selecting previously unselected package libxvidcore4:armhf.
+Preparing to unpack .../libxvidcore4_2%3a1.3.3-1_armhf.deb ...
+Unpacking libxvidcore4:armhf (2:1.3.3-1) ...
+Selecting previously unselected package libavcodec56:armhf.
+Preparing to unpack .../libavcodec56_6%3a11.8-1~deb8u1_armhf.deb ...
+Unpacking libavcodec56:armhf (6:11.8-1~deb8u1) ...
+Selecting previously unselected package libjack-jackd2-0:armhf.
+Preparing to unpack .../libjack-jackd2-0_1.9.10+20140719git3eb0ae6a~dfsg-2_armhf.deb ...
+Unpacking libjack-jackd2-0:armhf (1.9.10+20140719git3eb0ae6a~dfsg-2) ...
+Selecting previously unselected package libasyncns0:armhf.
+Preparing to unpack .../libasyncns0_0.8-5_armhf.deb ...
+Unpacking libasyncns0:armhf (0.8-5) ...
+Selecting previously unselected package x11-common.
+Preparing to unpack .../x11-common_1%3a7.7+7_all.deb ...
+Unpacking x11-common (1:7.7+7) ...
+Selecting previously unselected package libice6:armhf.
+Preparing to unpack .../libice6_2%3a1.0.9-1+b1_armhf.deb ...
+Unpacking libice6:armhf (2:1.0.9-1+b1) ...
+Selecting previously unselected package libsm6:armhf.
+Preparing to unpack .../libsm6_2%3a1.2.2-1+b1_armhf.deb ...
+Unpacking libsm6:armhf (2:1.2.2-1+b1) ...
+Selecting previously unselected package libflac8:armhf.
+Preparing to unpack .../libflac8_1.3.0-3_armhf.deb ...
+Unpacking libflac8:armhf (1.3.0-3) ...
+Selecting previously unselected package libsndfile1:armhf.
+Preparing to unpack .../libsndfile1_1.0.25-9.1+deb8u1_armhf.deb ...
+Unpacking libsndfile1:armhf (1.0.25-9.1+deb8u1) ...
+Selecting previously unselected package libxau6:armhf.
+Preparing to unpack .../libxau6_1%3a1.0.8-1_armhf.deb ...
+Unpacking libxau6:armhf (1:1.0.8-1) ...
+Selecting previously unselected package libxdmcp6:armhf.
+Preparing to unpack .../libxdmcp6_1%3a1.1.1-1+b1_armhf.deb ...
+Unpacking libxdmcp6:armhf (1:1.1.1-1+b1) ...
+Selecting previously unselected package libxcb1:armhf.
+Preparing to unpack .../libxcb1_1.10-3+b1_armhf.deb ...
+Unpacking libxcb1:armhf (1.10-3+b1) ...
+Selecting previously unselected package libx11-data.
+Preparing to unpack .../libx11-data_2%3a1.6.2-3_all.deb ...
+Unpacking libx11-data (2:1.6.2-3) ...
+Selecting previously unselected package libx11-6:armhf.
+Preparing to unpack .../libx11-6_2%3a1.6.2-3_armhf.deb ...
+Unpacking libx11-6:armhf (2:1.6.2-3) ...
+Selecting previously unselected package libx11-xcb1:armhf.
+Preparing to unpack .../libx11-xcb1_2%3a1.6.2-3_armhf.deb ...
+Unpacking libx11-xcb1:armhf (2:1.6.2-3) ...
+Selecting previously unselected package libxext6:armhf.
+Preparing to unpack .../libxext6_2%3a1.3.3-1_armhf.deb ...
+Unpacking libxext6:armhf (2:1.3.3-1) ...
+Selecting previously unselected package libxi6:armhf.
+Preparing to unpack .../libxi6_2%3a1.7.4-1+b2_armhf.deb ...
+Unpacking libxi6:armhf (2:1.7.4-1+b2) ...
+Selecting previously unselected package libxtst6:armhf.
+Preparing to unpack .../libxtst6_2%3a1.2.2-1+b1_armhf.deb ...
+Unpacking libxtst6:armhf (2:1.2.2-1+b1) ...
+Selecting previously unselected package libpulse0:armhf.
+Preparing to unpack .../libpulse0_5.0-13_armhf.deb ...
+Unpacking libpulse0:armhf (5.0-13) ...
+Selecting previously unselected package libspeexdsp1:armhf.
+Preparing to unpack .../libspeexdsp1_1.2~rc1.2-1_armhf.deb ...
+Unpacking libspeexdsp1:armhf (1.2~rc1.2-1) ...
+Selecting previously unselected package libasound2-plugins:armhf.
+Preparing to unpack .../libasound2-plugins_1.0.28-1+b1_armhf.deb ...
+Unpacking libasound2-plugins:armhf (1.0.28-1+b1) ...
+Selecting previously unselected package libdbus-glib-1-2:armhf.
+Preparing to unpack .../libdbus-glib-1-2_0.102-1_armhf.deb ...
+Unpacking libdbus-glib-1-2:armhf (0.102-1) ...
+Selecting previously unselected package libelf1:armhf.
+Preparing to unpack .../libelf1_0.159-4.2_armhf.deb ...
+Unpacking libelf1:armhf (0.159-4.2) ...
+Selecting previously unselected package libfftw3-single3:armhf.
+Preparing to unpack .../libfftw3-single3_3.3.4-2_armhf.deb ...
+Unpacking libfftw3-single3:armhf (3.3.4-2) ...
+Selecting previously unselected package libpng12-0:armhf.
+Preparing to unpack .../libpng12-0_1.2.50-2+deb8u2_armhf.deb ...
+Unpacking libpng12-0:armhf (1.2.50-2+deb8u2) ...
+Selecting previously unselected package libfreetype6:armhf.
+Preparing to unpack .../libfreetype6_2.5.2-3+deb8u1_armhf.deb ...
+Unpacking libfreetype6:armhf (2.5.2-3+deb8u1) ...
+Selecting previously unselected package ucf.
+Preparing to unpack .../archives/ucf_3.0030_all.deb ...
+Moving old data out of the way
+Unpacking ucf (3.0030) ...
+Selecting previously unselected package fonts-dejavu-core.
+Preparing to unpack .../fonts-dejavu-core_2.34-1_all.deb ...
+Unpacking fonts-dejavu-core (2.34-1) ...
+Selecting previously unselected package fontconfig-config.
+Preparing to unpack .../fontconfig-config_2.11.0-6.3+deb8u1_all.deb ...
+Unpacking fontconfig-config (2.11.0-6.3+deb8u1) ...
+Selecting previously unselected package libfontconfig1:armhf.
+Preparing to unpack .../libfontconfig1_2.11.0-6.3+deb8u1_armhf.deb ...
+Unpacking libfontconfig1:armhf (2.11.0-6.3+deb8u1) ...
+Selecting previously unselected package libltdl7:armhf.
+Preparing to unpack .../libltdl7_2.4.2-1.11_armhf.deb ...
+Unpacking libltdl7:armhf (2.4.2-1.11) ...
+Selecting previously unselected package libmpdec2:armhf.
+Preparing to unpack .../libmpdec2_2.4.1-1_armhf.deb ...
+Unpacking libmpdec2:armhf (2.4.1-1) ...
+Selecting previously unselected package libmpg123-0:armhf.
+Preparing to unpack .../libmpg123-0_1.20.1-2_armhf.deb ...
+Unpacking libmpg123-0:armhf (1.20.1-2) ...
+Selecting previously unselected package libmraa0:armhf.
+Preparing to unpack .../libmraa0_1.0.0-git20160609-0rcnee3~bpo80+20160609+1_armhf.deb ...
+Unpacking libmraa0:armhf (1.0.0-git20160609-0rcnee3~bpo80+20160609+1) ...
+Selecting previously unselected package libnspr4:armhf.
+Preparing to unpack .../libnspr4_2%3a4.12-1+debu8u1_armhf.deb ...
+Unpacking libnspr4:armhf (2:4.12-1+debu8u1) ...
+Selecting previously unselected package libpolkit-gobject-1-0:armhf.
+Preparing to unpack .../libpolkit-gobject-1-0_0.113-2~bpo80+20151104+1_armhf.deb ...
+Unpacking libpolkit-gobject-1-0:armhf (0.113-2~bpo80+20151104+1) ...
+Selecting previously unselected package libpolkit-agent-1-0:armhf.
+Preparing to unpack .../libpolkit-agent-1-0_0.113-2~bpo80+20151104+1_armhf.deb ...
+Unpacking libpolkit-agent-1-0:armhf (0.113-2~bpo80+20151104+1) ...
+Selecting previously unselected package libpulsedsp:armhf.
+Preparing to unpack .../libpulsedsp_5.0-13_armhf.deb ...
+Unpacking libpulsedsp:armhf (5.0-13) ...
+Selecting previously unselected package libexpat1-dev:armhf.
+Preparing to unpack .../libexpat1-dev_2.1.0-6+deb8u3_armhf.deb ...
+Unpacking libexpat1-dev:armhf (2.1.0-6+deb8u3) ...
+Selecting previously unselected package libpython2.7-dev:armhf.
+Preparing to unpack .../libpython2.7-dev_2.7.9-2+deb8u1_armhf.deb ...
+Unpacking libpython2.7-dev:armhf (2.7.9-2+deb8u1) ...
+Selecting previously unselected package libpython3.4-minimal:armhf.
+Preparing to unpack .../libpython3.4-minimal_3.4.2-1_armhf.deb ...
+Unpacking libpython3.4-minimal:armhf (3.4.2-1) ...
+Selecting previously unselected package libpython3.4-stdlib:armhf.
+Preparing to unpack .../libpython3.4-stdlib_3.4.2-1_armhf.deb ...
+Unpacking libpython3.4-stdlib:armhf (3.4.2-1) ...
+Selecting previously unselected package libtcl8.6:armhf.
+Preparing to unpack .../libtcl8.6_8.6.2+dfsg-2_armhf.deb ...
+Unpacking libtcl8.6:armhf (8.6.2+dfsg-2) ...
+Selecting previously unselected package libtdb1:armhf.
+Preparing to unpack .../libtdb1_1.3.6-0+deb8u1_armhf.deb ...
+Unpacking libtdb1:armhf (1.3.6-0+deb8u1) ...
+Selecting previously unselected package libxrender1:armhf.
+Preparing to unpack .../libxrender1_1%3a0.9.8-1+b1_armhf.deb ...
+Unpacking libxrender1:armhf (1:0.9.8-1+b1) ...
+Selecting previously unselected package libxft2:armhf.
+Preparing to unpack .../libxft2_2.3.2-1_armhf.deb ...
+Unpacking libxft2:armhf (2.3.2-1) ...
+Selecting previously unselected package libxss1:armhf.
+Preparing to unpack .../libxss1_1%3a1.2.2-1_armhf.deb ...
+Unpacking libxss1:armhf (1:1.2.2-1) ...
+Selecting previously unselected package libtk8.6:armhf.
+Preparing to unpack .../libtk8.6_8.6.2-1_armhf.deb ...
+Unpacking libtk8.6:armhf (8.6.2-1) ...
+Selecting previously unselected package libxcb-dri2-0:armhf.
+Preparing to unpack .../libxcb-dri2-0_1.10-3+b1_armhf.deb ...
+Unpacking libxcb-dri2-0:armhf (1.10-3+b1) ...
+Selecting previously unselected package libxcb-dri3-0:armhf.
+Preparing to unpack .../libxcb-dri3-0_1.10-3+b1_armhf.deb ...
+Unpacking libxcb-dri3-0:armhf (1.10-3+b1) ...
+Selecting previously unselected package libxcb-present0:armhf.
+Preparing to unpack .../libxcb-present0_1.10-3+b1_armhf.deb ...
+Unpacking libxcb-present0:armhf (1.10-3+b1) ...
+Selecting previously unselected package libxcb-sync1:armhf.
+Preparing to unpack .../libxcb-sync1_1.10-3+b1_armhf.deb ...
+Unpacking libxcb-sync1:armhf (1.10-3+b1) ...
+Selecting previously unselected package libxshmfence1:armhf.
+Preparing to unpack .../libxshmfence1_1.1-4_armhf.deb ...
+Unpacking libxshmfence1:armhf (1.1-4) ...
+Selecting previously unselected package python3.4-minimal.
+Preparing to unpack .../python3.4-minimal_3.4.2-1_armhf.deb ...
+Unpacking python3.4-minimal (3.4.2-1) ...
+Selecting previously unselected package upm:armhf.
+Preparing to unpack .../upm_0.7.0-git20160609-0rcnee3~bpo80+20160609+1_armhf.deb ...
+Unpacking upm:armhf (0.7.0-git20160609-0rcnee3~bpo80+20160609+1) ...
+Selecting previously unselected package rlwrap.
+Preparing to unpack .../rlwrap_0.41-1_armhf.deb ...
+Unpacking rlwrap (0.41-1) ...
+Selecting previously unselected package nodejs.
+Preparing to unpack .../nodejs_0.12.17-1nodesource1~jessie1_armhf.deb ...
+Unpacking nodejs (0.12.17-1nodesource1~jessie1) ...
+Processing triggers for man-db (2.7.0.2-5) ...
+Processing triggers for libc-bin (2.19-18+deb8u6) ...
+Processing triggers for systemd (230-7~bpo8+2) ...
+Setting up rlwrap (0.41-1) ...
+update-alternatives: using /usr/bin/rlwrap to provide /usr/bin/readline-editor (readline-editor) in auto mode
+Setting up nodejs (0.12.17-1nodesource1~jessie1) ...
+Selecting previously unselected package bb-node-red-installer.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 30395 files and directories currently installed.)
+Preparing to unpack .../bb-node-red-installer_0.14.4-0rcnee2~bpo80+20160708+1_all.deb ...
+Unpacking bb-node-red-installer (0.14.4-0rcnee2~bpo80+20160708+1) ...
+Selecting previously unselected package bone101.
+Preparing to unpack .../bone101_1.1.6-0rcnee17~bpo80+20160708+1_armhf.deb ...
+Unpacking bone101 (1.1.6-0rcnee17~bpo80+20160708+1) ...
+Processing triggers for mime-support (3.58) ...
+Setting up bone101 (1.1.6-0rcnee17~bpo80+20160708+1) ...
+Selecting previously unselected package bonescript.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 35111 files and directories currently installed.)
+Preparing to unpack .../bonescript_0.5.0-0rcnee17~bpo80+20160709+1_armhf.deb ...
+Unpacking bonescript (0.5.0-0rcnee17~bpo80+20160709+1) ...
+Setting up python2.7 (2.7.9-2+deb8u1) ...
+Setting up libpython-stdlib:armhf (2.7.9-1) ...
+Setting up python (2.7.9-1) ...
+Selecting previously unselected package c9-core-installer.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 39916 files and directories currently installed.)
+Preparing to unpack .../c9-core-installer_3.1.3088+git20160915-0rcnee0~bpo80+20160920+1_all.deb ...
+Unpacking c9-core-installer (3.1.3088+git20160915-0rcnee0~bpo80+20160920+1) ...
+Selecting previously unselected package doc-beaglebone-getting-started.
+Preparing to unpack .../doc-beaglebone-getting-started_1.20151204-2~bpo80+20160421+1_all.deb ...
+Unpacking doc-beaglebone-getting-started (1.20151204-2~bpo80+20160421+1) ...
+Selecting previously unselected package doc-beaglebonegreen-getting-started.
+Preparing to unpack .../doc-beaglebonegreen-getting-started_1.20160420-2~bpo80+20160421+1_all.deb ...
+Unpacking doc-beaglebonegreen-getting-started (1.20160420-2~bpo80+20160421+1) ...
+Selecting previously unselected package doc-seeed-bbgw-getting-started.
+Preparing to unpack .../doc-seeed-bbgw-getting-started_1.20160511-0rcnee1~bpo80+20160511+1_all.deb ...
+Unpacking doc-seeed-bbgw-getting-started (1.20160511-0rcnee1~bpo80+20160511+1) ...
+Selecting previously unselected package gcp-iot-demo.
+Preparing to unpack .../gcp-iot-demo_0.0.1-0rcnee2~bpo80+20160805+1_all.deb ...
+Unpacking gcp-iot-demo (0.0.1-0rcnee2~bpo80+20160805+1) ...
+Selecting previously unselected package libhavege1:armhf.
+Preparing to unpack .../libhavege1_1.9.1-1_armhf.deb ...
+Unpacking libhavege1:armhf (1.9.1-1) ...
+Selecting previously unselected package libnetfilter-conntrack3:armhf.
+Preparing to unpack .../libnetfilter-conntrack3_1.0.4-1_armhf.deb ...
+Unpacking libnetfilter-conntrack3:armhf (1.0.4-1) ...
+Selecting previously unselected package libsbc1:armhf.
+Preparing to unpack .../libsbc1_1.2-3_armhf.deb ...
+Unpacking libsbc1:armhf (1.2-3) ...
+Selecting previously unselected package libsoc2.
+Preparing to unpack .../libsoc2_0.6.5-git20150802-1~bpo80+20150803+1_armhf.deb ...
+Unpacking libsoc2 (0.6.5-git20150802-1~bpo80+20150803+1) ...
+Selecting previously unselected package libwebrtc-audio-processing-0:armhf.
+Preparing to unpack .../libwebrtc-audio-processing-0_0.1-3_armhf.deb ...
+Unpacking libwebrtc-audio-processing-0:armhf (0.1-3) ...
+Selecting previously unselected package haveged.
+Preparing to unpack .../haveged_1.9.1-1_armhf.deb ...
+Unpacking haveged (1.9.1-1) ...
+Processing triggers for systemd (230-7~bpo8+2) ...
+Processing triggers for man-db (2.7.0.2-5) ...
+Setting up libhavege1:armhf (1.9.1-1) ...
+Setting up haveged (1.9.1-1) ...
+Running in chroot, ignoring request.
+invoke-rc.d: policy-rc.d denied execution of start.
+Processing triggers for libc-bin (2.19-18+deb8u6) ...
+Processing triggers for systemd (230-7~bpo8+2) ...
+Selecting previously unselected package rcnee-access-point.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 39979 files and directories currently installed.)
+Preparing to unpack .../rcnee-access-point_1.20160502-0rcnee1~bpo80+20160502+1_all.deb ...
+Unpacking rcnee-access-point (1.20160502-0rcnee1~bpo80+20160502+1) ...
+Selecting previously unselected package dnsmasq-base.
+Preparing to unpack .../dnsmasq-base_2.72-3+deb8u1_armhf.deb ...
+Unpacking dnsmasq-base (2.72-3+deb8u1) ...
+Selecting previously unselected package dnsmasq.
+Preparing to unpack .../dnsmasq_2.72-3+deb8u1_all.deb ...
+Unpacking dnsmasq (2.72-3+deb8u1) ...
+Selecting previously unselected package wifidog-gateway.
+Preparing to unpack .../wifidog-gateway_1.3.0-git20160426-0rcnee4~bpo80+20160505+1_armhf.deb ...
+Unpacking wifidog-gateway (1.3.0-git20160426-0rcnee4~bpo80+20160505+1) ...
+Processing triggers for dbus (1.8.20-0+deb8u1) ...
+Processing triggers for man-db (2.7.0.2-5) ...
+Processing triggers for systemd (230-7~bpo8+2) ...
+Setting up libnetfilter-conntrack3:armhf (1.0.4-1) ...
+Setting up dnsmasq-base (2.72-3+deb8u1) ...
+Setting up dnsmasq (2.72-3+deb8u1) ...
+Running in chroot, ignoring request.
+invoke-rc.d: policy-rc.d denied execution of start.
+Setting up rcnee-access-point (1.20160502-0rcnee1~bpo80+20160502+1) ...
+Setting up wifidog-gateway (1.3.0-git20160426-0rcnee4~bpo80+20160505+1) ...
+Processing triggers for libc-bin (2.19-18+deb8u6) ...
+Processing triggers for dbus (1.8.20-0+deb8u1) ...
+Processing triggers for systemd (230-7~bpo8+2) ...
+Selecting previously unselected package seeed-wificonfig-installer.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 40062 files and directories currently installed.)
+Preparing to unpack .../seeed-wificonfig-installer_0.1.5-0rcnee8~bpo80+20160708+1_all.deb ...
+Unpacking seeed-wificonfig-installer (0.1.5-0rcnee8~bpo80+20160708+1) ...
+Selecting previously unselected package ti-pru-cgt-installer.
+Preparing to unpack .../ti-pru-cgt-installer_2.1.3-0rcnee0~bpo80+20161017+1_all.deb ...
+Unpacking ti-pru-cgt-installer (2.1.3-0rcnee0~bpo80+20161017+1) ...
+Selecting previously unselected package python-support.
+Preparing to unpack .../python-support_1.0.15_all.deb ...
+Unpacking python-support (1.0.15) ...
+Selecting previously unselected package tk8.6-blt2.5.
+Preparing to unpack .../tk8.6-blt2.5_2.5.3+dfsg-1_armhf.deb ...
+Unpacking tk8.6-blt2.5 (2.5.3+dfsg-1) ...
+Selecting previously unselected package blt.
+Preparing to unpack .../blt_2.5.3+dfsg-1_armhf.deb ...
+Unpacking blt (2.5.3+dfsg-1) ...
+Selecting previously unselected package python3.4.
+Preparing to unpack .../python3.4_3.4.2-1_armhf.deb ...
+Unpacking python3.4 (3.4.2-1) ...
+Selecting previously unselected package python3-minimal.
+Preparing to unpack .../python3-minimal_3.4.2-2_armhf.deb ...
+Unpacking python3-minimal (3.4.2-2) ...
+Selecting previously unselected package libpython3-stdlib:armhf.
+Preparing to unpack .../libpython3-stdlib_3.4.2-2_armhf.deb ...
+Unpacking libpython3-stdlib:armhf (3.4.2-2) ...
+Selecting previously unselected package python3.
+Preparing to unpack .../python3_3.4.2-2_armhf.deb ...
+Unpacking python3 (3.4.2-2) ...
+Selecting previously unselected package dh-python.
+Preparing to unpack .../dh-python_1.20141111-2_all.deb ...
+Unpacking dh-python (1.20141111-2) ...
+Selecting previously unselected package dns-root-data.
+Preparing to unpack .../dns-root-data_2014060201+2_all.deb ...
+Unpacking dns-root-data (2014060201+2) ...
+Selecting previously unselected package libgirepository-1.0-1:armhf.
+Preparing to unpack .../libgirepository-1.0-1_1.42.0-2.2_armhf.deb ...
+Unpacking libgirepository-1.0-1:armhf (1.42.0-2.2) ...
+Selecting previously unselected package gir1.2-glib-2.0:armhf.
+Preparing to unpack .../gir1.2-glib-2.0_1.42.0-2.2_armhf.deb ...
+Unpacking gir1.2-glib-2.0:armhf (1.42.0-2.2) ...
+Selecting previously unselected package javascript-common.
+Preparing to unpack .../javascript-common_11_all.deb ...
+Unpacking javascript-common (11) ...
+Selecting previously unselected package libdrm2:armhf.
+Preparing to unpack .../libdrm2_2.4.71-1rcnee0~bpo80+20161007+1_armhf.deb ...
+Unpacking libdrm2:armhf (2.4.71-1rcnee0~bpo80+20161007+1) ...
+Selecting previously unselected package libdrm-amdgpu1:armhf.
+Preparing to unpack .../libdrm-amdgpu1_2.4.71-1rcnee0~bpo80+20161007+1_armhf.deb ...
+Unpacking libdrm-amdgpu1:armhf (2.4.71-1rcnee0~bpo80+20161007+1) ...
+Selecting previously unselected package libdrm-nouveau2:armhf.
+Preparing to unpack .../libdrm-nouveau2_2.4.71-1rcnee0~bpo80+20161007+1_armhf.deb ...
+Unpacking libdrm-nouveau2:armhf (2.4.71-1rcnee0~bpo80+20161007+1) ...
+Selecting previously unselected package libdrm-radeon1:armhf.
+Preparing to unpack .../libdrm-radeon1_2.4.71-1rcnee0~bpo80+20161007+1_armhf.deb ...
+Unpacking libdrm-radeon1:armhf (2.4.71-1rcnee0~bpo80+20161007+1) ...
+Selecting previously unselected package libjs-jquery.
+Preparing to unpack .../libjs-jquery_1.7.2+dfsg-3.2_all.deb ...
+Unpacking libjs-jquery (1.7.2+dfsg-3.2) ...
+Selecting previously unselected package libllvm3.9:armhf.
+Preparing to unpack .../libllvm3.9_1%3a3.9-2_armhf.deb ...
+Unpacking libllvm3.9:armhf (1:3.9-2) ...
+Selecting previously unselected package libmozjs185-1.0.
+Preparing to unpack .../libmozjs185-1.0_1.8.5-1.0.0+dfsg-4.3_armhf.deb ...
+Unpacking libmozjs185-1.0 (1.8.5-1.0.0+dfsg-4.3) ...
+Selecting previously unselected package libpam-systemd:armhf.
+Preparing to unpack .../libpam-systemd_230-7~bpo8+2_armhf.deb ...
+Unpacking libpam-systemd:armhf (230-7~bpo8+2) ...
+Selecting previously unselected package libpython-dev:armhf.
+Preparing to unpack .../libpython-dev_2.7.9-1_armhf.deb ...
+Unpacking libpython-dev:armhf (2.7.9-1) ...
+Selecting previously unselected package linux-headers-4.4.24-ti-r58.
+Preparing to unpack .../linux-headers-4.4.24-ti-r58_1jessie_armhf.deb ...
+Unpacking linux-headers-4.4.24-ti-r58 (1jessie) ...
+Selecting previously unselected package linux-image-4.4.24-ti-r58.
+Preparing to unpack .../linux-image-4.4.24-ti-r58_1jessie_armhf.deb ...
+Unpacking linux-image-4.4.24-ti-r58 (1jessie) ...
+Selecting previously unselected package lsb-release.
+Preparing to unpack .../lsb-release_4.1+Debian13+nmu1_all.deb ...
+Unpacking lsb-release (4.1+Debian13+nmu1) ...
+Selecting previously unselected package mesa-va-drivers:armhf.
+Preparing to unpack .../mesa-va-drivers_12.0.3-1rcnee1~bpo80+20160921+1_armhf.deb ...
+Unpacking mesa-va-drivers:armhf (12.0.3-1rcnee1~bpo80+20160921+1) ...
+Selecting previously unselected package mpg123.
+Preparing to unpack .../mpg123_1.20.1-2_armhf.deb ...
+Unpacking mpg123 (1.20.1-2) ...
+Selecting previously unselected package pastebinit.
+Preparing to unpack .../pastebinit_1.5-1~bpo80+20160303+1_all.deb ...
+Unpacking pastebinit (1.5-1~bpo80+20160303+1) ...
+Selecting previously unselected package policykit-1.
+Preparing to unpack .../policykit-1_0.113-2~bpo80+20151104+1_armhf.deb ...
+Unpacking policykit-1 (0.113-2~bpo80+20151104+1) ...
+Selecting previously unselected package pulseaudio-utils.
+Preparing to unpack .../pulseaudio-utils_5.0-13_armhf.deb ...
+Unpacking pulseaudio-utils (5.0-13) ...
+Selecting previously unselected package pulseaudio.
+Preparing to unpack .../pulseaudio_5.0-13_armhf.deb ...
+Unpacking pulseaudio (5.0-13) ...
+Selecting previously unselected package pulseaudio-module-x11.
+Preparing to unpack .../pulseaudio-module-x11_5.0-13_armhf.deb ...
+Unpacking pulseaudio-module-x11 (5.0-13) ...
+Selecting previously unselected package python-logilab-common.
+Preparing to unpack .../python-logilab-common_0.62.0-1_all.deb ...
+Unpacking python-logilab-common (0.62.0-1) ...
+Selecting previously unselected package python-astroid.
+Preparing to unpack .../python-astroid_1.2.1-3_all.deb ...
+Unpacking python-astroid (1.2.1-3) ...
+Selecting previously unselected package pylint.
+Preparing to unpack .../pylint_1.3.1-3_all.deb ...
+Unpacking pylint (1.3.1-3) ...
+Selecting previously unselected package python-blinker.
+Preparing to unpack .../python-blinker_1.3.dfsg2-1_all.deb ...
+Unpacking python-blinker (1.3.dfsg2-1) ...
+Selecting previously unselected package python-ply.
+Preparing to unpack .../python-ply_3.4-5_all.deb ...
+Unpacking python-ply (3.4-5) ...
+Selecting previously unselected package python-pycparser.
+Preparing to unpack .../python-pycparser_2.10+dfsg-3_all.deb ...
+Unpacking python-pycparser (2.10+dfsg-3) ...
+Selecting previously unselected package python-cffi.
+Preparing to unpack .../python-cffi_0.8.6-1_armhf.deb ...
+Unpacking python-cffi (0.8.6-1) ...
+Selecting previously unselected package python-pkg-resources.
+Preparing to unpack .../python-pkg-resources_5.5.1-1_all.deb ...
+Unpacking python-pkg-resources (5.5.1-1) ...
+Selecting previously unselected package python-chardet.
+Preparing to unpack .../python-chardet_2.3.0-1_all.deb ...
+Unpacking python-chardet (2.3.0-1) ...
+Selecting previously unselected package python-colorama.
+Preparing to unpack .../python-colorama_0.3.2-1_all.deb ...
+Unpacking python-colorama (0.3.2-1) ...
+Selecting previously unselected package python-six.
+Preparing to unpack .../python-six_1.8.0-1_all.deb ...
+Unpacking python-six (1.8.0-1) ...
+Selecting previously unselected package python-cryptography.
+Preparing to unpack .../python-cryptography_0.6.1-1_armhf.deb ...
+Unpacking python-cryptography (0.6.1-1) ...
+Selecting previously unselected package python-dbus-dev.
+Preparing to unpack .../python-dbus-dev_1.2.0-2_all.deb ...
+Unpacking python-dbus-dev (1.2.0-2) ...
+Selecting previously unselected package python-dbus.
+Preparing to unpack .../python-dbus_1.2.0-2+b3_armhf.deb ...
+Unpacking python-dbus (1.2.0-2+b3) ...
+Selecting previously unselected package python2.7-dev.
+Preparing to unpack .../python2.7-dev_2.7.9-2+deb8u1_armhf.deb ...
+Unpacking python2.7-dev (2.7.9-2+deb8u1) ...
+Selecting previously unselected package python-dev.
+Preparing to unpack .../python-dev_2.7.9-1_armhf.deb ...
+Unpacking python-dev (2.7.9-1) ...
+Selecting previously unselected package python-distlib.
+Preparing to unpack .../python-distlib_0.1.9-1_all.deb ...
+Unpacking python-distlib (0.1.9-1) ...
+Selecting previously unselected package python-egenix-mxtools.
+Preparing to unpack .../python-egenix-mxtools_3.2.8-1_armhf.deb ...
+Unpacking python-egenix-mxtools (3.2.8-1) ...
+Selecting previously unselected package python-egenix-mxdatetime.
+Preparing to unpack .../python-egenix-mxdatetime_3.2.8-1_armhf.deb ...
+Unpacking python-egenix-mxdatetime (3.2.8-1) ...
+Selecting previously unselected package python-werkzeug.
+Preparing to unpack .../python-werkzeug_0.9.6+dfsg-1_all.deb ...
+Unpacking python-werkzeug (0.9.6+dfsg-1) ...
+Selecting previously unselected package python-markupsafe.
+Preparing to unpack .../python-markupsafe_0.23-1+b1_armhf.deb ...
+Unpacking python-markupsafe (0.23-1+b1) ...
+Selecting previously unselected package python-jinja2.
+Preparing to unpack .../python-jinja2_2.7.3-1_all.deb ...
+Unpacking python-jinja2 (2.7.3-1) ...
+Selecting previously unselected package python-itsdangerous.
+Preparing to unpack .../python-itsdangerous_0.24+dfsg1-1_all.deb ...
+Unpacking python-itsdangerous (0.24+dfsg1-1) ...
+Selecting previously unselected package python-flask.
+Preparing to unpack .../python-flask_0.10.1-2_all.deb ...
+Unpacking python-flask (0.10.1-2) ...
+Selecting previously unselected package python-gi.
+Preparing to unpack .../python-gi_3.14.0-1_armhf.deb ...
+Unpacking python-gi (3.14.0-1) ...
+Selecting previously unselected package python-html5lib.
+Preparing to unpack .../python-html5lib_0.999-3_all.deb ...
+Unpacking python-html5lib (0.999-3) ...
+Selecting previously unselected package python-openssl.
+Preparing to unpack .../python-openssl_0.14-1_all.deb ...
+Unpacking python-openssl (0.14-1) ...
+Selecting previously unselected package python-ndg-httpsclient.
+Preparing to unpack .../python-ndg-httpsclient_0.3.2-1_all.deb ...
+Unpacking python-ndg-httpsclient (0.3.2-1) ...
+Selecting previously unselected package python-urllib3.
+Preparing to unpack .../python-urllib3_1.9.1-3_all.deb ...
+Unpacking python-urllib3 (1.9.1-3) ...
+Selecting previously unselected package python-requests.
+Preparing to unpack .../python-requests_2.4.3-6_all.deb ...
+Unpacking python-requests (2.4.3-6) ...
+Selecting previously unselected package python-setuptools.
+Preparing to unpack .../python-setuptools_5.5.1-1_all.deb ...
+Unpacking python-setuptools (5.5.1-1) ...
+Selecting previously unselected package python-pip.
+Preparing to unpack .../python-pip_1.5.6-5_all.deb ...
+Unpacking python-pip (1.5.6-5) ...
+Selecting previously unselected package python-pyasn1.
+Preparing to unpack .../python-pyasn1_0.1.7-1_all.deb ...
+Unpacking python-pyasn1 (0.1.7-1) ...
+Selecting previously unselected package python-pyinotify.
+Preparing to unpack .../python-pyinotify_0.9.4-1_all.deb ...
+Unpacking python-pyinotify (0.9.4-1) ...
+Selecting previously unselected package python-tk.
+Preparing to unpack .../python-tk_2.7.8-2+b1_armhf.deb ...
+Unpacking python-tk (2.7.8-2+b1) ...
+Selecting previously unselected package python-wheel.
+Preparing to unpack .../python-wheel_0.24.0-1_all.deb ...
+Unpacking python-wheel (0.24.0-1) ...
+Selecting previously unselected package rtkit.
+Preparing to unpack .../rtkit_0.11-2_armhf.deb ...
+Unpacking rtkit (0.11-2) ...
+Selecting previously unselected package va-driver-all:armhf.
+Preparing to unpack .../va-driver-all_1.7.2-1_armhf.deb ...
+Unpacking va-driver-all:armhf (1.7.2-1) ...
+Selecting previously unselected package am335x-pru-package.
+Preparing to unpack .../am335x-pru-package_0.20141125-1~20141201+1_armhf.deb ...
+Unpacking am335x-pru-package (0.20141125-1~20141201+1) ...
+Selecting previously unselected package device-tree-compiler.
+Preparing to unpack .../device-tree-compiler_1.4.1-0rcnee1~bpo80+20160224+1_armhf.deb ...
+Unpacking device-tree-compiler (1.4.1-0rcnee1~bpo80+20160224+1) ...
+Selecting previously unselected package bb-cape-overlays.
+Preparing to unpack .../bb-cape-overlays_4.1.20160931-0rcnee2~bpo80+20161006+1_armhf.deb ...
+Unpacking bb-cape-overlays (4.1.20160931-0rcnee2~bpo80+20161006+1) ...
+Selecting previously unselected package bb-customizations.
+Preparing to unpack .../bb-customizations_1.20151023-1~bpo80+20151023+1_all.deb ...
+Unpacking bb-customizations (1.20151023-1~bpo80+20151023+1) ...
+Selecting previously unselected package bb-wl18xx-firmware.
+Preparing to unpack .../bb-wl18xx-firmware_1.20160927-0rcnee1~bpo80+20160927+1_all.deb ...
+Unpacking bb-wl18xx-firmware (1.20160927-0rcnee1~bpo80+20160927+1) ...
+Selecting previously unselected package libsoc-dev.
+Preparing to unpack .../libsoc-dev_0.6.5-git20150802-1~bpo80+20150803+1_armhf.deb ...
+Unpacking libsoc-dev (0.6.5-git20150802-1~bpo80+20150803+1) ...
+Selecting previously unselected package pulseaudio-module-bluetooth.
+Preparing to unpack .../pulseaudio-module-bluetooth_5.0-13_armhf.deb ...
+Unpacking pulseaudio-module-bluetooth (5.0-13) ...
+Selecting previously unselected package rcn-ee-archive-keyring.
+Preparing to unpack .../rcn-ee-archive-keyring_2016.04.24~bpo80+20160424+1_all.deb ...
+Unpacking rcn-ee-archive-keyring (2016.04.24~bpo80+20160424+1) ...
+Selecting previously unselected package ti-wlconf.
+Preparing to unpack .../ti-wlconf_8.6-git20151101-1.1~bpo80+20151105+1_armhf.deb ...
+Unpacking ti-wlconf (8.6-git20151101-1.1~bpo80+20151105+1) ...
+Selecting previously unselected package tiomapconf.
+Preparing to unpack .../tiomapconf_1.72.0-git20160414-1~bpo80+20160414+1_armhf.deb ...
+Unpacking tiomapconf (1.72.0-git20160414-1~bpo80+20160414+1) ...
+Processing triggers for man-db (2.7.0.2-5) ...
+Processing triggers for mime-support (3.58) ...
+Processing triggers for libc-bin (2.19-18+deb8u6) ...
+Processing triggers for dbus (1.8.20-0+deb8u1) ...
+Setting up libavutil54:armhf (6:11.8-1~deb8u1) ...
+Setting up libavresample2:armhf (6:11.8-1~deb8u1) ...
+Setting up libgsm1:armhf (1.0.13-4) ...
+Setting up libmp3lame0:armhf (3.99.5+repack1-7+deb8u1) ...
+Setting up libopenjpeg5:armhf (1:1.5.2-3) ...
+Setting up libopus0:armhf (1.1-2) ...
+Setting up liborc-0.4-0:armhf (1:0.4.22-1) ...
+Setting up libschroedinger-1.0-0:armhf (1.0.11-2.1) ...
+Setting up libspeex1:armhf (1.2~rc1.2-1) ...
+Setting up libogg0:armhf (1.3.2-1) ...
+Setting up libtheora0:armhf (1.1.1+dfsg.1-6) ...
+Setting up libva1:armhf (1.7.2-1) ...
+Setting up libvorbis0a:armhf (1.3.4-2) ...
+Setting up libvorbisenc2:armhf (1.3.4-2) ...
+Setting up libvpx1:armhf (1.3.0-3) ...
+Setting up libx264-142:armhf (2:0.142.2431+gita5831aa-1+b2) ...
+Setting up libxvidcore4:armhf (2:1.3.3-1) ...
+Setting up libavcodec56:armhf (6:11.8-1~deb8u1) ...
+Setting up libjack-jackd2-0:armhf (1.9.10+20140719git3eb0ae6a~dfsg-2) ...
+Setting up libasyncns0:armhf (0.8-5) ...
+Setting up x11-common (1:7.7+7) ...
+update-rc.d: warning: start and stop actions are no longer supported; falling back to defaults
+Running in chroot, ignoring request.
+invoke-rc.d: policy-rc.d denied execution of start.
+Setting up libice6:armhf (2:1.0.9-1+b1) ...
+Setting up libsm6:armhf (2:1.2.2-1+b1) ...
+Setting up libflac8:armhf (1.3.0-3) ...
+Setting up libsndfile1:armhf (1.0.25-9.1+deb8u1) ...
+Setting up libxau6:armhf (1:1.0.8-1) ...
+Setting up libxdmcp6:armhf (1:1.1.1-1+b1) ...
+Setting up libxcb1:armhf (1.10-3+b1) ...
+Setting up libx11-data (2:1.6.2-3) ...
+Setting up libx11-6:armhf (2:1.6.2-3) ...
+Setting up libx11-xcb1:armhf (2:1.6.2-3) ...
+Setting up libxext6:armhf (2:1.3.3-1) ...
+Setting up libxi6:armhf (2:1.7.4-1+b2) ...
+Setting up libxtst6:armhf (2:1.2.2-1+b1) ...
+Setting up libpulse0:armhf (5.0-13) ...
+Setting up libspeexdsp1:armhf (1.2~rc1.2-1) ...
+Setting up libasound2-plugins:armhf (1.0.28-1+b1) ...
+Setting up libdbus-glib-1-2:armhf (0.102-1) ...
+Setting up libelf1:armhf (0.159-4.2) ...
+Setting up libfftw3-single3:armhf (3.3.4-2) ...
+Setting up libpng12-0:armhf (1.2.50-2+deb8u2) ...
+Setting up libfreetype6:armhf (2.5.2-3+deb8u1) ...
+Setting up ucf (3.0030) ...
+Setting up fonts-dejavu-core (2.34-1) ...
+Setting up fontconfig-config (2.11.0-6.3+deb8u1) ...
+Setting up libfontconfig1:armhf (2.11.0-6.3+deb8u1) ...
+Setting up libltdl7:armhf (2.4.2-1.11) ...
+Setting up libmpdec2:armhf (2.4.1-1) ...
+Setting up libmpg123-0:armhf (1.20.1-2) ...
+Setting up libmraa0:armhf (1.0.0-git20160609-0rcnee3~bpo80+20160609+1) ...
+Setting up libnspr4:armhf (2:4.12-1+debu8u1) ...
+Setting up libpolkit-gobject-1-0:armhf (0.113-2~bpo80+20151104+1) ...
+Setting up libpolkit-agent-1-0:armhf (0.113-2~bpo80+20151104+1) ...
+Setting up libpulsedsp:armhf (5.0-13) ...
+Setting up libexpat1-dev:armhf (2.1.0-6+deb8u3) ...
+Setting up libpython2.7-dev:armhf (2.7.9-2+deb8u1) ...
+Setting up libpython3.4-minimal:armhf (3.4.2-1) ...
+Setting up libpython3.4-stdlib:armhf (3.4.2-1) ...
+Setting up libtcl8.6:armhf (8.6.2+dfsg-2) ...
+Setting up libtdb1:armhf (1.3.6-0+deb8u1) ...
+Setting up libxrender1:armhf (1:0.9.8-1+b1) ...
+Setting up libxft2:armhf (2.3.2-1) ...
+Setting up libxss1:armhf (1:1.2.2-1) ...
+Setting up libtk8.6:armhf (8.6.2-1) ...
+Setting up libxcb-dri2-0:armhf (1.10-3+b1) ...
+Setting up libxcb-dri3-0:armhf (1.10-3+b1) ...
+Setting up libxcb-present0:armhf (1.10-3+b1) ...
+Setting up libxcb-sync1:armhf (1.10-3+b1) ...
+Setting up libxshmfence1:armhf (1.1-4) ...
+Setting up python3.4-minimal (3.4.2-1) ...
+Setting up upm:armhf (0.7.0-git20160609-0rcnee3~bpo80+20160609+1) ...
+Setting up bb-node-red-installer (0.14.4-0rcnee2~bpo80+20160708+1) ...
+bb-node-red-installer:updating: /usr/local/lib/node_modules/node-red/
+bb-node-red-installer:updating: /usr/local/lib/node_modules/node-red-node-beaglebone/
+bb-node-red-installer:updating: /usr/local/lib/node_modules/node-red-node-bb-upm/
+bb-node-red-installer:updating: /usr/local/lib/node_modules/node-red-node-mongodb/
+Created symlink /etc/systemd/system/sockets.target.wants/node-red.socket -> /lib/systemd/system/node-red.socket.
+Running in chroot, ignoring request.
+bb-node-red-installer:Installed
+Setting up bonescript (0.5.0-0rcnee17~bpo80+20160709+1) ...
+Created symlink /etc/systemd/system/sockets.target.wants/bonescript.socket -> /lib/systemd/system/bonescript.socket.
+Created symlink /etc/systemd/system/multi-user.target.wants/bonescript-autorun.service -> /lib/systemd/system/bonescript-autorun.service.
+Setting up c9-core-installer (3.1.3088+git20160915-0rcnee0~bpo80+20160920+1) ...
+c9-core-installer:npm: [2.15.1]
+c9-core-installer:node: [v0.12.17]
+c9-core-installer:Installing: winston-2.1.1 (for c9-core-installer)
+-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0Gwinston@2.1.1 /usr/local/lib/node_modules/winston
+├── cycle@1.0.3
+├── stack-trace@0.0.9
+├── eyes@0.1.8
+├── isstream@0.1.2
+├── pkginfo@0.3.1
+├── async@1.0.0
+└── colors@1.0.3
+[2Kconverted 'https://rcn-ee.com/repos/git/archive/c9-core_v0.12.x/c9-core_3.1.3088+git20160915-build.tar.xz' (ANSI_X3.4-1968) -> 'https://rcn-ee.com/repos/git/archive/c9-core_v0.12.x/c9-core_3.1.3088+git20160915-build.tar.xz' (UTF-8)
+--2016-10-20 18:40:37--  https://rcn-ee.com/repos/git/archive/c9-core_v0.12.x/c9-core_3.1.3088+git20160915-build.tar.xz
+Resolving rcn-ee.com (rcn-ee.com)... 45.33.2.10, 2600:3c00::f03c:91ff:fe37:6ad5
+Connecting to rcn-ee.com (rcn-ee.com)|45.33.2.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 8632068 (8.2M) [application/x-xz]
+Saving to: 'c9-core_3.1.3088+git20160915-build.tar.xz'
+
+c9-core_3.1.3088+gi   0%[                      ]       0  --.-KB/s             9-core_3.1.3088+git   2%[                      ] 200.00K   940KB/s             -core_3.1.3088+git2  13%[==>                   ]   1.15M  2.77MB/s             core_3.1.3088+git20  32%[======>               ]   2.66M  4.33MB/s             ore_3.1.3088+git201  51%[==========>           ]   4.24M  5.19MB/s             re_3.1.3088+git2016  70%[==============>       ]   5.80M  5.70MB/s             e_3.1.3088+git20160  89%[==================>   ]   7.38M  6.06MB/s             c9-core_3.1.3088+gi 100%[=====================>]   8.23M  6.24MB/s   in 1.3s   
+
+2016-10-20 18:40:39 (6.24 MB/s) - 'c9-core_3.1.3088+git20160915-build.tar.xz' saved [8632068/8632068]
+
+Running in chroot, ignoring request.
+extracting: c9-core_3.1.3088+git20160915-build.tar.xz
+Running in chroot, ignoring request.
+c9-core-installer:npm: [2.15.1]
+c9-core-installer:node: [v0.12.17]
+converted 'https://rcn-ee.com/repos/git/archive/c9-npmbox/virtualenv-12.0.7.tar.gz' (ANSI_X3.4-1968) -> 'https://rcn-ee.com/repos/git/archive/c9-npmbox/virtualenv-12.0.7.tar.gz' (UTF-8)
+--2016-10-20 18:40:51--  https://rcn-ee.com/repos/git/archive/c9-npmbox/virtualenv-12.0.7.tar.gz
+Resolving rcn-ee.com (rcn-ee.com)... 45.33.2.10, 2600:3c00::f03c:91ff:fe37:6ad5
+Connecting to rcn-ee.com (rcn-ee.com)|45.33.2.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1829757 (1.7M) [application/x-gzip]
+Saving to: 'virtualenv-12.0.7.tar.gz'
+
+virtualenv-12.0.7.t   0%[                      ]       0  --.-KB/s             irtualenv-12.0.7.ta  12%[=>                    ] 216.00K   901KB/s             rtualenv-12.0.7.tar  60%[============>         ]   1.05M  2.40MB/s             tualenv-12.0.7.tar.  97%[====================> ]   1.70M  2.62MB/s             virtualenv-12.0.7.t 100%[=====================>]   1.74M  2.66MB/s   in 0.7s   
+
+2016-10-20 18:40:52 (2.66 MB/s) - 'virtualenv-12.0.7.tar.gz' saved [1829757/1829757]
+
+c9-core-installer:python
+New python executable in /root/.c9/python/bin/python2.7
+Also creating executable in /root/.c9/python/bin/python
+Installing setuptools, pip...done.
+c9-core-installer:Installing: nak-0.3.3 (for c9-core-installer)
+-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G/root/.c9/bin/nak -> /root/.c9/lib/node_modules/nak/bin/nak
+nak@0.3.3 /root/.c9/lib/node_modules/nak
+├── simplefunc@0.0.2
+├── colors@0.6.2
+└── isbinaryfile@2.0.0
+[2Kc9-core-installer:Installing: node-gyp-2.0.2 (for c9-core-installer)
+-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/root/.c9/bin/node-gyp -> /root/.c9/lib/node_modules/node-gyp/bin/node-gyp.js
+node-gyp@2.0.2 /root/.c9/lib/node_modules/node-gyp
+├── osenv@0.1.3 (os-homedir@1.0.2, os-tmpdir@1.0.2)
+├── graceful-fs@3.0.11 (natives@1.1.0)
+├── which@1.2.11 (isexe@1.1.2)
+├── nopt@3.0.6 (abbrev@1.0.9)
+├── semver@4.3.6
+├── minimatch@1.0.0 (sigmund@1.0.1, lru-cache@2.7.3)
+├── fstream@1.0.10 (inherits@2.0.3, graceful-fs@4.1.9)
+├── mkdirp@0.5.1 (minimist@0.0.8)
+├── tar@1.0.3 (inherits@2.0.3, block-stream@0.0.9)
+├── glob@4.5.3 (inherits@2.0.3, once@1.4.0, inflight@1.0.6, minimatch@2.0.10)
+├── rimraf@2.5.4 (glob@7.1.1)
+├── npmlog@1.2.1 (ansi@0.3.1, gauge@1.2.7, are-we-there-yet@1.0.6)
+├── request@2.75.0 (is-typedarray@1.0.0, aws-sign2@0.6.0, oauth-sign@0.8.2, forever-agent@0.6.1, tunnel-agent@0.4.3, caseless@0.11.0, stringstream@0.0.5, isstream@0.1.2, json-stringify-safe@5.0.1, extend@3.0.0, aws4@1.5.0, node-uuid@1.4.7, combined-stream@1.0.5, qs@6.2.1, form-data@2.0.0, tough-cookie@2.3.1, mime-types@2.1.12, bl@1.1.2, har-validator@2.0.6, hawk@3.1.3, http-signature@1.1.1)
+└── path-array@1.0.1 (array-index@1.0.0)
+[2Kc9-core-installer:Installing: pty.js-0.3.0 (for c9-core-installer)
+-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G
+> pty.js@0.3.0 install /root/.c9/lib/node_modules/pty.js
+> node-gyp rebuild
+
+make: Entering directory '/root/.c9/lib/node_modules/pty.js/build'
+  CXX(target) Release/obj.target/pty/src/unix/pty.o
+  SOLINK_MODULE(target) Release/obj.target/pty.node
+  COPY Release/pty.node
+make: Leaving directory '/root/.c9/lib/node_modules/pty.js/build'
+pty.js@0.3.0 /root/.c9/lib/node_modules/pty.js
+├── extend@1.2.1
+└── nan@2.0.5
+[2KCreated symlink /etc/systemd/system/sockets.target.wants/cloud9.socket -> /lib/systemd/system/cloud9.socket.
+c9-core-installer:Installed
+Setting up doc-beaglebone-getting-started (1.20151204-2~bpo80+20160421+1) ...
+converted 'https://rcn-ee.com/repos/git/archive/beaglebone-getting-started/beaglebone-getting-started-2015-12-04.img.xz' (ANSI_X3.4-1968) -> 'https://rcn-ee.com/repos/git/archive/beaglebone-getting-started/beaglebone-getting-started-2015-12-04.img.xz' (UTF-8)
+--2016-10-20 18:43:15--  https://rcn-ee.com/repos/git/archive/beaglebone-getting-started/beaglebone-getting-started-2015-12-04.img.xz
+Resolving rcn-ee.com (rcn-ee.com)... 45.33.2.10, 2600:3c00::f03c:91ff:fe37:6ad5
+Connecting to rcn-ee.com (rcn-ee.com)|45.33.2.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 21716744 (21M) [application/x-xz]
+Saving to: 'beaglebone-getting-started-2015-12-04.img.xz'
+
+beaglebone-getting-   0%[                      ]       0  --.-KB/s             eaglebone-getting-s   0%[                      ] 120.00K   588KB/s             aglebone-getting-st   4%[>                     ]   1000K  2.41MB/s             glebone-getting-sta  11%[=>                    ]   2.38M  3.93MB/s             lebone-getting-star  18%[===>                  ]   3.80M  4.70MB/s             ebone-getting-start  23%[====>                 ]   4.90M  4.85MB/s             bone-getting-starte  28%[=====>                ]   5.97M  4.94MB/s             one-getting-started  34%[======>               ]   7.09M  5.02MB/s             ne-getting-started-  40%[=======>              ]   8.40M  5.21MB/s             e-getting-started-2  46%[=========>            ]   9.68M  5.33MB/s             -getting-started-20  53%[==========>           ]  11.16M  5.54MB/s             getting-started-201  61%[============>         ]  12.66M  5.71MB/s             etting-started-2015  68%[==============>       ]  14.21M  5.88MB/s             tting-started-2015-  76%[===============>      ]  15.74M  6.01MB/s             ting-started-2015-1  83%[=================>    ]  17.29M  6.13MB/s             ing-started-2015-12  90%[===================>  ]  18.83M  6.23MB/s   eta 0s    ng-started-2015-12-  98%[====================> ]  20.41M  6.72MB/s   eta 0s    beaglebone-getting- 100%[=====================>]  20.71M  6.73MB/s   in 3.3s   
+
+2016-10-20 18:43:19 (6.35 MB/s) - 'beaglebone-getting-started-2015-12-04.img.xz' saved [21716744/21716744]
+
+Setting up doc-beaglebonegreen-getting-started (1.20160420-2~bpo80+20160421+1) ...
+converted 'https://rcn-ee.com/repos/git/archive/seeed-beaglebone-getting-started/beaglebone-getting-started-2016-04-20.img.xz' (ANSI_X3.4-1968) -> 'https://rcn-ee.com/repos/git/archive/seeed-beaglebone-getting-started/beaglebone-getting-started-2016-04-20.img.xz' (UTF-8)
+--2016-10-20 18:43:25--  https://rcn-ee.com/repos/git/archive/seeed-beaglebone-getting-started/beaglebone-getting-started-2016-04-20.img.xz
+Resolving rcn-ee.com (rcn-ee.com)... 45.33.2.10, 2600:3c00::f03c:91ff:fe37:6ad5
+Connecting to rcn-ee.com (rcn-ee.com)|45.33.2.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 10714012 (10M) [application/x-xz]
+Saving to: 'beaglebone-getting-started-2016-04-20.img.xz'
+
+beaglebone-getting-   0%[                      ]       0  --.-KB/s             eaglebone-getting-s   0%[                      ]  40.00K   162KB/s             aglebone-getting-st   0%[                      ]  88.00K   181KB/s             glebone-getting-sta   1%[                      ] 152.00K   208KB/s             lebone-getting-star   2%[                      ] 232.00K   235KB/s             ebone-getting-start   2%[                      ] 312.00K   256KB/s             bone-getting-starte   3%[                      ] 408.00K   279KB/s             one-getting-started   4%[>                     ] 520.00K   304KB/s             ne-getting-started-   6%[>                     ] 632.00K   324KB/s             e-getting-started-2   7%[>                     ] 760.00K   347KB/s             -getting-started-20   8%[>                     ] 904.00K   372KB/s             getting-started-201  10%[=>                    ]   1.04M   398KB/s             etting-started-2016  11%[=>                    ]   1.20M   420KB/s             tting-started-2016-  13%[=>                    ]   1.37M   448KB/s   eta 20s   ting-started-2016-0  14%[==>                   ]   1.51M   463KB/s   eta 20s   ing-started-2016-04  16%[==>                   ]   1.66M   478KB/s   eta 20s   ng-started-2016-04-  18%[==>                   ]   1.85M   526KB/s   eta 20s   g-started-2016-04-2  19%[===>                  ]   2.02M   558KB/s   eta 20s   -started-2016-04-20  21%[===>                  ]   2.21M   598KB/s   eta 15s   started-2016-04-20.  23%[====>                 ]   2.41M   633KB/s   eta 15s   tarted-2016-04-20.i  25%[====>                 ]   2.62M   681KB/s   eta 15s   arted-2016-04-20.im  27%[=====>                ]   2.82M   718KB/s   eta 15s   rted-2016-04-20.img  29%[=====>                ]   3.05M   762KB/s   eta 15s   ted-2016-04-20.img.  32%[======>               ]   3.27M   812KB/s   eta 11s   ed-2016-04-20.img.x  34%[======>               ]   3.51M   852KB/s   eta 11s   beaglebone-getting-  36%[=======>              ]   3.74M   889KB/s   eta 11s   eaglebone-getting-s  38%[=======>              ]   3.98M   940KB/s   eta 11s   aglebone-getting-st  41%[========>             ]   4.23M   970KB/s   eta 11s   glebone-getting-sta  44%[========>             ]   4.51M  1015KB/s   eta 8s    lebone-getting-star  46%[=========>            ]   4.79M  1.04MB/s   eta 8s    ebone-getting-start  49%[=========>            ]   5.10M  1.09MB/s   eta 8s    bone-getting-starte  52%[==========>           ]   5.40M  1.13MB/s   eta 8s    one-getting-started  55%[===========>          ]   5.71M  1.18MB/s   eta 8s    ne-getting-started-  58%[===========>          ]   5.99M  1.21MB/s   eta 5s    e-getting-started-2  62%[============>         ]   6.34M  1.25MB/s   eta 5s    -getting-started-20  65%[=============>        ]   6.73M  1.31MB/s   eta 5s    getting-started-201  69%[==============>       ]   7.15M  1.38MB/s   eta 5s    etting-started-2016  74%[===============>      ]   7.62M  1.45MB/s   eta 5s    tting-started-2016-  79%[================>     ]   8.12M  1.55MB/s   eta 2s    ting-started-2016-0  85%[=================>    ]   8.70M  1.64MB/s   eta 2s    ing-started-2016-04  91%[===================>  ]   9.33M  1.75MB/s   eta 2s    ng-started-2016-04-  97%[====================> ]   9.94M  1.90MB/s   eta 2s    beaglebone-getting- 100%[=====================>]  10.22M  1.93MB/s   in 9.1s   
+
+2016-10-20 18:43:34 (1.13 MB/s) - 'beaglebone-getting-started-2016-04-20.img.xz' saved [10714012/10714012]
+
+Setting up doc-seeed-bbgw-getting-started (1.20160511-0rcnee1~bpo80+20160511+1) ...
+converted 'https://rcn-ee.com/repos/git/archive/seeed-bbgw-getting-started/beaglebone-getting-started-2016-05-11.img.xz' (ANSI_X3.4-1968) -> 'https://rcn-ee.com/repos/git/archive/seeed-bbgw-getting-started/beaglebone-getting-started-2016-05-11.img.xz' (UTF-8)
+--2016-10-20 18:43:39--  https://rcn-ee.com/repos/git/archive/seeed-bbgw-getting-started/beaglebone-getting-started-2016-05-11.img.xz
+Resolving rcn-ee.com (rcn-ee.com)... 45.33.2.10, 2600:3c00::f03c:91ff:fe37:6ad5
+Connecting to rcn-ee.com (rcn-ee.com)|45.33.2.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 12041064 (11M) [application/x-xz]
+Saving to: 'beaglebone-getting-started-2016-05-11.img.xz'
+
+beaglebone-getting-   0%[                      ]       0  --.-KB/s             eaglebone-getting-s   1%[                      ] 200.00K   823KB/s             aglebone-getting-st   5%[>                     ] 664.00K  1.45MB/s             glebone-getting-sta   9%[=>                    ]   1.09M  1.65MB/s             lebone-getting-star  13%[==>                   ]   1.60M  1.87MB/s             ebone-getting-start  19%[===>                  ]   2.29M  2.14MB/s             bone-getting-starte  26%[====>                 ]   3.04M  2.39MB/s             one-getting-started  34%[======>               ]   3.95M  2.68MB/s             ne-getting-started-  42%[========>             ]   4.88M  2.92MB/s             e-getting-started-2  51%[==========>           ]   5.95M  3.17MB/s             -getting-started-20  61%[============>         ]   7.09M  3.42MB/s             getting-started-201  72%[===============>      ]   8.37M  3.68MB/s             etting-started-2016  83%[=================>    ]   9.54M  3.85MB/s             tting-started-2016-  93%[===================>  ]  10.79M  4.03MB/s             beaglebone-getting- 100%[=====================>]  11.48M  4.15MB/s   in 2.8s   
+
+2016-10-20 18:43:42 (4.15 MB/s) - 'beaglebone-getting-started-2016-05-11.img.xz' saved [12041064/12041064]
+
+Setting up gcp-iot-demo (0.0.1-0rcnee2~bpo80+20160805+1) ...
+gcp-iot-demo:updating: /usr/local/lib/node_modules/gcp-iot-demo/
+Created symlink /etc/systemd/system/sockets.target.wants/gcp-iot-demo.socket -> /lib/systemd/system/gcp-iot-demo.socket.
+Running in chroot, ignoring request.
+gcp-iot-demo:Installed
+Setting up libsbc1:armhf (1.2-3) ...
+Setting up libsoc2 (0.6.5-git20150802-1~bpo80+20150803+1) ...
+Setting up libwebrtc-audio-processing-0:armhf (0.1-3) ...
+Setting up seeed-wificonfig-installer (0.1.5-0rcnee8~bpo80+20160708+1) ...
+seeed-wificonfig-installer:npm: [2.15.1]
+seeed-wificonfig-installer:node: [v0.12.17]
+Running in chroot, ignoring request.
+seeed-wificonfig-installer:updating: /usr/local/lib/node_modules/wificonfig/
+seeed-wificonfig-installer:disabling connman dns service
+Running in chroot, ignoring request.
+Created symlink /etc/systemd/system/multi-user.target.wants/wifidog-pre-startup.service -> /lib/systemd/system/wifidog-pre-startup.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/wifidog-gateway.service -> /lib/systemd/system/wifidog-gateway.service.
+Failed to disable: No such file or directory.
+Running in chroot, ignoring request.
+Removed /etc/systemd/system/sockets.target.wants/bonescript.socket.
+Running in chroot, ignoring request.
+Removed /etc/systemd/system/multi-user.target.wants/bonescript-autorun.service.
+seeed-wificonfig-installer:Installed
+Setting up ti-pru-cgt-installer (2.1.3-0rcnee0~bpo80+20161017+1) ...
+converted 'http://downloads.ti.com/codegen/esd/cgt_public_sw/PRU/2.1.3/ti_cgt_pru_2.1.3_armlinuxa8hf_busybox_installer.sh' (ANSI_X3.4-1968) -> 'http://downloads.ti.com/codegen/esd/cgt_public_sw/PRU/2.1.3/ti_cgt_pru_2.1.3_armlinuxa8hf_busybox_installer.sh' (UTF-8)
+--2016-10-20 18:43:58--  http://downloads.ti.com/codegen/esd/cgt_public_sw/PRU/2.1.3/ti_cgt_pru_2.1.3_armlinuxa8hf_busybox_installer.sh
+Resolving downloads.ti.com (downloads.ti.com)... 23.43.85.10
+Connecting to downloads.ti.com (downloads.ti.com)|23.43.85.10|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 37213204 (35M) [application/x-sh]
+Saving to: 'ti_cgt_pru_2.1.3_armlinuxa8hf_busybox_installer.sh'
+
+ti_cgt_pru_2.1.3_ar   0%[                      ]       0  --.-KB/s             i_cgt_pru_2.1.3_arm   0%[                      ] 158.38K   749KB/s             _cgt_pru_2.1.3_arml   3%[                      ]   1.31M  3.05MB/s             cgt_pru_2.1.3_armli  11%[=>                    ]   3.99M  6.03MB/s             gt_pru_2.1.3_armlin  18%[===>                  ]   6.72M  7.80MB/s             t_pru_2.1.3_armlinu  24%[====>                 ]   8.84M  8.22MB/s             _pru_2.1.3_armlinux  32%[======>               ]  11.62M  9.10MB/s             pru_2.1.3_armlinuxa  38%[=======>              ]  13.64M  9.24MB/s             ru_2.1.3_armlinuxa8  44%[========>             ]  15.84M  9.40MB/s             u_2.1.3_armlinuxa8h  51%[==========>           ]  18.41M  9.76MB/s             _2.1.3_armlinuxa8hf  57%[===========>          ]  20.29M  9.72MB/s             2.1.3_armlinuxa8hf_  62%[============>         ]  22.04M  9.63MB/s             .1.3_armlinuxa8hf_b  64%[=============>        ]  23.02M  9.18MB/s             1.3_armlinuxa8hf_bu  69%[==============>       ]  24.67M  9.11MB/s             .3_armlinuxa8hf_bus  73%[===============>      ]  26.23M  9.01MB/s             3_armlinuxa8hf_busy  78%[================>     ]  27.77M  8.92MB/s   eta 1s    _armlinuxa8hf_busyb  82%[=================>    ]  29.23M  8.82MB/s   eta 1s    armlinuxa8hf_busybo  86%[==================>   ]  30.77M  9.26MB/s   eta 1s    rmlinuxa8hf_busybox  90%[==================>   ]  32.04M  9.19MB/s   eta 1s    mlinuxa8hf_busybox_  92%[===================>  ]  32.88M  8.78MB/s   eta 1s    linuxa8hf_busybox_i  95%[===================>  ]  33.73M  8.32MB/s   eta 0s    inuxa8hf_busybox_in  97%[====================> ]  34.60M  7.69MB/s   eta 0s    nuxa8hf_busybox_ins  99%[====================> ]  35.47M  7.27MB/s   eta 0s    ti_cgt_pru_2.1.3_ar 100%[=====================>]  35.49M  7.28MB/s   in 4.6s   
+
+2016-10-20 18:44:03 (7.74 MB/s) - 'ti_cgt_pru_2.1.3_armlinuxa8hf_busybox_installer.sh' saved [37213204/37213204]
+
+
+Installing PRU Code Generation tools version 2.1.3 into /
+  please wait, or press CTRL-C to abort
+
+Extracting archive
+Installing files
+[#....................] 0%  [#....................] 0%  [#....................] 0%  [#....................] 0%  [#....................] 0%  [#....................] 0%  [#....................] 0%  [#....................] 0%  [#....................] 0%  [#....................] 0%  [#....................] 1%  [#....................] 1%  [#....................] 1%  [#....................] 1%  [#....................] 1%  [#....................] 1%  [#....................] 1%  [#....................] 1%  [#....................] 1%  [#....................] 1%  [#....................] 2%  [#....................] 2%  [#....................] 2%  [#....................] 2%  [#....................] 2%  [#....................] 2%  [#....................] 2%  [#....................] 2%  [#....................] 2%  [#....................] 2%  [#....................] 2%  [#....................] 2%  [#....................] 2%  [#....................] 2%  [#....................] 3%  [#....................] 3%  [#....................] 3%  [#....................] 3%  [#....................] 3%  [#....................] 3%  [#....................] 3%  [#....................] 3%  [#....................] 3%  [#....................] 3%  [#....................] 3%  [#....................] 4%  [#....................] 4%  [#....................] 4%  [#....................] 4%  [#....................] 4%  [#....................] 4%  [#....................] 4%  [#....................] 4%  [#....................] 4%  [#....................] 4%  [#....................] 4%  [#...................] 5%  [#...................] 5%  [#...................] 5%  [#...................] 5%  [#...................] 5%  [#...................] 5%  [#...................] 5%  [#...................] 5%  [#...................] 5%  [#...................] 5%  [#...................] 5%  [#...................] 6%  [#...................] 6%  [#...................] 6%  [#...................] 6%  [#...................] 6%  [#...................] 6%  [#...................] 6%  [#...................] 6%  [#...................] 6%  [#...................] 6%  [#...................] 7%  [#...................] 7%  [#...................] 7%  [#...................] 7%  [#...................] 7%  [#...................] 7%  [#...................] 7%  [#...................] 7%  [#...................] 7%  [#...................] 7%  [#...................] 7%  [#...................] 8%  [#...................] 8%  [#...................] 8%  [#...................] 8%  [#...................] 8%  [#...................] 8%  [#...................] 8%  [#...................] 8%  [#...................] 8%  [#...................] 8%  [#...................] 8%  [#...................] 9%  [#...................] 9%  [#...................] 9%  [#...................] 9%  [#...................] 9%  [#...................] 9%  [#...................] 9%  [#...................] 9%  [#...................] 9%  [#...................] 9%  [#...................] 9%  [##..................] 10%  [##..................] 10%  [##..................] 10%  [##..................] 10%  [##..................] 10%  [##..................] 10%  [##..................] 10%  [##..................] 10%  [##..................] 10%  [##..................] 10%  [##..................] 10%  [##..................] 11%  [##..................] 11%  [##..................] 11%  [##..................] 11%  [##..................] 11%  [##..................] 11%  [##..................] 11%  [##..................] 11%  [##..................] 11%  [##..................] 11%  [##..................] 11%  [##..................] 12%  [##..................] 12%  [##..................] 12%  [##..................] 12%  [##..................] 12%  [##..................] 12%  [##..................] 12%  [##..................] 12%  [##..................] 12%  [##..................] 12%  [##..................] 12%  [##..................] 13%  [##..................] 13%  [##..................] 13%  [##..................] 13%  [##..................] 13%  [##..................] 13%  [##..................] 13%  [##..................] 13%  [##..................] 13%  [##..................] 13%  [##..................] 14%  [##..................] 14%  [##..................] 14%  [##..................] 14%  [##..................] 14%  [##..................] 14%  [##..................] 14%  [##..................] 14%  [##..................] 14%  [##..................] 14%  [##..................] 14%  [###.................] 15%  [###.................] 15%  [###.................] 15%  [###.................] 15%  [###.................] 15%  [###.................] 15%  [###.................] 15%  [###.................] 15%  [###.................] 15%  [###.................] 15%  [###.................] 15%  [###.................] 16%  [###.................] 16%  [###.................] 16%  [###.................] 16%  [###.................] 16%  [###.................] 16%  [###.................] 16%  [###.................] 16%  [###.................] 16%  [###.................] 16%  [###.................] 16%  [###.................] 17%  [###.................] 17%  [###.................] 17%  [###.................] 17%  [###.................] 17%  [###.................] 17%  [###.................] 17%  [###.................] 17%  [###.................] 17%  [###.................] 17%  [###.................] 17%  [###.................] 18%  [###.................] 18%  [###.................] 18%  [###.................] 18%  [###.................] 18%  [###.................] 18%  [###.................] 18%  [###.................] 18%  [###.................] 18%  [###.................] 18%  [###.................] 18%  [###.................] 19%  [###.................] 19%  [###.................] 19%  [###.................] 19%  [###.................] 19%  [###.................] 19%  [###.................] 19%  [###.................] 19%  [###.................] 19%  [###.................] 19%  [####................] 20%  [####................] 20%  [####................] 20%  [####................] 20%  [####................] 20%  [####................] 20%  [####................] 20%  [####................] 20%  [####................] 20%  [####................] 20%  [####................] 20%  [####................] 21%  [####................] 21%  [####................] 21%  [####................] 21%  [####................] 21%  [####................] 21%  [####................] 21%  [####................] 21%  [####................] 21%  [####................] 21%  [####................] 21%  [####................] 22%  [####................] 22%  [####................] 22%  [####................] 22%  [####................] 22%  [####................] 22%  [####................] 22%  [####................] 22%  [####................] 22%  [####................] 22%  [####................] 22%  [####................] 23%  [####................] 23%  [####................] 23%  [####................] 23%  [####................] 23%  [####................] 23%  [####................] 23%  [####................] 23%  [####................] 23%  [####................] 23%  [####................] 23%  [####................] 24%  [####................] 24%  [####................] 24%  [####................] 24%  [####................] 24%  [####................] 24%  [####................] 24%  [####................] 24%  [####................] 24%  [####................] 24%  [####................] 24%  [#####...............] 25%  [#####...............] 25%  [#####...............] 25%  [#####...............] 25%  [#####...............] 25%  [#####...............] 25%  [#####...............] 25%  [#####...............] 25%  [#####...............] 25%  [#####...............] 25%  [#####...............] 25%  [#####...............] 26%  [#####...............] 26%  [#####...............] 26%  [#####...............] 26%  [#####...............] 26%  [#####...............] 26%  [#####...............] 26%  [#####...............] 26%  [#####...............] 26%  [#####...............] 26%  [#####...............] 27%  [#####...............] 27%  [#####...............] 27%  [#####...............] 27%  [#####...............] 27%  [#####...............] 27%  [#####...............] 27%  [#####...............] 27%  [#####...............] 27%  [#####...............] 27%  [#####...............] 28%  [#####...............] 28%  [#####...............] 28%  [#####...............] 28%  [#####...............] 28%  [#####...............] 28%  [#####...............] 28%  [#####...............] 28%  [#####...............] 28%  [#####...............] 28%  [#####...............] 28%  [#####...............] 29%  [#####...............] 29%  [#####...............] 29%  [#####...............] 29%  [#####...............] 29%  [#####...............] 29%  [#####...............] 29%  [#####...............] 29%  [#####...............] 29%  [#####...............] 29%  [#####...............] 29%  [######..............] 30%  [######..............] 30%  [######..............] 30%  [######..............] 30%  [######..............] 30%  [######..............] 30%  [######..............] 30%  [######..............] 30%  [######..............] 30%  [######..............] 30%  [######..............] 30%  [######..............] 31%  [######..............] 31%  [######..............] 31%  [######..............] 31%  [######..............] 31%  [######..............] 31%  [######..............] 31%  [######..............] 31%  [######..............] 31%  [######..............] 31%  [######..............] 31%  [######..............] 32%  [######..............] 32%  [######..............] 32%  [######..............] 32%  [######..............] 32%  [######..............] 32%  [######..............] 32%  [######..............] 32%  [######..............] 32%  [######..............] 32%  [######..............] 32%  [######..............] 33%  [######..............] 33%  [######..............] 33%  [######..............] 33%  [######..............] 33%  [######..............] 33%  [######..............] 33%  [######..............] 33%  [######..............] 33%  [######..............] 33%  [######..............] 34%  [######..............] 34%  [######..............] 34%  [######..............] 34%  [######..............] 34%  [######..............] 34%  [######..............] 34%  [######..............] 34%  [######..............] 34%  [######..............] 34%  [######..............] 34%  [#######.............] 35%  [#######.............] 35%  [#######.............] 35%  [#######.............] 35%  [#######.............] 35%  [#######.............] 35%  [#######.............] 35%  [#######.............] 35%  [#######.............] 35%  [#######.............] 35%  [#######.............] 35%  [#######.............] 36%  [#######.............] 36%  [#######.............] 36%  [#######.............] 36%  [#######.............] 36%  [#######.............] 36%  [#######.............] 36%  [#######.............] 36%  [#######.............] 36%  [#######.............] 36%  [#######.............] 36%  [#######.............] 37%  [#######.............] 37%  [#######.............] 37%  [#######.............] 37%  [#######.............] 37%  [#######.............] 37%  [#######.............] 37%  [#######.............] 37%  [#######.............] 37%  [#######.............] 37%  [#######.............] 37%  [#######.............] 38%  [#######.............] 38%  [#######.............] 38%  [#######.............] 38%  [#######.............] 38%  [#######.............] 38%  [#######.............] 38%  [#######.............] 38%  [#######.............] 38%  [#######.............] 38%  [#######.............] 38%  [#######.............] 39%  [#######.............] 39%  [#######.............] 39%  [#######.............] 39%  [#######.............] 39%  [#######.............] 39%  [#######.............] 39%  [#######.............] 39%  [#######.............] 39%  [#######.............] 39%  [########............] 40%  [########............] 40%  [########............] 40%  [########............] 40%  [########............] 40%  [########............] 40%  [########............] 40%  [########............] 40%  [########............] 40%  [########............] 40%  [########............] 40%  [########............] 41%  [########............] 41%  [########............] 41%  [########............] 41%  [########............] 41%  [########............] 41%  [########............] 41%  [########............] 41%  [########............] 41%  [########............] 41%  [########............] 41%  [########............] 42%  [########............] 42%  [########............] 42%  [########............] 42%  [########............] 42%  [########............] 42%  [########............] 42%  [########............] 42%  [########............] 42%  [########............] 42%  [########............] 42%  [########............] 43%  [########............] 43%  [########............] 43%  [########............] 43%  [########............] 43%  [########............] 43%  [########............] 43%  [########............] 43%  [########............] 43%  [########............] 43%  [########............] 43%  [########............] 44%  [########............] 44%  [########............] 44%  [########............] 44%  [########............] 44%  [########............] 44%  [########............] 44%  [########............] 44%  [########............] 44%  [########............] 44%  [########............] 44%  [#########...........] 45%  [#########...........] 45%  [#########...........] 45%  [#########...........] 45%  [#########...........] 45%  [#########...........] 45%  [#########...........] 45%  [#########...........] 45%  [#########...........] 45%  [#########...........] 45%  [#########...........] 45%  [#########...........] 46%  [#########...........] 46%  [#########...........] 46%  [#########...........] 46%  [#########...........] 46%  [#########...........] 46%  [#########...........] 46%  [#########...........] 46%  [#########...........] 46%  [#########...........] 46%  [#########...........] 47%  [#########...........] 47%  [#########...........] 47%  [#########...........] 47%  [#########...........] 47%  [#########...........] 47%  [#########...........] 47%  [#########...........] 47%  [#########...........] 47%  [#########...........] 47%  [#########...........] 47%  [#########...........] 48%  [#########...........] 48%  [#########...........] 48%  [#########...........] 48%  [#########...........] 48%  [#########...........] 48%  [#########...........] 48%  [#########...........] 48%  [#########...........] 48%  [#########...........] 48%  [#########...........] 48%  [#########...........] 49%  [#########...........] 49%  [#########...........] 49%  [#########...........] 49%  [#########...........] 49%  [#########...........] 49%  [#########...........] 49%  [#########...........] 49%  [#########...........] 49%  [#########...........] 49%  [#########...........] 49%  [##########..........] 50%  [##########..........] 50%  [##########..........] 50%  [##########..........] 50%  [##########..........] 50%  [##########..........] 50%  [##########..........] 50%  [##########..........] 50%  [##########..........] 50%  [##########..........] 50%  [##########..........] 50%  [##########..........] 51%  [##########..........] 51%  [##########..........] 51%  [##########..........] 51%  [##########..........] 51%  [##########..........] 51%  [##########..........] 51%  [##########..........] 51%  [##########..........] 51%  [##########..........] 51%  [##########..........] 51%  [##########..........] 52%  [##########..........] 52%  [##########..........] 52%  [##########..........] 52%  [##########..........] 52%  [##########..........] 52%  [##########..........] 52%  [##########..........] 52%  [##########..........] 52%  [##########..........] 52%  [##########..........] 52%  [##########..........] 53%  [##########..........] 53%  [##########..........] 53%  [##########..........] 53%  [##########..........] 53%  [##########..........] 53%  [##########..........] 53%  [##########..........] 53%  [##########..........] 53%  [##########..........] 53%  [##########..........] 54%  [##########..........] 54%  [##########..........] 54%  [##########..........] 54%  [##########..........] 54%  [##########..........] 54%  [##########..........] 54%  [##########..........] 54%  [##########..........] 54%  [##########..........] 54%  [##########..........] 54%  [###########.........] 55%  [###########.........] 55%  [###########.........] 55%  [###########.........] 55%  [###########.........] 55%  [###########.........] 55%  [###########.........] 55%  [###########.........] 55%  [###########.........] 55%  [###########.........] 55%  [###########.........] 55%  [###########.........] 56%  [###########.........] 56%  [###########.........] 56%  [###########.........] 56%  [###########.........] 56%  [###########.........] 56%  [###########.........] 56%  [###########.........] 56%  [###########.........] 56%  [###########.........] 56%  [###########.........] 56%  [###########.........] 57%  [###########.........] 57%  [###########.........] 57%  [###########.........] 57%  [###########.........] 57%  [###########.........] 57%  [###########.........] 57%  [###########.........] 57%  [###########.........] 57%  [###########.........] 57%  [###########.........] 57%  [###########.........] 58%  [###########.........] 58%  [###########.........] 58%  [###########.........] 58%  [###########.........] 58%  [###########.........] 58%  [###########.........] 58%  [###########.........] 58%  [###########.........] 58%  [###########.........] 58%  [###########.........] 58%  [###########.........] 59%  [###########.........] 59%  [###########.........] 59%  [###########.........] 59%  [###########.........] 59%  [###########.........] 59%  [###########.........] 59%  [###########.........] 59%  [###########.........] 59%  [###########.........] 59%  [############........] 60%  [############........] 60%  [############........] 60%  [############........] 60%  [############........] 60%  [############........] 60%  [############........] 60%  [############........] 60%  [############........] 60%  [############........] 60%  [############........] 60%  [############........] 61%  [############........] 61%  [############........] 61%  [############........] 61%  [############........] 61%  [############........] 61%  [############........] 61%  [############........] 61%  [############........] 61%  [############........] 61%  [############........] 61%  [############........] 62%  [############........] 62%  [############........] 62%  [############........] 62%  [############........] 62%  [############........] 62%  [############........] 62%  [############........] 62%  [############........] 62%  [############........] 62%  [############........] 62%  [############........] 63%  [############........] 63%  [############........] 63%  [############........] 63%  [############........] 63%  [############........] 63%  [############........] 63%  [############........] 63%  [############........] 63%  [############........] 63%  [############........] 63%  [############........] 64%  [############........] 64%  [############........] 64%  [############........] 64%  [############........] 64%  [############........] 64%  [############........] 64%  [############........] 64%  [############........] 64%  [############........] 64%  [############........] 64%  [#############.......] 65%  [#############.......] 65%  [#############.......] 65%  [#############.......] 65%  [#############.......] 65%  [#############.......] 65%  [#############.......] 65%  [#############.......] 65%  [#############.......] 65%  [#############.......] 65%  [#############.......] 65%  [#############.......] 66%  [#############.......] 66%  [#############.......] 66%  [#############.......] 66%  [#############.......] 66%  [#############.......] 66%  [#############.......] 66%  [#############.......] 66%  [#############.......] 66%  [#############.......] 66%  [#############.......] 67%  [#############.......] 67%  [#############.......] 67%  [#############.......] 67%  [#############.......] 67%  [#############.......] 67%  [#############.......] 67%  [#############.......] 67%  [#############.......] 67%  [#############.......] 67%  [#############.......] 67%  [#############.......] 68%  [#############.......] 68%  [#############.......] 68%  [#############.......] 68%  [#############.......] 68%  [#############.......] 68%  [#############.......] 68%  [#############.......] 68%  [#############.......] 68%  [#############.......] 68%  [#############.......] 68%  [#############.......] 69%  [#############.......] 69%  [#############.......] 69%  [#############.......] 69%  [#############.......] 69%  [#############.......] 69%  [#############.......] 69%  [#############.......] 69%  [#############.......] 69%  [#############.......] 69%  [#############.......] 69%  [##############......] 70%  [##############......] 70%  [##############......] 70%  [##############......] 70%  [##############......] 70%  [##############......] 70%  [##############......] 70%  [##############......] 70%  [##############......] 70%  [##############......] 70%  [##############......] 70%  [##############......] 71%  [##############......] 71%  [##############......] 71%  [##############......] 71%  [##############......] 71%  [##############......] 71%  [##############......] 71%  [##############......] 71%  [##############......] 71%  [##############......] 71%  [##############......] 71%  [##############......] 72%  [##############......] 72%  [##############......] 72%  [##############......] 72%  [##############......] 72%  [##############......] 72%  [##############......] 72%  [##############......] 72%  [##############......] 72%  [##############......] 72%  [##############......] 72%  [##############......] 73%  [##############......] 73%  [##############......] 73%  [##############......] 73%  [##############......] 73%  [##############......] 73%  [##############......] 73%  [##############......] 73%  [##############......] 73%  [##############......] 73%  [##############......] 74%  [##############......] 74%  [##############......] 74%  [##############......] 74%  [##############......] 74%  [##############......] 74%  [##############......] 74%  [##############......] 74%  [##############......] 74%  [##############......] 74%  [##############......] 74%  [###############.....] 75%  [###############.....] 75%  [###############.....] 75%  [###############.....] 75%  [###############.....] 75%  [###############.....] 75%  [###############.....] 75%  [###############.....] 75%  [###############.....] 75%  [###############.....] 75%  [###############.....] 75%  [###############.....] 76%  [###############.....] 76%  [###############.....] 76%  [###############.....] 76%  [###############.....] 76%  [###############.....] 76%  [###############.....] 76%  [###############.....] 76%  [###############.....] 76%  [###############.....] 76%  [###############.....] 76%  [###############.....] 77%  [###############.....] 77%  [###############.....] 77%  [###############.....] 77%  [###############.....] 77%  [###############.....] 77%  [###############.....] 77%  [###############.....] 77%  [###############.....] 77%  [###############.....] 77%  [###############.....] 77%  [###############.....] 78%  [###############.....] 78%  [###############.....] 78%  [###############.....] 78%  [###############.....] 78%  [###############.....] 78%  [###############.....] 78%  [###############.....] 78%  [###############.....] 78%  [###############.....] 78%  [###############.....] 78%  [###############.....] 79%  [###############.....] 79%  [###############.....] 79%  [###############.....] 79%  [###############.....] 79%  [###############.....] 79%  [###############.....] 79%  [###############.....] 79%  [###############.....] 79%  [###############.....] 79%  [################....] 80%  [################....] 80%  [################....] 80%  [################....] 80%  [################....] 80%  [################....] 80%  [################....] 80%  [################....] 80%  [################....] 80%  [################....] 80%  [################....] 80%  [################....] 81%  [################....] 81%  [################....] 81%  [################....] 81%  [################....] 81%  [################....] 81%  [################....] 81%  [################....] 81%  [################....] 81%  [################....] 81%  [################....] 81%  [################....] 82%  [################....] 82%  [################....] 82%  [################....] 82%  [################....] 82%  [################....] 82%  [################....] 82%  [################....] 82%  [################....] 82%  [################....] 82%  [################....] 82%  [################....] 83%  [################....] 83%  [################....] 83%  [################....] 83%  [################....] 83%  [################....] 83%  [################....] 83%  [################....] 83%  [################....] 83%  [################....] 83%  [################....] 83%  [################....] 84%  [################....] 84%  [################....] 84%  [################....] 84%  [################....] 84%  [################....] 84%  [################....] 84%  [################....] 84%  [################....] 84%  [################....] 84%  [################....] 84%  [#################...] 85%  [#################...] 85%  [#################...] 85%  [#################...] 85%  [#################...] 85%  [#################...] 85%  [#################...] 85%  [#################...] 85%  [#################...] 85%  [#################...] 85%  [#################...] 85%  [#################...] 86%  [#################...] 86%  [#################...] 86%  [#################...] 86%  [#################...] 86%  [#################...] 86%  [#################...] 86%  [#################...] 86%  [#################...] 86%  [#################...] 86%  [#################...] 87%  [#################...] 87%  [#################...] 87%  [#################...] 87%  [#################...] 87%  [#################...] 87%  [#################...] 87%  [#################...] 87%  [#################...] 87%  [#################...] 87%  [#################...] 87%  [#################...] 88%  [#################...] 88%  [#################...] 88%  [#################...] 88%  [#################...] 88%  [#################...] 88%  [#################...] 88%  [#################...] 88%  [#################...] 88%  [#################...] 88%  [#################...] 88%  [#################...] 89%  [#################...] 89%  [#################...] 89%  [#################...] 89%  [#################...] 89%  [#################...] 89%  [#################...] 89%  [#################...] 89%  [#################...] 89%  [#################...] 89%  [#################...] 89%  [##################..] 90%  [##################..] 90%  [##################..] 90%  [##################..] 90%  [##################..] 90%  [##################..] 90%  [##################..] 90%  [##################..] 90%  [##################..] 90%  [##################..] 90%  [##################..] 90%  [##################..] 91%  [##################..] 91%  [##################..] 91%  [##################..] 91%  [##################..] 91%  [##################..] 91%  [##################..] 91%  [##################..] 91%  [##################..] 91%  [##################..] 91%  [##################..] 91%  [##################..] 92%  [##################..] 92%  [##################..] 92%  [##################..] 92%  [##################..] 92%  [##################..] 92%  [##################..] 92%  [##################..] 92%  [##################..] 92%  [##################..] 92%  [##################..] 92%  [##################..] 93%  [##################..] 93%  [##################..] 93%  [##################..] 93%  [##################..] 93%  [##################..] 93%  [##################..] 93%  [##################..] 93%  [##################..] 93%  [##################..] 93%  [##################..] 94%  [##################..] 94%  [##################..] 94%  [##################..] 94%  [##################..] 94%  [##################..] 94%  [##################..] 94%  [##################..] 94%  [##################..] 94%  [##################..] 94%  [##################..] 94%  [###################.] 95%  [###################.] 95%  [###################.] 95%  [###################.] 95%  [###################.] 95%  [###################.] 95%  [###################.] 95%  [###################.] 95%  [###################.] 95%  [###################.] 95%  [###################.] 95%  [###################.] 96%  [###################.] 96%  [###################.] 96%  [###################.] 96%  [###################.] 96%  [###################.] 96%  [###################.] 96%  [###################.] 96%  [###################.] 96%  [###################.] 96%  [###################.] 96%  [###################.] 97%  [###################.] 97%  [###################.] 97%  [###################.] 97%  [###################.] 97%  [###################.] 97%  [###################.] 97%  [###################.] 97%  [###################.] 97%  [###################.] 97%  [###################.] 97%  [###################.] 98%  [###################.] 98%  [###################.] 98%  [###################.] 98%  [###################.] 98%  [###################.] 98%  [###################.] 98%  [###################.] 98%  [###################.] 98%  [###################.] 98%  [###################.] 98%  [###################.] 99%  [###################.] 99%  [###################.] 99%  [###################.] 99%  [###################.] 99%  [###################.] 99%  [###################.] 99%  [###################.] 99%  [###################.] 99%  [###################.] 99%  [####################] 100%  
+Installed successfully into /
+
+Setting up python-support (1.0.15) ...
+Setting up tk8.6-blt2.5 (2.5.3+dfsg-1) ...
+Setting up blt (2.5.3+dfsg-1) ...
+Setting up python3.4 (3.4.2-1) ...
+Setting up python3-minimal (3.4.2-2) ...
+Setting up libpython3-stdlib:armhf (3.4.2-2) ...
+Setting up dns-root-data (2014060201+2) ...
+Setting up libgirepository-1.0-1:armhf (1.42.0-2.2) ...
+Setting up gir1.2-glib-2.0:armhf (1.42.0-2.2) ...
+Setting up javascript-common (11) ...
+apache2_invoke: Enable configuration javascript-common
+Running in chroot, ignoring request.
+invoke-rc.d: policy-rc.d denied execution of reload.
+Setting up libdrm2:armhf (2.4.71-1rcnee0~bpo80+20161007+1) ...
+Setting up libdrm-amdgpu1:armhf (2.4.71-1rcnee0~bpo80+20161007+1) ...
+Setting up libdrm-nouveau2:armhf (2.4.71-1rcnee0~bpo80+20161007+1) ...
+Setting up libdrm-radeon1:armhf (2.4.71-1rcnee0~bpo80+20161007+1) ...
+Setting up libjs-jquery (1.7.2+dfsg-3.2) ...
+Setting up libllvm3.9:armhf (1:3.9-2) ...
+Setting up libmozjs185-1.0 (1.8.5-1.0.0+dfsg-4.3) ...
+Setting up libpam-systemd:armhf (230-7~bpo8+2) ...
+Setting up libpython-dev:armhf (2.7.9-1) ...
+Setting up linux-headers-4.4.24-ti-r58 (1jessie) ...
+Setting up linux-image-4.4.24-ti-r58 (1jessie) ...
+update-initramfs: Generating /boot/initrd.img-4.4.24-ti-r58
+Setting up lsb-release (4.1+Debian13+nmu1) ...
+Setting up mesa-va-drivers:armhf (12.0.3-1rcnee1~bpo80+20160921+1) ...
+Setting up mpg123 (1.20.1-2) ...
+update-alternatives: using /usr/bin/mpg123.bin to provide /usr/bin/mpg123 (mpg123) in auto mode
+update-alternatives: using /usr/bin/mpg123.bin to provide /usr/bin/mp3-decoder (mp3-decoder) in auto mode
+Setting up policykit-1 (0.113-2~bpo80+20151104+1) ...
+adduser: Warning: The home directory `/var/lib/polkit-1' does not belong to the user you are currently creating.
+Setting up pulseaudio-utils (5.0-13) ...
+Setting up pulseaudio (5.0-13) ...
+Adding user pulse to group audio
+Setting up pulseaudio-module-x11 (5.0-13) ...
+Setting up python-logilab-common (0.62.0-1) ...
+Setting up python-astroid (1.2.1-3) ...
+Setting up pylint (1.3.1-3) ...
+Setting up python-blinker (1.3.dfsg2-1) ...
+Setting up python-ply (3.4-5) ...
+Setting up python-pycparser (2.10+dfsg-3) ...
+Setting up python-cffi (0.8.6-1) ...
+Setting up python-pkg-resources (5.5.1-1) ...
+Setting up python-chardet (2.3.0-1) ...
+Setting up python-colorama (0.3.2-1) ...
+Setting up python-six (1.8.0-1) ...
+Setting up python-cryptography (0.6.1-1) ...
+Setting up python-dbus-dev (1.2.0-2) ...
+Setting up python-dbus (1.2.0-2+b3) ...
+Remove stale byte-compiled files...
+Setting up python2.7-dev (2.7.9-2+deb8u1) ...
+Setting up python-dev (2.7.9-1) ...
+Setting up python-distlib (0.1.9-1) ...
+Setting up python-egenix-mxtools (3.2.8-1) ...
+Setting up python-egenix-mxdatetime (3.2.8-1) ...
+Setting up python-werkzeug (0.9.6+dfsg-1) ...
+Setting up python-markupsafe (0.23-1+b1) ...
+Setting up python-jinja2 (2.7.3-1) ...
+Setting up python-itsdangerous (0.24+dfsg1-1) ...
+Setting up python-flask (0.10.1-2) ...
+Setting up python-gi (3.14.0-1) ...
+Setting up python-html5lib (0.999-3) ...
+Setting up python-openssl (0.14-1) ...
+Setting up python-ndg-httpsclient (0.3.2-1) ...
+Setting up python-urllib3 (1.9.1-3) ...
+Setting up python-requests (2.4.3-6) ...
+Setting up python-setuptools (5.5.1-1) ...
+Setting up python-pip (1.5.6-5) ...
+Setting up python-pyasn1 (0.1.7-1) ...
+Setting up python-pyinotify (0.9.4-1) ...
+Setting up python-tk (2.7.8-2+b1) ...
+Setting up python-wheel (0.24.0-1) ...
+Setting up rtkit (0.11-2) ...
+Running in chroot, ignoring request.
+invoke-rc.d: policy-rc.d denied execution of force-reload.
+Setting up va-driver-all:armhf (1.7.2-1) ...
+Setting up am335x-pru-package (0.20141125-1~20141201+1) ...
+Setting up device-tree-compiler (1.4.1-0rcnee1~bpo80+20160224+1) ...
+Setting up bb-cape-overlays (4.1.20160931-0rcnee2~bpo80+20161006+1) ...
+update-initramfs: deferring update (trigger activated)
+bb-cape-overlays: dtbo will be updated on next boot
+Setting up bb-customizations (1.20151023-1~bpo80+20151023+1) ...
+Setting up bb-wl18xx-firmware (1.20160927-0rcnee1~bpo80+20160927+1) ...
+Created symlink /etc/systemd/system/multi-user.target.wants/bb-wl18xx-bluetooth.service -> /lib/systemd/system/bb-wl18xx-bluetooth.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/bb-wl18xx-wlan0.service -> /lib/systemd/system/bb-wl18xx-wlan0.service.
+Setting up libsoc-dev (0.6.5-git20150802-1~bpo80+20150803+1) ...
+Setting up pulseaudio-module-bluetooth (5.0-13) ...
+Setting up rcn-ee-archive-keyring (2016.04.24~bpo80+20160424+1) ...
+Setting up ti-wlconf (8.6-git20151101-1.1~bpo80+20151105+1) ...
+Setting up tiomapconf (1.72.0-git20160414-1~bpo80+20160414+1) ...
+Setting up dh-python (1.20141111-2) ...
+Setting up python3 (3.4.2-2) ...
+Setting up pastebinit (1.5-1~bpo80+20160303+1) ...
+Processing triggers for libc-bin (2.19-18+deb8u6) ...
+Processing triggers for systemd (230-7~bpo8+2) ...
+Processing triggers for dbus (1.8.20-0+deb8u1) ...
+Processing triggers for python-support (1.0.15) ...
+Processing triggers for initramfs-tools (0.120+deb8u2-1rcnee3~bpo80+20160927+1) ...
+update-initramfs: Generating /boot/initrd.img-4.4.24-ti-r58
+Log ended: 2016-10-20  18:46:30
+
+Log started: 2016-10-20  18:46:38
+Selecting previously unselected package rtl8723bu-modules-4.4.24-ti-r58.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 67491 files and directories currently installed.)
+Preparing to unpack .../rtl8723bu-modules-4.4.24-ti-r58_1jessie_armhf.deb ...
+Unpacking rtl8723bu-modules-4.4.24-ti-r58 (1jessie) ...
+Setting up rtl8723bu-modules-4.4.24-ti-r58 (1jessie) ...
+Log ended: 2016-10-20  18:46:39
+
+Log started: 2018-09-01  13:02:01
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 67496 files and directories currently installed.)
+Preparing to unpack .../initramfs-tools_0.120+deb8u3-1rcnee0~bpo80+20170219_all.deb ...
+Unpacking initramfs-tools (0.120+deb8u3-1rcnee0~bpo80+20170219) over (0.120+deb8u2-1rcnee3~bpo80+20160927+1) ...
+Preparing to unpack .../rsync_3.1.1-3+deb8u1_armhf.deb ...
+Unpacking rsync (3.1.1-3+deb8u1) over (3.1.1-3) ...
+Processing triggers for man-db (2.7.0.2-5) ...
+Processing triggers for systemd (230-7~bpo8+2) ...
+Setting up initramfs-tools (0.120+deb8u3-1rcnee0~bpo80+20170219) ...
+update-initramfs: deferring update (trigger activated)
+Setting up rsync (3.1.1-3+deb8u1) ...
+Processing triggers for initramfs-tools (0.120+deb8u3-1rcnee0~bpo80+20170219) ...
+update-initramfs: Generating /boot/initrd.img-4.4.24-ti-r58
+Log ended: 2018-09-01  13:02:42
