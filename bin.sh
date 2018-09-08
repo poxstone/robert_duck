@@ -9,9 +9,11 @@ function recordBash {
 }
 
 #backups
-recordBash "cp -r /var/log   ${BACKUP_FOLDER}"
-recordBash "cp -r /etc   ${BACKUP_FOLDER}"
+recordBash "cp -rf /var ${BACKUP_FOLDER}"
+recordBash "cp -rf /etc ${BACKUP_FOLDER}"
+recordBash "cp -rf /opt ${BACKUP_FOLDER}"
 
+#info
 recordBash "which bash";
 recordBash "lsblk";
 recordBash "env";
@@ -23,6 +25,7 @@ recordBash "ls -la /opt/";
 recordBash "ls -la /opt/**";
 recordBash "ls -la /var/";
 recordBash "ls -la /var/log/";
+
 #recordBash "tree -L 2 /";
 #recordBash "tree /etc/";
 recordBash "netstat -ntpl";
