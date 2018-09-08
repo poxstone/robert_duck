@@ -8,7 +8,7 @@ function recordBash {
   echo "";
 }
 
-#backups
+#backups filesystem
 #recordBash "cp -rf /var ${BACKUP_FOLDER}"
 #recordBash "cp -rf /etc ${BACKUP_FOLDER}"
 #recordBash "cp -rf /opt ${BACKUP_FOLDER}"
@@ -18,17 +18,19 @@ recordBash "which bash";
 recordBash "lsblk";
 recordBash "env";
 recordBash "echo $PATH";
-#recordBash "ls -la /";
-#recordBash "ls -la /etc/";
-#recordBash "ls -la /etc/init.d";
-#recordBash "ls -la /opt/";
-#recordBash "ls -la /opt/**";
-#recordBash "ls -la /var/";
-#recordBash "ls -la /var/log/";
+recordBash "ls -la /";
+recordBash "ls -la /etc/";
+recordBash "ls -la /etc/init.d";
+recordBash "ls -la /opt/";
+recordBash "ls -la /opt/**";
+recordBash "ls -la /var/";
+recordBash "ls -la /var/log/";
 
-recordBash "cd /opt/scripts/";
-recordBash "git rm -rf /opt/scripts/.git/index.lock";
-recordBash "git checkout 7eaee2ccd514b41e0e1193e6d2faf19e8d587711U";
+#restore scripts debian 8.6 bbgw
+#recordBash "cd /opt/scripts/";
+#recordBash "git rm -rf /opt/scripts/.git/index.lock";
+#recordBash "git checkout 7eaee2ccd514b41e0e1193e6d2faf19e8d58771";
+
 
 recordBash "netstat -ntpl";
 recordBash "ps aux";
