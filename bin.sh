@@ -17,7 +17,11 @@ function recordBash {
 #info
 recordBash "which bash";
 recordBash "lsblk";
+recordBash "blkid";
 recordBash "df -h";
+recordBash "fdisk -l";
+recordBash "fdisk -lu /dev/mmcblk1";
+recordBash "sfdisk -l -uM";
 recordBash "free -h";
 recordBash "env";
 recordBash "echo $PATH";
