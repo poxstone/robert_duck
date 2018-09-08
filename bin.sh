@@ -12,10 +12,13 @@ function recordBash {
 #recordBash "cp -rf /var ${BACKUP_FOLDER}"
 #recordBash "cp -rf /etc ${BACKUP_FOLDER}"
 #recordBash "cp -rf /opt ${BACKUP_FOLDER}"
+#recordBash "cp -rf ~/.bash_history ${BACKUP_FOLDER}/bash_history"
 
 #info
 recordBash "which bash";
 recordBash "lsblk";
+recordBash "df -h";
+recordBash "free -h";
 recordBash "env";
 recordBash "echo $PATH";
 recordBash "ls -la /";
