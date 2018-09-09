@@ -16,6 +16,8 @@ function recordBash {
 
 #info
 recordBash "which bash";
+recordBash "runlevel";
+recordBash "who -r";
 recordBash "lsblk";
 recordBash "blkid";
 recordBash "df -h";
